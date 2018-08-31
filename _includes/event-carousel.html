@@ -1,0 +1,20 @@
+<div class="event-carousel-wrap">
+  <div class="event-carousel">
+    {% for event in events %}    
+      <div class="carousel-cell">
+        <a href="{{ event.url }}" class="ajax-to-overlay">
+          <img src="{{ event.thumb }}" >
+        </a>
+      </div> 
+    {% endfor %}
+  </div>
+  
+  <div class="event-carousel-nav">
+    {% for event in events %}      
+      <h4 class="event-host event-carousel-nav-item">
+        <a href="{{ event.url }}" class="ajax-to-overlay" >{{ event.host }}</a>
+      </h4>
+    {% endfor %}
+  </div>
+</div>
+

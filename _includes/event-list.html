@@ -1,0 +1,34 @@
+<ul class="event-list">
+  
+  {% for event in events %}
+    
+    <li data-id="{{ forloop.index0 }}" class="event-list-item event-list-item__{{ event.type }}">
+        <div class="event-list-item-meta">
+          <span class="time">{{ event.eventtime }}</span>
+          <span class="type type__{{ event.type }} status-{{ event.eventstatus }}">{{ event.type }}</span>
+          
+          {% if event.type == "workshop" %}
+            {% unless event.eventstatus == "closed" %}
+              <button class="button-signup" data-release="{{ event.eventtitorelease }}" data-event="{{ event.eventtitoevent }}">signup</button>
+            {% endunless %}
+          {% endif %}
+
+          <span></span>
+        
+        </div>
+        <div class="event-list-item-head">
+          <a href="{{ event.url }}" class="ajax-to-overlay" >
+            {% unless event.type == "workshop" %}
+              <span class="name">{{ event.host }}</span>
+              <span class="title">{{ event.eventtitle }}</span>
+            {% else %}
+              <span class="name">{{ event.eventtitle }}</span>
+              <span class="title">hosted by {{ event.host }} <br> {{ event.eventlocation }}, {{ event.eventaddress }} </span>
+            {% endunless %}
+          </a>
+        </div>
+    </li>
+
+  {% endfor %}
+
+</ul>

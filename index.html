@@ -1,0 +1,114 @@
+---
+layout: default
+---
+
+<header class="section-header site-header">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 ">
+          <a class="site-title" href="{{ site.github.url }}{{ site.baseurl }}/"> 
+            {{ site.title }}
+          </a>
+          
+          {% include hero-carousel.html %}
+         
+          <p class=" site-subtitle">
+            September 27-28,
+            <span>Berlin<span>
+          </p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section-program text-center">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="section-title section-title__program">Talks, Discussions, Workshops, Studio Visits and Performances</h2>
+        <h3 class="subtitle">Talks</h3>
+        {% assign events = site.events | where:"type","talk" | where:"featured","true" | sort_natural: 'host' %}
+        {% include event-carousel.html %}
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-sm-12 ">
+        <h3 class="subtitle">Installations and Performances</h3>        
+        {% assign events = site.events | where:"type","installation & performance" | where:"featured","true" | sort_natural: 'host' %}
+        {% include event-carousel.html %}
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-sm-12 ">
+      <h3 class="subtitle">Sattelites (selection)</h3>        
+        {% assign events = site.events | where:"type","workshop" | where:"featured","true" | sort_natural: 'host' %}
+        {% include event-carousel.html %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-about">
+  <div class="row">
+    <div class="col-sm-12 ">
+      <p class="section-title section-title__about">Retune Festival<br>September 27—28, 2018</p>
+      <div class="section-body">
+        <p>
+          The Festival explores the ­speculative futures of our digital society. Cutting edge digital ­artists, –researchers, and engineers working on IoT, –augmented ­reality, –artificial intelligence, –interactive spaces and more will share their inspirational ­insights in talks, ­discussions, workshops and –performances. 
+        </p>
+        <p>
+          Expect a whole lot of design ­friction, glitched visions and real future shit.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tickets">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="section-title">Tickets</h2>
+
+          <div class="ticket-button-wrap">
+          
+            <tito-button event="retune/retune-festival-2018" releases="hjq0wop-qne"><span>Student Pass</span><span class="price">69€</span></tito-button>
+
+            <tito-button event="retune/retune-festival-2018" releases="jijmzestkaq"><span>Regular Pass</span><span class="price">99€</tito-button>
+
+            <tito-button event="retune/retune-festival-2018" releases="pqr6vzmqing"><span>Professional Pass</span><span class="price">199€</span></tito-button>
+          
+          </div>
+         
+         <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+         <p class="text-center text-color-primary">Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicul</p>
+
+        </div>
+      </div>
+
+    </div>
+</section>
+
+<section class="section-partners">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="section-title">Partners</h2>
+        
+        {% assign image_files = site.static_files | where: "partnerlogo", true %}
+        <div class="grid grid__partners">
+          {% for myimage in image_files %}
+            <div class="partner-logo-wrap">
+              <img class="partner-logo" src="{{ myimage.path }}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</section>
+
+

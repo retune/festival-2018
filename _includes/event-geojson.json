@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    
+    {% for event in events %}
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ {{ event.eventlong }}, {{ event.eventlat }}]
+      },
+      "properties": {
+        "id": "{{ forloop.index0 }}",
+        "url": "{{ event.url }}",
+        "type": "{{ event.type }}",
+        "featured": "{{ event.featured }}",
+        "host": "{{ event.host }}",
+        "eventTitle": "{{ event.eventtitle }}",
+        "thumb": "{{ event.thumb }}",
+        "eventDate": "{{ event.eventdate }}",
+        "eventTime": "{{ event.eventtime }}",
+        "eventStatus": "{{ event.eventstatus }}",
+        "eventCapacity": "{{ event.eventcapacity }}",
+        "eventReleaseCode": "{{ event.eventreleasecode }}",
+        "eventLocation": "{{ event.eventlocation }}",
+        "eventAddress": "{{ event.eventaddress }}",
+        "eventLat": "{{ event.eventlat }}",
+        "eventLong": "{{ event.eventlong }}"
+      }
+    }
+    {% unless forloop.last == true %},{% endunless %}
+    {% endfor %}
+  ]
+}

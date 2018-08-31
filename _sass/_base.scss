@@ -1,0 +1,634 @@
+/**
+ * Reset some basic elements
+ */
+ body, h1, h2, h3, h4, h5, h6,
+ p, blockquote, pre, hr,
+ dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 1rem;
+}
+
+
+  @font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url("../fonts/AtlasGrotesk-Regular-Web.eot");
+  src: url("../fonts/AtlasGrotesk-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasGrotesk-Regular-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+
+  @font-face {
+    font-family: 'bluu';
+    src: url('../fonts/bluunext-bold-webfont.woff2') format('woff2'),
+    url('../fonts/bluunext-bold-webfont.woff') format('woff'),
+    url('../fonts/bluunext-bold.ttf') format('truetype'),
+    url('../fonts/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+/**
+ * Basic styling
+ */
+ body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -o-font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+ h1, h2, h3, h4, h5, h6,
+ p, blockquote, pre,
+ ul, ol, dl, figure,
+ %vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+ img {
+  max-width: 100%;
+}
+
+
+
+/**
+ * Figures
+ */
+ figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+
+/**
+ * Lists
+ */
+ ul, ol {
+}
+
+li {
+  > ul,
+  > ol {
+   margin-bottom: 0;
+ }
+}
+
+button {
+
+      border: none;
+      white-space: nowrap;
+      vertical-align: middle;
+      touch-action: manipulation;
+      cursor: pointer;
+
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      background-image: none;
+      background-color: transparent; 
+
+}
+
+
+/**
+ * Headings
+ */
+ h1, h2, h3, h4, h5, h6 {
+}
+
+
+
+/**
+ * Links
+ */
+ a {
+
+  color: $black;
+  text-decoration: none;
+
+  &:visited {
+    color: $black;
+  }
+
+  &:hover {
+    color: $black;
+    text-decoration: none;
+  }
+
+  &:focus {
+    text-decoration: none;
+  }
+
+}
+
+
+.site-header { 
+  a {
+    color: $white;
+
+    &:visited {
+      color: $white;
+    }
+
+    &:hover {
+      color: $white;
+    }
+
+    &:focus {
+    }
+  }
+
+}
+
+
+
+/*=========================================
+=            UTILS AND HELPERS            =
+=========================================*/
+
+@mixin underline($color) {
+  border-bottom: 2px solid $color; 
+  margin-bottom: 0px;
+}
+
+.text-color-primary {
+  color: $primary-color;
+}
+
+/*============================
+=            HERO            =
+============================*/
+
+.site-header {
+  background-image: url('../img/backgrounds/Retune_BG_Visual_Serie_9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  
+  text-align: center; 
+  color: white; 
+
+  .hero-carousel {
+    min-height: $hero-min-height;
+  }
+
+  .carousel-cell {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    min-height: 70vh;
+    justify-content: space-around;
+  }
+
+  /* first frame*/
+  .retune,
+  .festival, 
+  .art, 
+  .technology,
+  .design, 
+  .talks,
+  .installations {
+    font-size: $big-font-size;
+  }
+
+  .retune {
+    @include underline($white);
+    align-self: flex-start;
+  }
+
+  .festival {
+    @include underline($white); 
+    align-self: flex-end;
+  }
+
+  .for-art,
+  .and-design {
+    align-self: flex-start;
+  }
+
+  .technology {
+    align-self: flex-end;
+  }
+
+  .subs {
+    font-size: $small-font-size;
+    -webkit-transform: translateY(-1.5rem);
+            transform: translateY(-1.5rem);
+    display: inline-block;
+  }
+
+  .and-design .and {
+    display: block;
+    -webkit-transform: translateY(0.5rem);
+            transform: translateY(0.5rem);
+    text-align: left;
+  }
+
+  /* second frame*/
+ .intro {
+    font-size: $med-font-size;
+    text-align: left;
+ }
+
+ .intro-1 {
+    align-self: flex-start;
+ }
+
+ .intro-2 {
+    align-self: flex-end;
+    max-width: 66%;
+
+ }
+
+ /* third frame*/
+ .talks {
+  align-self: flex-end;
+ }
+
+  .installations {
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  .satellites {
+    align-self: flex-end;
+    font-size: $med-font-size;
+  }
+
+}
+
+
+/*===============================
+=            PROGRAM            =
+===============================*/
+
+.section-program {
+  
+  /* the event teaser carousel */
+  .event-carousel {
+    .carousel-cell {
+      width: 70%;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .event-carousel-nav-item.is-selected a {
+    display: inline-block;
+    @include underline($primary-color); 
+  }
+
+  .event-host {
+    font-size: $med-font-size;
+    a,a:visited,a:focus,a:hover {
+      color: $primary-color;
+    }
+  }
+
+}
+
+/*=============================
+=            ABOUT            =
+=============================*/
+
+.section-about {
+
+  background-image: url('../img/backgrounds/Retune_BG_Visual_Serie_10.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 0%;
+  
+  .section-title {
+    text-align: center;
+  }
+
+  .section-body {
+    font-size: $med-font-size;
+  }
+}
+
+/*===============================
+=            TICKETS            =
+===============================*/
+
+.section-tickets {
+  
+  background: $black;
+  color: $white;
+
+  .section-title {
+    color: $primary-color;
+    text-align: center;
+  }
+
+  .ticket-button-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  tito-button {
+    width: 100%;
+    max-width: 50%;
+  }
+
+    
+  .tito-tickets-button {
+      
+      width: 100%; 
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: no-wrap;
+      justify-content: space-between;
+
+      padding: 1rem 2rem;
+      margin-bottom: 0;
+
+      text-align: center;
+
+      border: 1px solid $white;
+      border-radius: 8px;
+
+      .price {
+        color: $primary-color;
+      }
+
+      &:hover {
+        background: $white; 
+        color: $black;
+      }
+  }
+
+
+}
+
+
+/*================================
+=            Partners            =
+================================*/
+
+.section-partners {
+  .section-title {
+    text-align: center;
+  }
+
+  .grid__partners {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: $grid-gap;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3,1fr);
+    align-items: center; 
+    justify-items: center;
+
+  }
+
+
+
+  .partner-logo-wrap {
+
+    position: relative; 
+
+    .partner-logo {
+      display: block; 
+      -webkit-filter: grayscale(100%);    
+      filter: grayscale(100%);
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0; 
+      left: 0; 
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      background-color: $primary-color;
+      mix-blend-mode: multiply;
+      
+      }
+
+  }
+}
+
+/*==============================
+=            FOOTER            =
+==============================*/
+
+.section-footer {
+  margin-bottom: $spacing-overlaybar;
+
+  ul {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    font-size: $med-font-size; 
+  }
+}
+
+/*=============================
+=           OVERLAYS          =
+==============================*/
+
+
+.overlay {
+  background: white;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  transition: opacity $animation-speed, -webkit-transform $animation-speed;
+  transition: transform $animation-speed, opacity $animation-speed;
+  transition: transform $animation-speed, opacity $animation-speed, -webkit-transform $animation-speed;
+  transition-delay: ($animation-speed / 2);
+  opacity: 0;
+  position: fixed; 
+  width: 100vw; 
+  height: 100%;
+  top: 0;bottom:0;left:0;right:0;
+  overflow: hidden;
+
+}
+
+.overlay.active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1; 
+  overflow: scroll;
+}
+
+
+.overlay-menu {
+  z-index: 5000;
+  -webkit-transform: translateY(calc( 100% - #{$spacing-overlaybar}));
+          transform: translateY(calc( 100% - #{$spacing-overlaybar}));
+  opacity: 1; 
+}
+
+.overlay-signup {
+  z-index: 6000;
+  width: 25%;
+}
+
+.overlay-content {
+  z-index: 5001;
+}
+
+
+.overlay-head {
+
+  display: flex;
+  flex-direction: row; 
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  align-items: center;
+
+  background-color: $primary-color;
+  font-size: 18px;
+  padding-left: 1rem;
+
+  .title {
+    &:before {
+      content: "\2022";
+      margin-right: 3px;
+    }
+  }
+
+}
+
+
+.overlay-toggle {
+  margin-left: auto; 
+
+  height: $spacing-overlaybar;
+  width: $spacing-overlaybar;
+  background: $secondary-color;
+  background-image: url('../img/icons/open.svg');
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.overlay-menu.active {
+  .overlay-toggle {
+      background-image: url('../img/icons/close.svg');
+  }
+}
+
+/* event map*/
+.event-map {
+  height: 70vh;
+}
+
+.event-map-marker {
+  background:red;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: block;
+}
+
+.event-map-marker__highlight {
+  background: blue; 
+}
+
+.event-list-item__highlight a {
+  color: blue;
+}
+
+
+
+
+
+/* .btn, .form-control  {*/
+/*   border-radius: 0;*/
+/*   border: 4px solid black;*/
+/*   box-shadow: none;*/
+/*   border-bottom: none;*/
+/*   font-size: 18px;*/
+/*   padding: 6px 16px;*/
+/* }*/
+
+
+/* .btn {*/
+/*   border-bottom: 4px solid black;*/
+/*   width: 100%;*/
+/*   background-color: black;*/
+/* }*/
+
+/* .btn:hover {*/
+/*   *//* background-color: transparent;*//**/
+/*   *//* color: black;*//**/
+/* }*/
+
+/* .form-control {*/
+/*   *//* background: #CCC;*//**/
+/*   color: black;*/
+/*   height: 48px; */
+
+/* }*/
+
+/* .form-control:focus {*/
+/*   border-color: black;*/
+/*   box-shadow: none;*/
+/* }*/
+
+textarea {
+  resize: none;
+}
+
+  ::-moz-selection {
+  background: $primary-color; /* WebKit/Blink Browsers */
+}
+
+::selection {
+ background: $primary-color; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+ background: $primary-color; /* WebKit/Blink Browsers */
+}
+
+.form-control::-webkit-input-placeholder {
+ color: black;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+ color: black;  
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+ color: black;  
+}
+
+.form-control:-ms-input-placeholder {  
+ color: black;  
+}

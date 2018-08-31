@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div id="ajax-content" class="container-fluid">
+  
+  <div class="row overlay-head overlay-head__event">
+    <span class="title">{{ page.type }}<span>
+    <span class="sub">
+      {{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }} <br>
+      {{ page.eventlocation }}
+    </span>
+    <button class="overlay-toggle">X</button>
+    <h1 class="post-title">{{ page.host }}</h1>
+  </div>
+
+  <article class="row event-body">
+    <div class="col-sm-12">
+        
+      <img src=" {{ page.thumb }} " >
+
+      <div class="post-content">
+
+
+        {% if page.type == "workshop" %}
+          {% unless page.eventstatus == "closed" %}
+            <button class="button-signup" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">signup</button>
+          {% endunless %}
+        {% endif %}
+
+
+      </div>
+      </div>
+    </div>
+  </article>
+
+
+</div>

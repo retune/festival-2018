@@ -1,0 +1,16 @@
+{
+  "name": "retune-festival-2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "flickity": "^2.1.2",
+    "js-cookie": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "bundle exec jekyll serve --livereload"
+  },
+  "author": "",
+  "license": "ISC"
+}
