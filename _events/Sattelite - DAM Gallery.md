@@ -10,7 +10,7 @@ thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Substance_Ausstellungsansicht_
 
 eventdate: 2018-09-28
 eventtime: 10:00 - 13:00
-eventstatus: closed
+eventstatus: open
 evnetcapacity: 2
 eventtitorelease: jijmzestkaq
 eventtitoevent: retune/retune-festival-2018

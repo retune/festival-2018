@@ -6,10 +6,13 @@
 // Our variables
 $base-font-family: 'Roboto',"Helvetica Neue", Helvetica, Arial, sans-serif;
 
-$small-font-size: 0.75rem; // 12px
-$base-font-size: 1rem;  // 16px;
+$tiny-font-size: 0.75rem; // 12px
+$base-font-size: 1rem;  // 16px
+$small-font-size: 1.125rem; //18px
 $med-font-size: 1.5rem; // 24px 
-$big-font-size: 2.625rem; // 42px;
+$big-font-size: 2.625rem; // 42px
+
+$content-middot: "\2022";
 
 $base-font-weight: 400;
 $base-line-height: 1.5;
@@ -17,6 +20,7 @@ $base-line-height: 1.5;
 $spacing-unit:     2rem;
 $spacing-overlaybar: 5.625rem; // 90px
 $hero-min-height: 70vh;
+$line-width: 1px;
 
 $text-color:       #000;
 $background-color: #fdfdfd;
@@ -31,9 +35,6 @@ $white: #FFF;
 $grid-gap: $spacing-unit;
 $animation-speed: 200ms;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
 // Use media queries like this:
 // @include media-query($on-palm) {

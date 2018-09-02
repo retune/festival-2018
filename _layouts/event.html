@@ -1,38 +1,39 @@
 ---
 layout: default
+bodyclass: page-event
 ---
 
-<div id="ajax-content" class="container-fluid">
+<div id="ajax-content" class="ajax-content__event">
+
+  {% capture subsub %}
+  {{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }} <br> {{ page.eventlocation }}
+  {% endcapture %}
+
+  {% include overlay-head.html type="event" title="Program" sub=subsub %}
   
-  <div class="row overlay-head overlay-head__event">
-    <span class="title">{{ page.type }}<span>
-    <span class="sub">
-      {{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }} <br>
-      {{ page.eventlocation }}
-    </span>
-    <button class="overlay-toggle">X</button>
-    <h1 class="post-title">{{ page.host }}</h1>
+  <div class="vertical-bar">
+    <h1 class="event-host">{{ page.host }}</h1>  
   </div>
+  
+    <article class="event-body">
+      
+      <img class="img-responsive" src=" {{ page.thumb }} " >
 
-  <article class="row event-body">
-    <div class="col-sm-12">
-        
-      <img src=" {{ page.thumb }} " >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="post-content">
 
-      <div class="post-content">
+              {{ page.content }}
 
+              {% unless page.eventstatus == "closed" %}
+              <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">signup</button>
+              {% endunless %}
 
-        {% if page.type == "workshop" %}
-          {% unless page.eventstatus == "closed" %}
-            <button class="button-signup" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">signup</button>
-          {% endunless %}
-        {% endif %}
-
-
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-    </div>
-  </article>
-
+    </article>
 
 </div>

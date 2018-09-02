@@ -76,7 +76,7 @@ html, body {
 }
 
 figcaption {
-  font-size: $small-font-size;
+  font-size: $tiny-font-size;
 }
 
 
@@ -235,7 +235,7 @@ button {
   }
 
   .subs {
-    font-size: $small-font-size;
+    font-size: $tiny-font-size;
     -webkit-transform: translateY(-1.5rem);
             transform: translateY(-1.5rem);
     display: inline-block;
@@ -374,7 +374,7 @@ button {
 
       text-align: center;
 
-      border: 1px solid $white;
+      border: $line-width solid $white;
       border-radius: 8px;
 
       .price {
@@ -486,6 +486,10 @@ button {
   overflow: scroll;
 }
 
+body.overlay-active {
+  overflow: hidden;
+}
+
 
 .overlay-menu {
   z-index: 5000;
@@ -496,7 +500,6 @@ button {
 
 .overlay-signup {
   z-index: 6000;
-  width: 25%;
 }
 
 .overlay-content {
@@ -513,16 +516,26 @@ button {
   align-items: center;
 
   background-color: $primary-color;
-  font-size: 18px;
+  font-size: $small-font-size; // 18px;
   padding-left: 1rem;
-
+  
+  z-index: 3000;
   .title {
     &:before {
-      content: "\2022";
+      content: $content-middot;
       margin-right: 3px;
     }
   }
 
+}
+
+.overlay-head__event {
+  background-color: $third-color;
+  line-height: 1;
+  position: relative;
+  .sub {
+    font-size: $tiny-font-size;
+  }
 }
 
 
@@ -537,10 +550,188 @@ button {
   background-repeat: no-repeat;
 }
 
-.overlay-menu.active {
+.overlay.active, 
+.page-event .overlay-head__event {
   .overlay-toggle {
       background-image: url('../img/icons/close.svg');
   }
+}
+
+/* overlay menu */
+
+.overlay-program-day-head {
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  border-top: $line-width solid $white;
+  padding-top: 2rem;
+
+  .nav-tab {
+
+    padding-top: 2rem;
+
+    li {
+      border: $line-width solid $white;
+      border-radius: 8px;
+      padding: 0.5rem 2rem;
+
+      &.active {
+        background: $black;
+        a, a:hover, a:visited, a:hover {
+          color: white;
+        }
+      }
+    }
+  }
+
+}
+
+.overlay-program-day {
+    padding-top: 2rem
+}
+
+.overlay-program-day__1 {
+  background-color: $primary-color;
+}
+
+.overlay-program-day__2 {
+  background-color: $third-color;
+}
+
+.overlay-program-day-title {
+  font-size: $med-font-size;
+  display: block;
+}
+
+.event-list {
+  margin-bottom: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.event-list-item {
+  margin-bottom: $tiny-font-size;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.event-list-item-meta {
+  font-size: $tiny-font-size; 
+  color: $white;
+  
+  display: flex; 
+
+  .time {
+    color: $white;
+  }
+
+  .type {
+    margin-left: auto;
+    color: $white;
+    text-transform: capitalize;
+    position: relative;
+  }
+  
+  .status {
+      &:after {
+
+      position: absolute;
+      content: "";
+      display: block; 
+      text-transform: none;
+      word-break: nowrap;
+      text-align: center;
+      top: 2.6 * $tiny-font-size;
+      right: 0;
+
+      height: 21px; 
+      width: 21px;
+      line-height: 21px;
+
+      border-radius: 21px;
+      background: $white; 
+      color: $primary-color;
+    }
+  }
+
+  .status__open::after {
+    content: "open";
+    width: 42px;
+    color: $black;
+  }
+
+  .status__closed::after {
+    content: "full";
+    width: 42px;
+  }
+
+  .status__signup::after {
+    display: none;
+  }
+
+  .button-signup {
+    
+    position: absolute;
+    right: 0;
+    top: 2.6 * $tiny-font-size;
+
+    height: 21px; 
+    width: 63px;
+    line-height: 21px;
+    border-radius: 21px;
+    background: $white; 
+    color: $black;
+  }
+
+  position: relative;
+
+   &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 30%; 
+    border-top: $line-width solid $white;
+   } 
+
+  margin-bottom: $tiny-font-size;
+}
+
+.event-list-item-head {
+  font-size: $small-font-size;
+  line-height: 1.1;
+  max-width: calc( 100% - 4rem);
+
+  .host,.title {
+     &:after {
+      content: "\A";
+      white-space: pre;
+    }
+  }
+}
+
+/* workshops */
+.event-list-item__workshop {
+  .event-list-item-head {
+    font-size: $tiny-font-size;
+  }
+  
+  .title {
+    margin-left: 1.5rem;
+    // min-height: 2rem;
+    display: inline-block;
+    position: relative;
+    &:before {
+      content: $content-middot;
+      position: absolute;
+      top: -7px;
+      left: -1.5rem;
+      font-size: $med-font-size;
+    };
+  }
+
+  .host {}
 }
 
 /* event map*/
@@ -564,7 +755,31 @@ button {
   color: blue;
 }
 
+/* The EVENT Page */
 
+.page-event, .ajax-content__event {
+
+  .vertical-bar {
+    background-color: $primary-color;
+    mix-blend-mode: multiply;
+    color: $white;
+    position: fixed;
+    right: 0; top:0;
+    z-index: 1000;
+    padding-top: calc(50vh - #{$spacing-overlaybar});
+    height: 100%;
+    width: $spacing-overlaybar;
+
+
+  }
+
+  .event-host {
+    height: $spacing-overlaybar;
+    line-height: $spacing-overlaybar;
+    margin-bottom: 0;
+    transform: rotate(90deg) translateX(-50%);
+  }
+}
 
 
 

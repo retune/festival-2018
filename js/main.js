@@ -23,7 +23,7 @@ $( document ).ready(function() {
     var startIndex = 0;
 
     var $carousel = $('.event-carousel', this).flickity({
-      autoPlay: 2000,
+      // autoPlay: 2000,
       initialIndex: startIndex,
       wrapAround: true,
       prevNextButtons: false,
@@ -32,10 +32,10 @@ $( document ).ready(function() {
    });
 
     // pause now in order to start randomly delayed, something between 0 - 2 sec
-    $carousel.flickity('pausePlayer');
-    setTimeout(function(){
-      $carousel.flickity('unpausePlayer');
-    },getRandomInt(0,20) * 100);
+    // $carousel.flickity('pausePlayer');
+    // setTimeout(function(){
+    //   $carousel.flickity('unpausePlayer');
+    // },getRandomInt(0,20) * 100);
 
     // flickity instance
     var flkty = $carousel.data('flickity');
@@ -64,8 +64,10 @@ $( document ).ready(function() {
   // OVERLAYS
   // overlay toggling
   $('.overlay-toggle').on('click',function(){
-    console.log('overlay toggle hit');
+    
     $(this).closest('.overlay').toggleClass('active');
+    $('body').toggleClass('overlay-active');
+
   });
 
 
@@ -115,7 +117,7 @@ $( document ).ready(function() {
       var ajaxUrl = $(this).attr('href');
       $( ".overlay-content" ).load( ajaxUrl + " #ajax-content" , function( response, status, xhr ) {
     
-      //$('.ajax-loading').removeClass('active');
+       //$('.ajax-loading').removeClass('active');
        $('.overlay-content').addClass('active');
 
        $('#ajax-content .overlay-toggle').on('click',function(){

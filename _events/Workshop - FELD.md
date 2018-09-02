@@ -5,12 +5,13 @@ featured: true
 
 host: FELD
 
-eventtitle: Exploring the Future of Human-Machine Relationships
+eventtitle: Exploring the Future of Human-Machine Relationships long title for linebreak
 thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Substance_Ausstellungsansicht_03.png
 
 eventdate: 2018-09-28
 eventtime: 15:00 - 20:00
 evnetcapacity: 5
+eventstatus: signup
 eventtitorelease: jijmzestkaq
 eventtitoevent: retune/retune-festival-2018
 

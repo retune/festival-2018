@@ -1,69 +1,80 @@
 <section class="overlay overlay-menu">
-    <div class="container-fluid">
-      
-      <div class="row overlay-head overlay-head__program">
-        
-        <div class="wrap">
-          <span class="title">Program</span><br>
-          <span class="sub">Conference & Satellite</span>
-        </div>
-        
-        <button class="overlay-toggle text-hide">X</button>
 
+  {% include overlay-head.html type="program" title="Program" sub="Conference & Satellite" %}
+
+  <div class="program-body">
+
+    <div class="overlay-program-day overlay-program-day__1">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="overlay-program-day-head">
+              <span class="overlay-program-day-title">
+                Day 1 &mdash; 27.9.2018
+              </span>
+              <span class="overlay-program-day-sub">
+                Conference Day &mdash; @Silent Green
+              </span>
+
+              <ul class="list-unstyled list-inline nav-tab" role="tablist">
+                <li class="active"><a data-toggle="tab" href="#mainstage" role="tab">Main Stage</a> </li>
+                <li><a class="" data-toggle="tab" href="#discussionarea" role="tab">Discussion Area</a></li>
+                <ul>
+
+                </div>
+
+                <div class="tab-content">
+                  <div class="tab-pane active" id="mainstage" role="tabpanel">
+                    {% assign events = site.events | where:"type","talk" | sort_natural: 'eventtime' %}
+                    {% include event-list.html %}
+                  </div>
+                  <div class="tab-pane " id="discussionarea" role="tabpanel">
+                    {% assign events = site.events | where:"type","panel" | sort_natural: 'eventtime' %}
+                    {% include event-list.html %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="overlay-program-day overlay-program-day__2">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="overlay-program-day-head">
+
+                  <span class="overlay-program-day-title">
+                    Day 2 &mdash; 28.9.2018
+                  </span>
+                  <span class="overlay-program-day-sub">
+                    Satellite Day (all across Berlin)
+                  </span>
+
+<!--           <ul class="list-unstyled list-inline nav-tab" role="tablist">
+            <li class="active"><a data-toggle="tab" href="#sattelitesList" role="tab">List</a> </li>
+            <li><a class="" data-toggle="tab" href="#sattelitesMap" role="tab">Map</a></li>
+            <ul> -->
+
+            </div>
+
+            <div class="tab-content">
+              <div class="tab-pane active event-list-satellites" id="sattelitesList" role="tabpanel">
+                {% assign events = site.events | where:"type","workshop" | sort_natural: 'eventtime' %}
+                {% include event-list.html %}
+              </div>
+              <div class="tab-pane " id="sattelitesMap" role="tabpanel">
+                <script>
+                  var eventsGeoJson = {% include event-geojson.json %} ; 
+                </script>
+              <div id="event-map" class="event-map"></div>
+            </div>
+        </div>
       </div>
-
-      <div class="row program-body">
-
-        <div class="overlay-program-day-1">
-          <span class="overlay-body-day-title">
-            Day 1 – 27.9.2018
-          </span>
-          <span class="overlay-body-day-sub">
-            Conference Day – @Silent Green
-          </span>
-          <div class="tabs">
-            <button class="active">Main Stage</button>
-            <button>Discussion Area</button>
-          </div>
-          
-          <div class="col-md-6">
-            {% assign events = site.events | where:"type","talk" | sort_natural: 'eventtime' %}
-            {% include event-list.html %}
-          </div>
-          
-          <div class="col-md-6">
-            {% assign events = site.events | where:"type","panel" | sort_natural: 'eventtime' %}
-            {% include event-list.html %}
-          </div>
-        
-        </div>
-
-        <div class="overlay-body-day-2">
-          <span class="overlay-body-day-title">
-            Day 2 – 28.9.2018
-          </span>
-          <span class="overlay-body-day-sub">
-            Satellite Day (all across Berlin)
-          </span>
-          <!-- <div class="tabs">
-            <button class="active">List</button>
-            <button>Map</button>
-          </div> -->
-        </div>
-
-          <div class="col-md-6 event-list-satellites">
-            {% assign events = site.events | where:"type","workshop" | sort_natural: 'eventtime' %}
-            {% include event-list.html %}
-          </div>
-
-          <div class="col-md-6">
-            <script>
-              var eventsGeoJson = {% include event-geojson.json %} ; 
-            </script>
-            <div id="event-map" class="event-map"></div>
-          </div>
-
-      </div>
-
     </div>
+  </div>
+</div>
+
+</div>
 </section>
