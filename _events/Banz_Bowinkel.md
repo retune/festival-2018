@@ -9,6 +9,9 @@ thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Substance_Ausstellungsansicht_
 eventtitle: Painting with AR
 eventdate: 2018-09-27
 eventtime: 14:00 - 15:00
+eventtitorelease: hjq0wop-qne
+eventtitoevent: retune/retune-festival-2018
+eventstatus: singup
 
 eventlocation: STATE Studio
 eventadrress: Hauptstraße 3, 10827 Berlin
@@ -17,13 +20,13 @@ eventlong: 14
 
 images:
   - src: /img/events/banz_bowinkel/th_banz_bowinkel_Palo_Alto_II.png
-  - src: /img/events/banz_bowinkel/th_banz_bowinkel_Palo_Alto_II.png
-  - src: /img/events/banz_bowinkel/th_banz_bowinkel_Palo_Alto_II.png
-  - src: /img/events/banz_bowinkel/th_banz_bowinkel_Palo_Alto_II.png
+  - src: /img/events/banz_bowinkel/th_banz_bowinkel_Substance_Ausstellungsansicht_03.png
 
 videos:
-  - url: https://vimeo/1
-  - url: https://vimeo/2
+  - provider: vimeo
+    url: https://vimeo.com/132085365
+  - provider: youtube
+    url: https://www.youtube.com/watch?v=fCGtpRdydic
 
 links: 
   - name: banzbowinkel.de

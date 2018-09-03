@@ -1,9 +1,9 @@
 ---
 layout: default
-bodyclass: page-event
+# hideFooter: true
 ---
 
-<div id="ajax-content" class="ajax-content__event">
+<div id="ajax-content" class="page-event">
 
   {% capture subsub %}
   {{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }} <br> {{ page.eventlocation }}
@@ -11,56 +11,74 @@ bodyclass: page-event
 
   {% include overlay-head.html type="event" title=page.type sub=subsub %}
   
-  <h1 class="event-host">{{ page.host }}</h1>  
   <div class="vertical-bar"></div>
 
-    <article class="event-body">
+  <h1 class="event-host">{{ page.host }}</h1>  
+
+    <article class="event-page-body">
       
       <img class="img-responsive" src=" {{ page.thumb }} " >
 
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12">
-            <div class="post-content">
+            <div class="event-page-content">
 
               {{ page.content }}
-
-              <div class="images-wrap">
-                {% for image in page.images %}
-                  <img class="img-responsive" src=" {{ image.src }} " >
-                {% endfor %}
-              </div>
-
-              
-              {% for video in page.videos %}
-                <div class="video">
-                  <!-- needs oEmbeding in JS -->
-                  {{ video.url }}
-                </div>
-              {% endfor %}
-
-              {% unless page.eventstatus == "closed" %}
-                <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">sign up</button>
-              {% endunless %}
-
-              <div class="host-about-wrap">
-                
-                {% if page.links %}
-                  <div class="host-links-wrap">
-                    {% for link in page.links %}
-                      <a href="{{ link.url }}">{{ link.name }}</a>
-                    {% endfor %}
-                  </div>
-                {% endif %}
-
-
-                {{ page.about }}
-              </div>
 
             </div>
           </div>
         </div>
       </div>
+
+      {% if page.images %}
+      <div class="event-page-images">
+        {% for image in page.images %}
+          <img class="event-page-image img-responsive" src=" {{ image.src }} " >
+        {% endfor %}
+      </div>
+      {% endif %}
+
+
+              
+      {% for video in page.videos %}
+        <div class="event-page-video">
+          <div class="plyr" data-plyr-provider="{{ video.provider }}" data-plyr-embed-id="{{ video.url }}" ">
+            
+          </div>
+        </div>
+      {% endfor %}
+
+      {% unless page.eventstatus == "closed" %}
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">sign up</button>
+            </div>
+          </div>
+        </div>
+      {% endunless %}
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="event-page-about">
+              
+              {% if page.links %}
+                <div class="event-page-links">
+                  {% for link in page.links %}
+                    <a href="{{ link.url }}">{{ link.name }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+              {{ page.about }}
+
+            </div>
+          </div>
+        </div>
+      </div>
+
     </article>
 
 </div>

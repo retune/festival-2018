@@ -3,8 +3,27 @@
 ---
 @charset "utf-8";
 
+@font-face {
+font-family: 'Atlas Grotesk Web';
+src: url("../fonts/AtlasGrotesk-Regular-Web.eot");
+src: url("../fonts/AtlasGrotesk-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/AtlasGrotesk-Regular-Web.woff2") format("woff2"), url("../fonts/AtlasGrotesk-Regular-Web.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+font-stretch: normal; }
+
+@font-face {
+  font-family: 'bluu';
+  src: url('../fonts/bluunext-bold-webfont.woff2') format('woff2'),
+  url('../fonts/bluunext-bold-webfont.woff') format('woff'),
+  url('../fonts/bluunext-bold.ttf') format('truetype'),
+  url('../fonts/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 // Our variables
-$base-font-family: 'Roboto',"Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Atlas Grotesk Web',"Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $tiny-font-size: 0.75rem; // 12px
 $base-font-size: 1rem;  // 16px
@@ -17,7 +36,7 @@ $content-middot: "\2022";
 $base-font-weight: 400;
 $base-line-height: 1.5;
 
-$spacing-unit:     2rem;
+$spacing-unit:     2rem; // 32px;
 $spacing-overlaybar: 5.625rem; // 90px
 $hero-min-height: 70vh;
 $line-width: 1px;

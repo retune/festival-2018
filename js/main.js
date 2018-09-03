@@ -3,7 +3,11 @@ $( document ).ready(function() {
   // the event map
   // var map = new mapController('event-map',eventsGeoJson);
 
-  // the hero carousel
+  // the videos
+  initVideoPlayers();
+
+  
+  // the home hero carousel
   $(".hero-carousel").flickity({
     autoPlay: 2000,
     // initialIndex: 0,
@@ -63,10 +67,30 @@ $( document ).ready(function() {
 
   // OVERLAYS
   // overlay toggling
+  $overlayStackCount = 0; 
+
   $('.overlay-toggle').on('click',function(){
-    
+
     $(this).closest('.overlay').toggleClass('active');
-    $('body').toggleClass('overlay-active');
+    
+    // if($(this).closest('.overlay').hasClass('active')) {
+    //   $overlayStackCount++;
+    // } else {
+    //   $overlayStackCount--;
+    // }
+
+    // if($overlayStackCount == 0) {
+    //   $('body').toggleClass('overlay-active');
+    // }
+    if($('.overlay').filter('.active').length >= 1) {
+      $('body').addClass('overlay-active');
+    } else {
+      $('body').removeClass('overlay-active');
+    }
+
+    console.log($('.overlay').filter('.active').length);
+
+
 
   });
 
@@ -119,14 +143,23 @@ $( document ).ready(function() {
     
        //$('.ajax-loading').removeClass('active');
        $('.overlay-content').addClass('active');
+       
+       if($('.overlay').filter('.active').length >= 1) {
+         $('body').addClass('overlay-active');
+       } else {
+         $('body').removeClass('overlay-active');
+       }
 
        $('#ajax-content .overlay-toggle').on('click',function(){
          $(this).closest('.overlay').toggleClass('active');
+         $('body').toggleClass('overlay-active');
        });
 
        $('#ajax-content .button-signup').on('click',function(e){
          signupButtonClickHandler(e,titoData);
        });
+
+       initVideoPlayers();
 
       });
 
@@ -134,10 +167,22 @@ $( document ).ready(function() {
 
 });
 
+function initVideoPlayers() {
+  Plyr.setup('.plyr',{
+    controls : ['play-large']
+  });
+};
+
 function signupButtonClickHandler(e,titoData){
 
     e.preventDefault();
     $('.overlay-signup').addClass('active');
+
+    if($('.overlay').filter('.active').length >= 1) {
+      $('body').addClass('overlay-active');
+    } else {
+      $('body').removeClass('overlay-active');
+    }
 
     $('#rt-tito-widget').empty();
 

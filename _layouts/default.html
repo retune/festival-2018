@@ -10,7 +10,10 @@
 
     {{ content }}
 
-    {% include footer.html %}
+    {% unless layout.hideFooter %}
+        {% include footer.html %}
+    {% endunless %}
+
     {% include overlay-menu.html %}
     {% include overlay-signup.html %}
     
