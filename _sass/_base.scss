@@ -521,6 +521,7 @@ body.overlay-active {
   
   z-index: 3000;
   .title {
+    text-transform: capitalize;
     &:before {
       content: $content-middot;
       margin-right: 3px;
@@ -762,11 +763,9 @@ body.overlay-active {
   .vertical-bar {
     background-color: $primary-color;
     mix-blend-mode: multiply;
-    color: $white;
     position: fixed;
     right: 0; top:0;
     z-index: 1000;
-    padding-top: calc(50vh - #{$spacing-overlaybar});
     height: 100%;
     width: $spacing-overlaybar;
 
@@ -774,47 +773,30 @@ body.overlay-active {
   }
 
   .event-host {
-    height: $spacing-overlaybar;
+    position: absolute;
+    z-index:1001;
+    color: white;
+    right: -1 * $spacing-overlaybar; top: 90px;
     line-height: $spacing-overlaybar;
     margin-bottom: 0;
-    transform: rotate(90deg) translateX(-50%);
+    transform: rotate(90deg) translateX( calc(50vh - 50%) );
   }
 }
 
+.btn {
+  background: $white;
+  color: $black; 
+  border: $line-width solid;
+  border-color: $black;
+  border-radius: 8px;
+  box-shadow: none;
 
-
-/* .btn, .form-control  {*/
-/*   border-radius: 0;*/
-/*   border: 4px solid black;*/
-/*   box-shadow: none;*/
-/*   border-bottom: none;*/
-/*   font-size: 18px;*/
-/*   padding: 6px 16px;*/
-/* }*/
-
-
-/* .btn {*/
-/*   border-bottom: 4px solid black;*/
-/*   width: 100%;*/
-/*   background-color: black;*/
-/* }*/
-
-/* .btn:hover {*/
-/*   *//* background-color: transparent;*//**/
-/*   *//* color: black;*//**/
-/* }*/
-
-/* .form-control {*/
-/*   *//* background: #CCC;*//**/
-/*   color: black;*/
-/*   height: 48px; */
-
-/* }*/
-
-/* .form-control:focus {*/
-/*   border-color: black;*/
-/*   box-shadow: none;*/
-/* }*/
+  &:hover, &:active, &:focus {
+    background: $black;
+    border-color: $black;
+    color: $white;
+  }
+}
 
 textarea {
   resize: none;

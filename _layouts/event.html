@@ -9,12 +9,11 @@ bodyclass: page-event
   {{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }} <br> {{ page.eventlocation }}
   {% endcapture %}
 
-  {% include overlay-head.html type="event" title="Program" sub=subsub %}
+  {% include overlay-head.html type="event" title=page.type sub=subsub %}
   
-  <div class="vertical-bar">
-    <h1 class="event-host">{{ page.host }}</h1>  
-  </div>
-  
+  <h1 class="event-host">{{ page.host }}</h1>  
+  <div class="vertical-bar"></div>
+
     <article class="event-body">
       
       <img class="img-responsive" src=" {{ page.thumb }} " >
@@ -26,9 +25,37 @@ bodyclass: page-event
 
               {{ page.content }}
 
+              <div class="images-wrap">
+                {% for image in page.images %}
+                  <img class="img-responsive" src=" {{ image.src }} " >
+                {% endfor %}
+              </div>
+
+              
+              {% for video in page.videos %}
+                <div class="video">
+                  <!-- needs oEmbeding in JS -->
+                  {{ video.url }}
+                </div>
+              {% endfor %}
+
               {% unless page.eventstatus == "closed" %}
-              <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">signup</button>
+                <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">sign up</button>
               {% endunless %}
+
+              <div class="host-about-wrap">
+                
+                {% if page.links %}
+                  <div class="host-links-wrap">
+                    {% for link in page.links %}
+                      <a href="{{ link.url }}">{{ link.name }}</a>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+
+
+                {{ page.about }}
+              </div>
 
             </div>
           </div>

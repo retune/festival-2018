@@ -4,9 +4,14 @@ type: workshop
 featured: true
 
 host: IXDS
-
 eventtitle: Intorduciton to IoT 
 thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Substance_Ausstellungsansicht_03.png
+
+links: 
+  - name: ixds.com
+    url: https://www.ixds.com/
+  
+about: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quos commodi consequuntur eos, fugiat maiores deleniti laudantium similique, consequatur, vero porro officia pariatur provident. Neque debitis minima ipsum tenetur mollitia.
 
 eventdate: 2018-09-28
 eventtime: 10:00 - 17:00
