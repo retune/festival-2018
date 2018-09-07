@@ -13,7 +13,7 @@ layout: default
           {% include hero-carousel.html %}
          
           <p class=" site-subtitle">
-            September 27-28,
+            September 27-28, 2018<br>
             <span>Berlin<span>
           </p>
       </div>
@@ -25,8 +25,8 @@ layout: default
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12">
-        <h2 class="section-title section-title__program">Talks, Discussions, Workshops, Studio Visits and Performances</h2>
-        <h3 class="subtitle">Talks</h3>
+        <h2 class="section-title section-title__program">Talks, Discussions, Workshops,<br> Studio Visits and Performances</h2>
+        <h3 class="section-subtitle">Talks</h3>
         {% assign events = site.events | where:"type","talk" | where:"featured","true" | sort_natural: 'host' %}
         {% include event-carousel.html %}
       </div>
@@ -34,7 +34,7 @@ layout: default
   
     <div class="row">
       <div class="col-sm-12 ">
-        <h3 class="subtitle">Installations and Performances</h3>        
+        <h3 class="section-subtitle">Installations and Performances</h3>        
         {% assign events = site.events | where:"type","installation & performance" | where:"featured","true" | sort_natural: 'host' %}
         {% include event-carousel.html %}
       </div>
@@ -42,7 +42,7 @@ layout: default
     
     <div class="row">
       <div class="col-sm-12 ">
-      <h3 class="subtitle">Sattelites (selection)</h3>        
+      <h3 class="section-subtitle">Sattelites (selection)</h3>        
         {% assign events = site.events | where:"type","workshop" | where:"featured","true" | sort_natural: 'host' %}
         {% include event-carousel.html %}
       </div>
@@ -91,6 +91,19 @@ layout: default
       </div>
 
     </div>
+</section>
+
+
+<section class="section-program-button-hit-me-one-more-time">
+  <a href="">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 ">
+        <h2 class="section-title ff-century">Full Programm</h2>
+      </div>
+    </div>
+  </div>
+  </a>
 </section>
 
 <section class="section-partners">

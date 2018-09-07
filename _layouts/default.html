@@ -14,7 +14,10 @@
         {% include footer.html %}
     {% endunless %}
 
-    {% include overlay-menu.html %}
+    {% unless layout.hideMenu %}
+      {% include overlay-menu.html %}
+    {% endunless %}
+
     {% include overlay-signup.html %}
     
     <section class="overlay overlay-content"></section>

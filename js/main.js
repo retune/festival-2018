@@ -69,6 +69,13 @@ $( document ).ready(function() {
   // overlay toggling
   $overlayStackCount = 0; 
 
+  $('.section-program-button-hit-me-one-more-time').on('click',function(e){
+    
+    e.preventDefault();
+    $('.overlay-menu .overlay-toggle').trigger('click');
+
+  });
+
   $('.overlay-toggle').on('click',function(){
 
     $(this).closest('.overlay').toggleClass('active');

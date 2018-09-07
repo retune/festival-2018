@@ -1,25 +1,61 @@
 ---
 layout: default
-# hideFooter: true
+hideFooter: true
+hideMenu: false
+
 ---
 
 <div id="ajax-content" class="page-event">
 
-  {% capture subsub %}
-  {{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }} <br> {{ page.eventlocation }}
-  {% endcapture %}
-
+  {% if page.type == "workshop" %}
+    {% capture subsub %}
+      {{ page.eventtime }}, {{ page.eventdate | date: "%d. %B" }} <br> Capacity: {{ page.eventcapacity }}
+    {% endcapture %}
+  {% else %}
+    {% capture subsub %}
+      {{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }} <br> {{ page.eventlocation }}
+    {% endcapture %}
+  {% endif %}
   {% include overlay-head.html type="event" title=page.type sub=subsub %}
   
   <div class="vertical-bar"></div>
-
   <h1 class="event-host">{{ page.host }}</h1>  
 
     <article class="event-page-body">
       
       <img class="img-responsive" src=" {{ page.thumb }} " >
 
-      <div class="container-fluid">
+      {% if page.type == "workshop" %}
+      <div class="container-fluid event-page-meta-section">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="event-page-meta">
+
+              Address: {{ page.eventlocation }} <br>
+              {{ page.eventaddress }}
+
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if page.intro %}
+      <div class="container-fluid event-page-content-section">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="event-page-intro">
+
+                {{ page.intro }}
+
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% unless page.content == blank %}
+      <div class="container-fluid event-page-content-section">
         <div class="row">
           <div class="col-sm-12">
             <div class="event-page-content">
@@ -30,6 +66,7 @@ layout: default
           </div>
         </div>
       </div>
+      {% endunless %}
 
       {% if page.images %}
       <div class="event-page-images">
@@ -38,9 +75,7 @@ layout: default
         {% endfor %}
       </div>
       {% endif %}
-
-
-              
+   
       {% for video in page.videos %}
         <div class="event-page-video">
           <div class="plyr" data-plyr-provider="{{ video.provider }}" data-plyr-embed-id="{{ video.url }}" ">
@@ -49,20 +84,10 @@ layout: default
         </div>
       {% endfor %}
 
-      {% unless page.eventstatus == "closed" %}
-      <div class="container-fluid">
+      <div class="container-fluid event-page-content-section">
         <div class="row">
           <div class="col-sm-12">
-            <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">sign up</button>
-            </div>
-          </div>
-        </div>
-      {% endunless %}
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="event-page-about">
+            <div class="event-page-outro">
               
               {% if page.links %}
                 <div class="event-page-links">
@@ -72,7 +97,7 @@ layout: default
                 </div>
               {% endif %}
 
-              {{ page.about }}
+              {{ page.outro | markdownify }}
 
             </div>
           </div>
@@ -81,4 +106,12 @@ layout: default
 
     </article>
 
+    {% unless page.eventstatus == "closed" %}
+    <div class="event-page-signup-button">
+      <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">Book your participation</button>
+      </div>
+    {% endunless %}
+
 </div>
+
+

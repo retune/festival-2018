@@ -12,6 +12,7 @@ eventtime: 14:00 - 15:00
 eventtitorelease: hjq0wop-qne
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
+evnetcapacity: 5
 
 eventlocation: STATE Studio
 eventadrress: Hauptstraße 3, 10827 Berlin
@@ -32,8 +33,16 @@ links:
   - name: banzbowinkel.de
     url: https://www.banzbowinkel.de/
 
-about: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quos commodi consequuntur eos, fugiat maiores deleniti laudantium similique, consequatur, vero porro officia pariatur provident. Neque debitis minima ipsum tenetur mollitia.
+intro: Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.  
+
+outro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quos commodi consequuntur eos, fugiat maiores deleniti laudantium similique, consequatur, vero porro officia pariatur provident. Neque debitis minima ipsum tenetur mollitia.  
+
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quos commodi consequuntur eos, fugiat maiores deleniti laudantium similique, consequatur, vero porro officia pariatur provident. Neque debitis minima ipsum tenetur mollitia.
 
 ---
 
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
+Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.  
+Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.  
+Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.  
+
+Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.  

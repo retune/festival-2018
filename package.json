@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "bundle exec jekyll serve --livereload"
+    "dev": "bundle exec jekyll serve --incremental --livereload"
   },
   "author": "",
   "license": "ISC"

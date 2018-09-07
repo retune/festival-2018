@@ -18,8 +18,9 @@
               <span class="host">{{ event.host }}</span>
               <span class="title">{{ event.eventtitle }}</span>
             {% else %}
-              <span class="title">{{ event.eventtitle }}</span>
-              <span class="host">hosted by {{ event.host }} <br> {{ event.eventlocation }}, {{ event.eventaddress }} </span>
+              <span class="title">{{ event.eventtitle }}</span><br>
+              <span class="host">hosted by {{ event.host }}</span>
+              <span class="location">{{ event.eventlocation }}, {{ event.eventaddress }} </span>
             {% endunless %}
           </a>
         </div>
