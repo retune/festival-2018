@@ -277,7 +277,7 @@
             ref.titoData.titoRelease = $(e.target).data('release');
             ref.titoData.titoEvent = $(e.target).data('event');
 
-            ref.buildWidget(ref.titoData);
+            ref.createTitoWidget(ref.titoData);
 
     };
 
@@ -302,7 +302,7 @@
 
 
 
-    RetuneFestival.prototype.buildWidget = function(titoData) {
+    RetuneFestival.prototype.createTitoWidget = function(titoData) {
 
       $('#rt-tito-widget').empty();
 
