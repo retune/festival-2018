@@ -3,7 +3,7 @@ layout: event
 type: talk
 featured: true
 
-host: Above and Below 1
+host: Above and Below
 
 eventtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Palo_Alto_II.png
@@ -12,9 +12,11 @@ eventdate: 2018-09-27
 eventtime: 13:00 - 14:00
 
 eventlocation: Retune
-eventadrress: Glogauer Strasse 21, XXXXX Berlin
+eventaddress: Glogauer Strasse 21, XXXXX Berlin
 eventlat: 52.515816
 eventlong: 13.454293
+
+
 
 ---
 

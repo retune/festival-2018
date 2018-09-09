@@ -9,7 +9,8 @@
           titoEvent: '',
           titoTicketCode: ''
         },
-        overlayStack : []
+        overlayStack : [],
+        router: {}
     };
 
     function RetuneFestival(){
@@ -19,6 +20,9 @@
         ref = this;
         this.viewport = this.getViewport();
         $(window).resize(this.resizeHandler);
+
+        // this.router = new Navigo();
+        // this.initRoutes();
 
         this.initMenu();
         this.initCarousels();
@@ -85,7 +89,9 @@
           wrapAround: true,
           prevNextButtons: false,
           pageDots: false,
-          pauseAutoPlayOnHover: false
+          pauseAutoPlayOnHover: false,
+          imagesLoaded: true
+
        });
 
         // pause now in order to start randomly delayed, something between 0 - 2 sec

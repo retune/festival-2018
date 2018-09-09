@@ -8,8 +8,9 @@
 
   <body class={{ layout.bodyclass }}>
 
-    {{ content }}
-
+    <div class="body-content">
+      {{ content }}
+    </div>
     {% unless layout.hideMenu %}
       {% include overlay-menu.html %}
     {% endunless %}

@@ -2,7 +2,7 @@
 layout: default
 hideFooter: true
 hideMenu: false
-
+bodyclass: event-single
 ---
 
 <div id="ajax-content" class="page-event">
@@ -43,7 +43,7 @@ hideMenu: false
 
     <article class="event-page-body">
 
-      <img class="img-responsive" src=" {{ page.thumb }} " >
+      {% picture {{ page.thumb }} class="event-featured-image" %}
 
       {% if page.type == "workshop" %}
       <div class="container-fluid event-page-meta-section">
@@ -88,22 +88,26 @@ hideMenu: false
       </div>
       {% endunless %}
 
-      {% if page.images %}
+
+      {% if page.imagefolder %}
       <div class="event-page-images">
-        {% for image in page.images %}
-          <img class="event-page-image img-responsive" src=" {{ image.src }} " >
+         {% for image in site.static_files %}
+           {% if image.path contains page.imagefolder %}
+              {% picture {{ image.path }} class="event-page-image" %}
+           {% endif %}
         {% endfor %}
       </div>
       {% endif %}
 
       {% for video in page.videos %}
         <div class="event-page-video">
-          <div class="plyr" data-plyr-provider="{{ video.provider }}" data-plyr-embed-id="{{ video.url }}" ">
+          <div class="plyr" data-plyr-provider="{{ video.provider }}" data-plyr-embed-id="{{ video.url }}" ">
 
           </div>
         </div>
       {% endfor %}
 
+      {% if page.outro or page.links %}
       <div class="container-fluid event-page-content-section">
         <div class="row">
           <div class="col-sm-12">
@@ -117,16 +121,17 @@ hideMenu: false
                 </div>
               {% endif %}
 
-              {{ page.outro | markdownify }}
+              {{ page.outro | markdownify }}
 
             </div>
           </div>
         </div>
       </div>
+      {% endif %}
 
     </article>
 
-    {% if (page.eventstatus == "signup" and page.eventtitorelease ) %}
+    {% if page.eventstatus == 'signup' and page.eventtitorelease  %}
       <div class="event-page-signup-button">
         <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">Book your participation</button>
         </div>

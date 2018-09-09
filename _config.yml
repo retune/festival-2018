@@ -24,8 +24,8 @@ insta_username:  retuneberlin
 facebook_username: retuneberlin
 
 # Build settings
-markdown: kramdown
-theme: minima
+markdown: redcarpet
+
 plugins:
   - jekyll-feed
 
@@ -42,10 +42,26 @@ collections:
   events:
     output: true
     permalink: /events/:slug
-  
+
 defaults:
   - scope:
       path: "img/partners"
     values:
       partnerlogo: true
 
+picture:
+  output: "img/responsive"
+  markup: "picture"
+  presets:
+    default:
+      ppi: [1, 1.5]
+      source_default:
+        width: "960"
+      source_medium:
+        media: "(min-width: 960px)"
+        width: "1920"
+
+    carousel-size:
+      ppi: [1, 1.5]
+      source_default:
+        height: "600"

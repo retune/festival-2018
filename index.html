@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<div class="body-content">
-
 <header class="section-header">
 
   <div class="page-header">
@@ -126,9 +124,9 @@ layout: default
 
         {% assign image_files = site.static_files | where: "partnerlogo", true %}
         <div class="grid grid__partners">
-          {% for myimage in image_files %}
+          {% for image in image_files %}
             <div class="partner-logo-wrap">
-              <img class="partner-logo" src="{{ myimage.path }}" alt="">
+              {% picture {{ image.path }} class="partner-logo" %}
             </div>
           {% endfor %}
         </div>
@@ -157,7 +155,6 @@ layout: default
 </footer>
 {% endunless %}
 
-</div>
 
 
 
