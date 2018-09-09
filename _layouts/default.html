@@ -3,24 +3,22 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-  
+
   {% include head.html %}
 
   <body class={{ layout.bodyclass }}>
 
     {{ content }}
 
-    {% unless layout.hideFooter %}
-        {% include footer.html %}
-    {% endunless %}
-
     {% unless layout.hideMenu %}
       {% include overlay-menu.html %}
     {% endunless %}
 
     {% include overlay-signup.html %}
-    
+
     <section class="overlay overlay-content"></section>
+
+    {% include footer.html %}
 
   </body>
 

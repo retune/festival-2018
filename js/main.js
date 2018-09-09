@@ -1,85 +1,18 @@
-$( document ).ready(function() {  
+$( document ).ready(function() {
 
-  // the event map
-  // var map = new mapController('event-map',eventsGeoJson);
-
-  // the videos
-  initVideoPlayers();
-
-  
-  // the home hero carousel
-  $(".hero-carousel").flickity({
-    autoPlay: 2000,
-    // initialIndex: 0,
-    draggable: false,
-    wrapAround: true,
-    prevNextButtons: false,
-    pageDots: false,
-    pauseAutoPlayOnHover: false,
-    imagesLoaded: true
-  });
-  
-
-  // the events carousel on home
-  $(".event-carousel-wrap").each(function(idx,el) {
-    
-    // carousel and nav will be set to this initially
-    var startIndex = 0;
-
-    var $carousel = $('.event-carousel', this).flickity({
-      // autoPlay: 2000,
-      initialIndex: startIndex,
-      wrapAround: true,
-      prevNextButtons: false,
-      pageDots: false,
-      pauseAutoPlayOnHover: false
-   });
-
-    // pause now in order to start randomly delayed, something between 0 - 2 sec
-    // $carousel.flickity('pausePlayer');
-    // setTimeout(function(){
-    //   $carousel.flickity('unpausePlayer');
-    // },getRandomInt(0,20) * 100);
-
-    // flickity instance
-    var flkty = $carousel.data('flickity');
-    
-    // elements
-    var $cellNavGroup = $('.event-carousel-nav',this);
-    var $cellNavItems = $cellNavGroup.find('.event-carousel-nav-item');
-    
-    $cellNavItems.eq( startIndex ).addClass('is-selected');
-
-    // update selected cellNavItems
-    $carousel.on( 'select.flickity', function() {
-      $cellNavItems.filter('.is-selected').removeClass('is-selected');
-      $cellNavItems.eq( flkty.selectedIndex ).addClass('is-selected');
-    });
-
-    // select cell on button click
-    $cellNavItems.on( 'click', '.event-carousel-nav-item', function() {
-      var index = $(this).index();
-      $carousel.flickity( 'select', index );
-    });
-
-  });
+  var app = new RetuneFestival();
 
 
   // OVERLAYS
+
   // overlay toggling
-  $overlayStackCount = 0; 
+  $overlayStackCount = 0;
 
-  $('.section-program-button-hit-me-one-more-time').on('click',function(e){
-    
-    e.preventDefault();
-    $('.overlay-menu .overlay-toggle').trigger('click');
-
-  });
 
   $('.overlay-toggle').on('click',function(){
 
     $(this).closest('.overlay').toggleClass('active');
-    
+
     // if($(this).closest('.overlay').hasClass('active')) {
     //   $overlayStackCount++;
     // } else {
@@ -89,7 +22,9 @@ $( document ).ready(function() {
     // if($overlayStackCount == 0) {
     //   $('body').toggleClass('overlay-active');
     // }
-    if($('.overlay').filter('.active').length >= 1) {
+
+    // no work like this
+    if($('.overlay').filter('.active').length > 0) {
       $('body').addClass('overlay-active');
     } else {
       $('body').removeClass('overlay-active');
@@ -109,9 +44,9 @@ $( document ).ready(function() {
     rt_ticketcode: Cookies.get('titoData.rt_ticketcode')
   };
 
-  console.log('ticketcode cookie read',titoData.rt_ticketcode);
-  
-  if(typeof titoData.rt_ticketcode !== 'undefined') { 
+  // console.log('ticketcode cookie read',titoData.rt_ticketcode);
+
+  if(typeof titoData.rt_ticketcode !== 'undefined') {
     $(".ticket-code-form #ticket-code").val(titoData.rt_ticketcode);
     $(".ticket-code-form button").text('update code');
   }
@@ -122,7 +57,7 @@ $( document ).ready(function() {
 
   // ticket code input
   $('.ticket-code-form button').on('click',function(e){
-    
+
     if($(".ticket-code-form #ticket-code")[0].checkValidity()) {
 
       e.preventDefault();
@@ -131,7 +66,7 @@ $( document ).ready(function() {
       console.log('ticketcode cookie set:',titoData.rt_ticketcode);
       buildWidget(titoData);
 
-    } 
+    }
   });
 
   // cleanup on close
@@ -139,46 +74,53 @@ $( document ).ready(function() {
     $('#rt-tito-widget').empty();
   });
 
-  // AJAXing events/pages to overlay-content
-  $("a.ajax-to-overlay").on( 'click', function( event ) {
-      event.preventDefault();
-
-      // $('.ajax-loading').addClass('active');
+  // LOADINGing events/pages to overlay-content ... or desktop content area
+  $("a.ajax-to-overlay").on( 'click', function( e ) {
+      e.preventDefault();
 
       var ajaxUrl = $(this).attr('href');
-      $( ".overlay-content" ).load( ajaxUrl + " #ajax-content" , function( response, status, xhr ) {
-    
-       //$('.ajax-loading').removeClass('active');
-       $('.overlay-content').addClass('active');
-       
-       if($('.overlay').filter('.active').length >= 1) {
-         $('body').addClass('overlay-active');
-       } else {
-         $('body').removeClass('overlay-active');
-       }
 
-       $('#ajax-content .overlay-toggle').on('click',function(){
-         $(this).closest('.overlay').toggleClass('active');
-         $('body').toggleClass('overlay-active');
-       });
+      //figure out where to load the content to..
+      if(getViewport().screensize == "mobile") {
+        var ajaxTarget = '.overlay-content';
+      } else {
+        var ajaxTarget = '.body-content';
+      }
 
-       $('#ajax-content .button-signup').on('click',function(e){
-         signupButtonClickHandler(e,titoData);
-       });
+      $( ajaxTarget ).load( ajaxUrl + " #ajax-content" , function( response, status, xhr ) {
 
-       initVideoPlayers();
+        if(getViewport().screensize == "mobile") {
+
+          $('.overlay-content').addClass('active');
+
+          if($('.overlay').filter('.active').length > 0) {
+             $('body').addClass('overlay-active');
+           } else {
+             $('body').removeClass('overlay-active');
+           }
+
+        }
+
+         $('#ajax-content .overlay-toggle').on('click',function(){
+           $(this).closest('.overlay').toggleClass('active');
+           $('body').toggleClass('overlay-active');
+         });
+
+         $('#ajax-content .button-signup').on('click',function(e){
+           signupButtonClickHandler(e,titoData);
+         });
+
+         initVideoPlayers();
 
       });
 
   });
 
-});
+  // the event map
+  // var map = new mapController('event-map',eventsGeoJson);
 
-function initVideoPlayers() {
-  Plyr.setup('.plyr',{
-    controls : ['play-large']
-  });
-};
+
+});
 
 function signupButtonClickHandler(e,titoData){
 
@@ -198,12 +140,13 @@ function signupButtonClickHandler(e,titoData){
 
     console.log('release set:',titoData.rt_titorelease);
     console.log('event set:',titoData.rt_titoevent);
-    
+
     if(typeof titoData.rt_ticketcode !== 'undefined') {
       buildWidget(titoData);
     };
 
 }
+
 
 function buildWidget(titoData) {
 
@@ -220,4 +163,18 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
 }
+
+function getViewport ()
+{
+    var e = window, a = 'inner';
+    if (!('innerWidth' in window )) {
+        a = 'client';
+        e = document.documentElement || document.body;
+    }
+
+    var screensize = "mobile";
+    if(e[ a+'Width' ] >= 1030) screensize = "desktop";
+
+    return { width : e[ a+'Width' ] , height : e[ a+'Height' ], screensize : screensize };
+};
 

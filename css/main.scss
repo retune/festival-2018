@@ -29,17 +29,15 @@ font-stretch: normal; }
     font-family: "Atlas Grotesk Web";
 }
 
-
-$ff-century: "bluu";
-$ff-sans: "Atlas Grotesk Web";
-
 // Our variables
 $base-font-family: 'Atlas Grotesk Web',"Helvetica Neue", Helvetica, Arial, sans-serif;
+$ff-century: "bluu";
+$ff-sans: "Atlas Grotesk Web";
 
 $tiny-font-size: 0.75rem; // 12px
 $base-font-size: 1rem;  // 16px
 $small-font-size: 1.125rem; //18px
-$med-font-size: 1.5rem; // 24px 
+$med-font-size: 1.5rem; // 24px
 $big-font-size: 2.625rem; // 42px
 
 $content-middot: "\2022";
@@ -49,7 +47,16 @@ $base-line-height: 1.2;
 
 $spacing-unit:     2rem; // 32px;
 $spacing-overlaybar: 5.625rem; // 90px
+
+$grid-gap: $spacing-unit; // legacy
+
+$max-menu-width: 375px;
+$animation-speed: 100ms;
+
+// home hero carousel height
 $hero-min-height: calc(100vh - 90px);
+
+// buttons and ... lines
 $line-width: 1px;
 
 $text-color:       #000;
@@ -59,25 +66,9 @@ $brand-color:      #8a7e70;
 $primary-color: #FFA682; // peach
 $secondary-color: #9F826B; // bronze
 $third-color: #C9D1CB; // olive
+
 $black: #141414;
 $white: #FFF;
-
-$grid-gap: $spacing-unit;
-$animation-speed: 100ms;
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -85,4 +76,12 @@ $animation-speed: 100ms;
 
 @media screen and (min-width: 767px) {
     @import "768up" ;
+}
+
+@media screen and (min-width: 1030px) {
+    @import "1030up" ;
+}
+
+@media screen and (min-width: 1440px) {
+    @import "1440up" ;
 }

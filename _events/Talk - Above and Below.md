@@ -3,7 +3,7 @@ layout: event
 type: talk
 featured: true
 
-host: Above and Below
+host: Above and Below 1
 
 eventtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Palo_Alto_II.png

@@ -2,52 +2,62 @@
 layout: default
 ---
 
-<header class="section-header site-header">
+<div class="body-content">
+
+<header class="section-header">
+
+  <div class="page-header">
+
+    <a class="site-title" href="{{ site.github.url }}{{ site.baseurl }}/">
+      {{ site.title }}
+    </a>
+
+    <p class="site-subtitle">
+      <span>September 27-28,</span>
+      <span>Berlin</span>
+    </p>
+
+  </div>
+
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 ">
-          <a class="site-title" href="{{ site.github.url }}{{ site.baseurl }}/"> 
-            {{ site.title }}
-          </a>
-          
           {% include hero-carousel.html %}
-         
-          <p class=" site-subtitle">
-            September 27-28, 2018<br>
-            <span>Berlin<span>
-          </p>
       </div>
     </div>
   </div>
+
 </header>
 
 <section class="section-program text-center">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2 class="section-title section-title__program">Talks, Discussions, Workshops,<br> Studio Visits and Performances</h2>
-        <h3 class="section-subtitle">Talks</h3>
-        {% assign events = site.events | where:"type","talk" | where:"featured","true" | sort_natural: 'host' %}
-        {% include event-carousel.html %}
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 ">
+            <h2 class="section-title section-title__program">Talks, Discussions, Workshops,<br> Studio Visits and Performances</h2>
+        </div>
       </div>
     </div>
-  
-    <div class="row">
-      <div class="col-sm-12 ">
-        <h3 class="section-subtitle">Installations and Performances</h3>        
-        {% assign events = site.events | where:"type","installation & performance" | where:"featured","true" | sort_natural: 'host' %}
-        {% include event-carousel.html %}
-      </div>
+
+    <div class="">
+      <h3 class="section-subtitle">Talks</h3>
+      {% assign events = site.events | where:"type","talk" | where:"featured","true" | sort_natural: 'host' %}
+      {% include event-carousel.html %}
     </div>
-    
-    <div class="row">
-      <div class="col-sm-12 ">
-      <h3 class="section-subtitle">Sattelites (selection)</h3>        
-        {% assign events = site.events | where:"type","workshop" | where:"featured","true" | sort_natural: 'host' %}
-        {% include event-carousel.html %}
-      </div>
+
+
+    <div class="">
+      <h3 class="section-subtitle">Installations and Performances</h3>
+      {% assign events = site.events | where:"type","installation & performance" | where:"featured","true" | sort_natural: 'host' %}
+      {% include event-carousel.html %}
     </div>
-  </div>
+
+    <div class="">
+      <h3 class="section-subtitle">Sattelites (selection)</h3>
+      {% assign events = site.events | where:"type","workshop" | where:"featured","true" | sort_natural: 'host' %}
+      {% include event-carousel.html %}
+    </div>
+
 </section>
 
 <section class="section-about">
@@ -57,7 +67,7 @@ layout: default
         <p class="section-title section-title__about">Retune Festival<br>September 27—28, 2018</p>
         <div class="section-body">
           <p>
-            The Festival explores the ­speculative futures of our digital society. Cutting edge digital ­artists, –researchers, and engineers working on IoT, –augmented ­reality, –artificial intelligence, –interactive spaces and more will share their inspirational ­insights in talks, ­discussions, workshops and –performances. 
+            The Festival explores the ­speculative futures of our digital society. Cutting edge digital ­artists, –researchers, and engineers working on IoT, –augmented ­reality, –artificial intelligence, –interactive spaces and more will share their inspirational ­insights in talks, ­discussions, workshops and –performances.
           </p>
           <p>
             Expect a whole lot of design ­friction, glitched visions and real future shit.
@@ -75,17 +85,21 @@ layout: default
           <h2 class="section-title">Tickets</h2>
 
           <div class="ticket-button-wrap">
-          
+
             <tito-button event="retune/retune-festival-2018" releases="hjq0wop-qne"><span>Student Pass</span><span class="price">69€</span></tito-button>
 
             <tito-button event="retune/retune-festival-2018" releases="jijmzestkaq"><span>Regular Pass</span><span class="price">99€</tito-button>
 
             <tito-button event="retune/retune-festival-2018" releases="pqr6vzmqing"><span>Professional Pass</span><span class="price">199€</span></tito-button>
-          
+
+            <tito-button event="retune/retune-festival-2018" releases="pqr6vzmqing"><span>Plus Pass</span><span class="price">349€</span></tito-button>
+
           </div>
-         
-         <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-         <p class="text-center text-color-primary">Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicul</p>
+
+          <div class="ticket-content-wrap">
+           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+           <p class="text-color-primary">Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicul</p>
+         </div>
 
         </div>
       </div>
@@ -95,7 +109,6 @@ layout: default
 
 
 <section class="section-program-button-hit-me-one-more-time">
-  <a href="">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 ">
@@ -103,7 +116,6 @@ layout: default
       </div>
     </div>
   </div>
-  </a>
 </section>
 
 <section class="section-partners">
@@ -111,7 +123,7 @@ layout: default
     <div class="row">
       <div class="col-sm-12">
         <h2 class="section-title">Partners</h2>
-        
+
         {% assign image_files = site.static_files | where: "partnerlogo", true %}
         <div class="grid grid__partners">
           {% for myimage in image_files %}
@@ -120,10 +132,32 @@ layout: default
             </div>
           {% endfor %}
         </div>
-      
+
       </div>
     </div>
   </div>
 </section>
+
+{% unless layout.hideFooter %}
+<footer class="section-footer">
+  <div class="container-fluid" >
+    <div class="row">
+
+      <div class="col-sm-12">
+        <ul class="list-inline">
+          <li class="list-inline-item" ><a href="https://retune.de/impressum.html">Impressum</a></li>
+          <li class="list-inline-item" ><a href="https://retune.de/datenschutz.html">Privacy Policy</a></li>
+          <li class="list-inline-item" ><a href="">Code of Conduct</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div> <!-- /container -->
+</footer>
+{% endunless %}
+
+</div>
+
 
 

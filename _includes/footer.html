@@ -1,29 +1,19 @@
-<footer class="section-footer">
-  <div class="container-fluid" >
-    <div class="row">
-  
-      <div class="col-sm-12">
-        <ul class="list-inline">
-          <li class="list-inline-item" ><a href="https://retune.de/impressum.html">Impressum</a></li>
-          <li class="list-inline-item" ><a href="https://retune.de/datenschutz.html">Privacy Policy</a></li>
-          <li class="list-inline-item" ><a href="">Code of Conduct</a></li>
-        </ul>
 
-      </div>
-
-    </div>
-  </div> <!-- /container -->
-</footer>
 
 <script src="{{ site.github.url }}/js/vendor/jquery-3.1.1.min.js"></script>
-
 <script src="{{ site.github.url }}/js/vendor/bootstrap.min.js"></script>
-
 <script src="{{ site.github.url }}/js/vendor/flickity.pkgd.min.js"></script>
 
 <script src="{{ site.github.url }}/js/vendor/mapbox-gl.js"></script>
 <script src="{{ site.github.url }}/js/vendor/js.cookie.min.js"></script>
 <script src="{{ site.github.url }}/js/vendor/plyr.min.js"></script>
 
+
 <script src="{{ site.github.url }}/js/mapController.js"></script>
-<script src="{{ site.github.url }}/js/main.js"></script>
+<script src="{{ site.github.url }}/js/app.js"></script>
+
+<script>
+  $( document ).ready(function() {
+    var app = new RetuneFestival();
+  });
+</script>

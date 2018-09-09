@@ -9,20 +9,40 @@ hideMenu: false
 
   {% if page.type == "workshop" %}
     {% capture subsub %}
-      {{ page.eventtime }}, {{ page.eventdate | date: "%d. %B" }} <br> Capacity: {{ page.eventcapacity }}
+      <span class="time">{{ page.eventtime }}, {{ page.eventdate | date: "%d. %B" }}</span> <br> <span class="capacity">Capacity: {{ page.eventcapacity }}</span>
     {% endcapture %}
   {% else %}
     {% capture subsub %}
-      {{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }} <br> {{ page.eventlocation }}
+      <span class="time">{{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }}</span>  <br> <span class="location">{{ page.eventlocation }}</span>
     {% endcapture %}
   {% endif %}
-  {% include overlay-head.html type="event" title=page.type sub=subsub %}
-  
+
+  <div class="overlay-head overlay-head__event">
+
+    <div class="wrap mobile-header">
+      <span class="title">{{ page.type }}</span><br>
+      <span class="sub">{{ subsub  }}</span>
+    </div>
+
+    <div class="wrap desktop-header">
+      <div class="">
+        <span class="title">
+          <a class="site-title" href="{{ site.github.url }}{{ site.baseurl }}/">{{ site.title }}</a>
+        </span><br>
+        <span class="sub">{{ page.type  }}</span>
+      </div>
+      <span class="meta">{{ subsub  }}</span>
+    </div>
+
+    <button class="overlay-toggle text-hide">X</button>
+
+    </div>
+
   <div class="vertical-bar"></div>
-  <h1 class="event-host">{{ page.host }}</h1>  
+  <h1 class="event-host">{{ page.host }}</h1>
 
     <article class="event-page-body">
-      
+
       <img class="img-responsive" src=" {{ page.thumb }} " >
 
       {% if page.type == "workshop" %}
@@ -75,11 +95,11 @@ hideMenu: false
         {% endfor %}
       </div>
       {% endif %}
-   
+
       {% for video in page.videos %}
         <div class="event-page-video">
           <div class="plyr" data-plyr-provider="{{ video.provider }}" data-plyr-embed-id="{{ video.url }}" ">
-            
+
           </div>
         </div>
       {% endfor %}
@@ -88,7 +108,7 @@ hideMenu: false
         <div class="row">
           <div class="col-sm-12">
             <div class="event-page-outro">
-              
+
               {% if page.links %}
                 <div class="event-page-links">
                   {% for link in page.links %}
@@ -106,11 +126,11 @@ hideMenu: false
 
     </article>
 
-    {% unless page.eventstatus == "closed" %}
-    <div class="event-page-signup-button">
-      <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">Book your participation</button>
-      </div>
-    {% endunless %}
+    {% if (page.eventstatus == "signup" and page.eventtitorelease ) %}
+      <div class="event-page-signup-button">
+        <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">Book your participation</button>
+        </div>
+    {% endif %}
 
 </div>
 
