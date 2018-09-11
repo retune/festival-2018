@@ -20,9 +20,13 @@
         ref = this;
         this.viewport = this.getViewport();
         $(window).resize(this.resizeHandler);
+        window.onpopstate = this.popstateHandler;
 
         // this.router = new Navigo();
         // this.initRoutes();
+
+        // Background Zuffi hero image
+        $('.section-header').addClass('section-header__bg' + this.getRandomInt(0,12) );
 
         this.initMenu();
         this.initCarousels();
@@ -41,6 +45,7 @@
         ref.viewport = ref.getViewport();
 
     };
+
 
     RetuneFestival.prototype.initMenu = function () {
 
@@ -115,8 +120,8 @@
           $cellNavItems.eq( flkty.selectedIndex ).addClass('is-selected');
         });
 
-        // select cell on button click
-        $cellNavItems.on( 'click', '.event-carousel-nav-item', function() {
+        // select nav on mouseover
+        $cellNavItems.on( 'mouseover', function() {
           var index = $(this).index();
           $carousel.flickity( 'select', index );
         });
@@ -168,66 +173,81 @@
 
         // LOADINGing events/pages to overlay-content ... or desktop content area
         $("a.ajax-to-overlay").on( 'click', function( e ) {
+
             e.preventDefault();
-
             var ajaxUrl = $(this).attr('href');
-
-            //figure out where to load the content to..
-            if(ref.viewport.screensize == "mobile") {
-              var ajaxTarget = '.overlay-content';
-            } else {
-              var ajaxTarget = '.body-content';
-            }
-
-            $( ajaxTarget ).load( ajaxUrl + " #ajax-content" , function( response, status, xhr ) {
-
-              window.history.pushState(null,null,ajaxUrl);
-              console.log(ajaxUrl);
-              if(ref.viewport.screensize == "mobile") {
-
-                if($(this).closest('.overlay').hasClass('active'))
-                {
-                  ref.overlayStack.pop();
-                  $('.overlay-content').removeClass('active');
-                } else {
-                  ref.overlayStack.push( $(this).closest('.overlay') );
-                  $('.overlay-content').addClass('active');
-                }
-                ref.overlayBodyClassManager();
-
-              }
-
-               $('#ajax-content .overlay-toggle').on('click',function(){
-
-                    if($(this).closest('.overlay').hasClass('active'))
-                    {
-                      window.history.back();
-                      ref.overlayStack.pop();
-                      $(this).closest('.overlay').removeClass('active');
-
-                      $('.overlay-content').empty();
-
-                    } else {
-
-                      ref.overlayStack.push( $(this).closest('.overlay') );
-                      $(this).closest('.overlay').addClass('active');
-
-                    }
-                    // console.log( ref.overlayStack );
-                    ref.overlayBodyClassManager();
-
-               });
-
-               $('#ajax-content .button-signup').on('click',function(e){
-                 ref.signupButtonClickHandler(e);
-               });
-
-               ref.initVideoPlayers();
-
-            });
+            ref.rt_ajax(ajaxUrl);
 
         });
     };
+
+    RetuneFestival.prototype.popstateHandler = function(e) {
+
+
+        // console.log(document.location);
+        // ref.rt_ajax(document.location);
+
+    };
+
+
+    RetuneFestival.prototype.rt_ajax = function (ajaxUrl){
+
+      //figure out where to load the content to..
+      if(ref.viewport.screensize == "mobile") {
+        var ajaxTarget = '.overlay-content';
+      } else {
+        var ajaxTarget = '.body-content';
+      }
+
+      $( ajaxTarget ).load( ajaxUrl + " #ajax-content" , function( response, status, xhr ) {
+
+        window.history.pushState(null,null,ajaxUrl);
+        if(ref.viewport.screensize == "mobile") {
+
+          if($(this).closest('.overlay').hasClass('active'))
+          {
+            ref.overlayStack.pop();
+            $('.overlay-content').removeClass('active');
+          } else {
+            ref.overlayStack.push( $(this).closest('.overlay') );
+            $('.overlay-content').addClass('active');
+          }
+          ref.overlayBodyClassManager();
+
+        }
+
+         $('#ajax-content .overlay-toggle').on('click',function(){
+
+              if($(this).closest('.overlay').hasClass('active'))
+              {
+
+                window.history.back();
+                ref.overlayStack.pop();
+
+                $(this).closest('.overlay').removeClass('active');
+
+                $('.overlay-content').empty();
+
+              } else {
+
+                ref.overlayStack.push( $(this).closest('.overlay') );
+                $(this).closest('.overlay').addClass('active');
+
+              }
+              // console.log( ref.overlayStack );
+              ref.overlayBodyClassManager();
+
+         });
+
+         $('#ajax-content .button-signup').on('click',function(e){
+           ref.signupButtonClickHandler(e);
+         });
+
+         ref.initVideoPlayers();
+
+      });
+    };
+
 
 
     RetuneFestival.prototype.initTicketCode = function (){

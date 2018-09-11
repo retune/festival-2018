@@ -4,7 +4,6 @@ type: talk
 featured: true
 
 host: Banz & Bowinkel
-thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Substance_Ausstellungsansicht_03.png
 imagefolder: /img/events/banz_bowinkel/
 
 eventtitle: Painting with AR

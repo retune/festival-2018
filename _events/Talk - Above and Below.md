@@ -6,7 +6,7 @@ featured: true
 host: Above and Below
 
 eventtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Palo_Alto_II.png
+imagefolder: /img/events/above_and_below/
 
 eventdate: 2018-09-27
 eventtime: 13:00 - 14:00

@@ -1,19 +1,9 @@
-
-
-<script src="{{ site.github.url }}/js/vendor/jquery-3.1.1.min.js"></script>
-<script src="{{ site.github.url }}/js/vendor/bootstrap.min.js"></script>
-<script src="{{ site.github.url }}/js/vendor/flickity.pkgd.min.js"></script>
-
-<!-- <script src="{{ site.github.url }}/js/vendor/mapbox-gl.js"></script>
- --><script src="{{ site.github.url }}/js/vendor/js.cookie.min.js"></script>
-<script src="{{ site.github.url }}/js/vendor/plyr.min.js"></script>
-<!-- <script src="{{ site.github.url }}/js/vendor/navigo.min.js"></script>
- -->
-<script src="{{ site.github.url }}/js/mapController.js"></script>
-<script src="{{ site.github.url }}/js/app.js"></script>
-
-<script>
-  $( document ).ready(function() {
-    var app = new RetuneFestival();
-  });
-</script>
+{% unless layout.hideFooter %}
+<footer class="section-footer">
+  <ul class="list-inline">
+    <li class="list-inline-item" ><a href="/legal">Impressum</a></li>
+    <li class="list-inline-item" ><a href="https://retune.de/datenschutz.html">Privacy Policy</a></li>
+    <li class="list-inline-item" ><a href="/coc">Code of Conduct</a></li>
+  </ul>
+</footer>
+{% endunless %}

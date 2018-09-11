@@ -6,19 +6,38 @@
 
   {% include head.html %}
 
-  <body class={{ layout.bodyclass }}>
+  <body class='page-generic'>
+
+    <header class="section-header">
+
+      <div class="page-header">
+
+        <a class="site-title" href="{{ site.github.url }}{{ site.baseurl }}/">
+          {{ site.title }}
+        </a>
+
+        <p class="site-subtitle">
+          <span>September 27-28,</span>
+          <span>Berlin</span>
+        </p>
+
+      </div>
+
+    </header>
 
     <div class="body-content">
-      {{ content }}
+      <div class="container-fluid">
+        {{ content }}
+      </div>
     </div>
 
     {% unless layout.hideMenu %}
       {% include overlay-menu.html %}
     {% endunless %}
 
-    {% include overlay-signup.html %}
-
-    <section class="overlay overlay-content"></section>
+    <div class="container-fluid">
+      {% include footer.html %}
+    </div>
 
     {% include foot-js.html %}
 

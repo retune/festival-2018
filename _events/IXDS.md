@@ -21,7 +21,7 @@ eventstatus: closed
 eventtitorelease: hjq0wop-qne
 eventtitoevent: retune/retune-festival-2018
 
-eventlocation: IDXS Studio
+eventlocation: IXDS Studio
 eventaddress: Paul-Linke Ufer 123, 12345 Berlin
 eventlat: 52.515816
 eventlong: 13.454293

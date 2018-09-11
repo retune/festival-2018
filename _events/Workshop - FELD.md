@@ -6,7 +6,7 @@ featured: true
 host: FELD
 
 eventtitle: Exploring the Future of Human-Machine Relationships long title for linebreak
-thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Substance_Ausstellungsansicht_03.png
+imagefolder: /img/events/feld/
 
 eventdate: 2018-09-28
 eventtime: 15:00 - 20:00

@@ -60,19 +60,24 @@ layout: default
 
 <section class="section-about">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12 ">
-        <p class="section-title section-title__about">Retune Festival<br>September 27—28, 2018</p>
+
+        <p class="section-title section-title__about">About</p>
         <div class="section-body">
           <p>
             The Festival explores the ­speculative futures of our digital society. Cutting edge digital ­artists, –researchers, and engineers working on IoT, –augmented ­reality, –artificial intelligence, –interactive spaces and more will share their inspirational ­insights in talks, ­discussions, workshops and –performances.
           </p>
+
           <p>
             Expect a whole lot of design ­friction, glitched visions and real future shit.
           </p>
+
+          <p class="smaller">
+            The Festival explores the ­speculative futures of our digital society. Cutting edge digital ­artists, –researchers, and engineers working on IoT, –augmented ­reality, –artificial intelligence, –interactive spaces and more will share their inspirational ­insights in talks, ­discussions, workshops and –performances.
+          </p>
+
         </div>
-      </div>
-    </div>
+
+
   </div>
 </section>
 
@@ -136,24 +141,9 @@ layout: default
   </div>
 </section>
 
-{% unless layout.hideFooter %}
-<footer class="section-footer">
-  <div class="container-fluid" >
-    <div class="row">
-
-      <div class="col-sm-12">
-        <ul class="list-inline">
-          <li class="list-inline-item" ><a href="https://retune.de/impressum.html">Impressum</a></li>
-          <li class="list-inline-item" ><a href="https://retune.de/datenschutz.html">Privacy Policy</a></li>
-          <li class="list-inline-item" ><a href="">Code of Conduct</a></li>
-        </ul>
-
-      </div>
-
-    </div>
-  </div> <!-- /container -->
-</footer>
-{% endunless %}
+<div class="container-fluid event-page-content-section">
+  {% include footer.html %}
+</div>
 
 
 

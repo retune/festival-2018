@@ -1,9 +1,9 @@
 ---
 layout: default
-hideFooter: true
 hideMenu: false
 bodyclass: event-single
 ---
+
 
 <div id="ajax-content" class="page-event">
 
@@ -43,76 +43,63 @@ bodyclass: event-single
 
     <article class="event-page-body">
 
-      {% picture {{ page.thumb }} class="event-featured-image" %}
+      {% if page.imagefolder %}
+      {% assign images = "" | split: ',' %}
+        {% for image in site.static_files %}
+           {% if image.path contains page.imagefolder %}
+              {% assign images = images | push: image %}
+           {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% for img in images %}
+        {% if forloop.first %}
+          {% picture {{ img.path }} class="event-featured-image" %}
+        {% endif %}
+      {% endfor %}
 
       {% if page.type == "workshop" %}
       <div class="container-fluid event-page-meta-section">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="event-page-meta">
 
-              Address: {{ page.eventlocation }} <br>
-              {{ page.eventaddress }}
-
+            {% if page.eventstatus == 'signup' and page.eventtitorelease  %}
+            <div class="event-page-signup-button">
+              <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">Sign up!</button>
             </div>
-          </div>
-        </div>
+            {% endif %}
+
+            <div class="event-page-meta">
+              {{ page.eventlocation }}<br>
+              {{ page.eventaddress }}
+            </div>
+
       </div>
       {% endif %}
 
       {% if page.intro %}
       <div class="container-fluid event-page-content-section">
-        <div class="row">
-          <div class="col-sm-12">
+
             <div class="event-page-intro">
 
                 {{ page.intro }}
 
             </div>
-          </div>
-        </div>
+
       </div>
       {% endif %}
 
       {% unless page.content == blank %}
       <div class="container-fluid event-page-content-section">
-        <div class="row">
-          <div class="col-sm-12">
+
             <div class="event-page-content">
-
               {{ page.content }}
-
             </div>
-          </div>
-        </div>
+
       </div>
       {% endunless %}
 
+      <div class="container-fluid event-page-content-section event-page-content-section__outro">
 
-      {% if page.imagefolder %}
-      <div class="event-page-images">
-         {% for image in site.static_files %}
-           {% if image.path contains page.imagefolder %}
-              {% picture {{ image.path }} class="event-page-image" %}
-           {% endif %}
-        {% endfor %}
-      </div>
-      {% endif %}
-
-      {% for video in page.videos %}
-        <div class="event-page-video">
-          <div class="plyr" data-plyr-provider="{{ video.provider }}" data-plyr-embed-id="{{ video.url }}" ">
-
-          </div>
-        </div>
-      {% endfor %}
-
-      {% if page.outro or page.links %}
-      <div class="container-fluid event-page-content-section">
-        <div class="row">
-          <div class="col-sm-12">
             <div class="event-page-outro">
-
               {% if page.links %}
                 <div class="event-page-links">
                   {% for link in page.links %}
@@ -122,20 +109,47 @@ bodyclass: event-single
               {% endif %}
 
               {{ page.outro | markdownify }}
+            </div>
+
+            <div class="event-page-media">
+
+              {% if page.imagefolder %}
+              {% assign images = "" | split: ',' %}
+              {% for image in site.static_files %}
+                 {% if image.path contains page.imagefolder %}
+                    {% assign images = images | push: image %}
+                 {% endif %}
+              {% endfor %}
+              {% endif %}
+
+
+              {% if images %}
+
+              <div class="event-page-images">
+                 {% for img in images %}
+                      {% unless forloop.first %}
+                        {% picture {{ img.path }} class="event-page-image" %}
+                      {% endunless %}
+                    {% endfor %}
+              </div>
+              {% endif %}
+
+              {% for video in page.videos %}
+                <div class="event-page-video">
+                  <div class="plyr" data-plyr-provider="{{ video.provider }}" data-plyr-embed-id="{{ video.url }}" ">
+                  </div>
+                </div>
+              {% endfor %}
 
             </div>
-          </div>
-        </div>
+
       </div>
-      {% endif %}
 
     </article>
 
-    {% if page.eventstatus == 'signup' and page.eventtitorelease  %}
-      <div class="event-page-signup-button">
-        <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">Book your participation</button>
-        </div>
-    {% endif %}
+    <div class="container-fluid event-page-content-section">
+      {% include footer.html %}
+    </div>
 
 </div>
 

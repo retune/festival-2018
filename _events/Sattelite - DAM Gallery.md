@@ -6,7 +6,7 @@ featured: true
 host: DAM Gallery
 
 eventtitle: Manfred Mohr re-coded
-thumb: /img/events/banz_bowinkel/th_banz_bowinkel_Substance_Ausstellungsansicht_03.png
+imagefolder: /img/events/dam/
 
 eventdate: 2018-09-28
 eventtime: 10:00 - 13:00

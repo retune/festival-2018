@@ -2,10 +2,17 @@ body {
   max-width: calc(100% - #{$max-menu-width})
 }
 
+.container-fluid {
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
+
+}
+
 .page-header {
 
-  // position: fixed;
-  width: 100%;
+  position: fixed;
+  top: 0;
+  width: calc(100% - #{$max-menu-width});
   z-index: 7000;
   background-color: $black;
   min-height: $spacing-overlaybar;
@@ -30,6 +37,104 @@ body {
 
 }
 
+.body-content {
+  margin-top: $spacing-overlaybar;
+}
+
+.page-generic {
+  .body-content {
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+  }
+}
+
+/*============================
+=         HEAD / HERO        =
+============================*/
+
+.section-header {
+
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.png');
+  background-repeat: no-repeat;
+
+  .hero-carousel {
+   /* min-height: $hero-min-height;*/
+  }
+
+  .carousel-cell {
+    padding-left: 1 * $spacing-unit;
+    padding-right: 1 * $spacing-unit;
+
+    /* min-height: $hero-min-height;*/
+    /* padding-top: $spacing-overlaybar;*/
+    /* padding-bottom: $spacing-overlaybar;*/
+
+  }
+
+  /* first frame*/
+  .retune,
+  .festival,
+  .art,
+  .technology,
+  .design,
+  .talks,
+  .installations {
+    font-size: 1.5 * $big-font-size;
+  }
+
+  .retune {
+
+  }
+
+  .festival {
+
+  }
+
+  .for-art,
+  .and-design {
+
+  }
+
+  .technology {
+
+  }
+
+  .subs {
+    font-size: 1.5 * $tiny-font-size;
+
+  }
+
+  .and-design .and {
+
+  }
+
+  /* second frame*/
+ .intro {
+    font-size: 1.5 * $med-font-size;
+
+ }
+
+ .intro-1 {
+ }
+
+ .intro-2 {
+
+ }
+
+ /* third frame*/
+ .talks {
+ }
+
+  .installations {
+
+  }
+
+  .satellites {
+
+  }
+
+}
+/*=====  End of HEAD  ======*/
 /*===============================
 =            SECTION            =
 ===============================*/
@@ -53,6 +158,27 @@ body {
 
 
 /*=====  End of HEAD  ======*/
+
+
+/*===============================
+=            ABOUT              =
+===============================*/
+
+.section-about {
+
+  .section-body {
+    font-size: 1.5 * $med-font-size;
+
+    .smaller {
+      font-size: $med-font-size;
+    }
+  }
+
+
+
+}
+
+
 
 
 /*===============================
@@ -128,6 +254,9 @@ body {
     line-height: inherit;
 
     li {
+
+      font-size: $tiny-font-size;
+
       &:after {
         content: $content-middot;
         margin-left: 10px;
@@ -220,9 +349,9 @@ body {
   }
 
   .overlay-head__event {
-    position: fixed;
-    top: 0;
+
     width: calc(100% - #{$max-menu-width});
+
     padding-left: 2rem;
 
     background: $black;
@@ -287,20 +416,27 @@ body {
 
   .event-host {
 
-    transform: rotate(-90deg);
-    transform-origin: 0 0;
+    -webkit-transform: rotate(-90deg) translateX(-50%);
+
+            transform: rotate(-90deg) translateX(-50%);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
 
     left: 0;
     right: auto;
   }
 
+  .event-page-meta {
+  }
+
   .event-page-body {
-    margin-top: $spacing-overlaybar;
+    padding-top: 0;
+
   }
 
   .container-fluid {
     padding: 0;
-    width: calc(100% - #{$spacing-overlaybar} - 2 * #{$spacing-unit});
+    width: calc(100% - #{$spacing-overlaybar} - 2.5 * #{$spacing-unit});
     margin-left: $spacing-overlaybar + $spacing-unit ;
   }
 
@@ -311,16 +447,25 @@ body {
     }
   }
 
+  .event-page-content-section__outro {
+    display: flex;
+  }
+
   .event-page-outro {
+    max-width: 50%;
+    padding-right: $spacing-unit;
+  }
+
+  .event-page-media {
     max-width: 50%;
   }
 
   .event-page-signup-button {
-    width: calc(100% - #{$max-menu-width})
   }
 
 
 }
+
 
 
 /*=====  End of EVENT PAGE  ======*/

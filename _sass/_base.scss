@@ -185,15 +185,16 @@ button {
 
   position: relative;
 
-  background-image: url('../img/backgrounds/Retune_BG_Visual_Serie_9.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.png');
   background-repeat: no-repeat;
-  background-position: 70% 70%;
+  background-position: 50%;
+  background-size: cover;
 
   text-align: center;
   color: white;
 
   .page-header {
-    // bootstrap resets
+    /* bootstrap resets*/
     padding-bottom: 0;
     margin: 0;
     border-bottom: none;
@@ -234,7 +235,6 @@ button {
   }
 
 
-
   /* first frame*/
   .retune,
   .festival,
@@ -248,21 +248,25 @@ button {
 
   .retune {
     @include underline($white);
-    align-self: flex-start;
+    align-self: flex-end;
   }
 
   .festival {
     @include underline($white);
-    align-self: flex-end;
-  }
-
-  .for-art,
-  .and-design {
     align-self: flex-start;
   }
 
-  .technology {
+  .for-art {
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+
+  .and-design {
     align-self: flex-end;
+  }
+
+  .technology {
+    align-self: flex-start;
   }
 
   .subs {
@@ -311,6 +315,46 @@ button {
   }
 
 }
+
+.section-header.section-header__bg1 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.png');
+}
+.section-header.section-header__bg2 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 2.png');
+}
+.section-header.section-header__bg3 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 3.png');
+}
+.section-header.section-header__bg4 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 4.png');
+}
+.section-header.section-header__bg5 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 5.png');
+}
+.section-header.section-header__bg6 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 6.png');
+}
+.section-header.section-header__bg7 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 7.png');
+}
+.section-header.section-header__bg8 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 8.png');
+}
+.section-header.section-header__bg9 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.png');
+}
+.section-header.section-header__bg10 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 10.png');
+}
+.section-header.section-header__bg11 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy.png');
+}
+.section-header.section-header__bg12 {
+  background-image: url('../img/backgrounds/RTN_18_BG_1.png');
+}
+
+
+
 /*=====  End of HEAD  ======*/
 
 /*============================
@@ -354,6 +398,10 @@ button {
 
     .carousel-cell {
       width: 70%;
+
+      margin-left: 5px;
+      margin-right: 5px;
+
     }
 
     .carousel-image {
@@ -375,7 +423,7 @@ button {
     margin-bottom: 0.5rem;
 
     a {
-      //@include underline(transparent);
+      @include underline(transparent);
       display: inline-block;
     }
   }
@@ -404,8 +452,10 @@ button {
   background-size: cover;
   background-position: 0% 0%;
 
+  padding-bottom: 2 * $spacing-unit;
+
   .section-title {
-    font-family: $ff-sans;
+    font-family: $ff-century;
   }
 
   .section-body {
@@ -600,12 +650,12 @@ body.overlay-active {
   opacity: 1;
 
   &.active {
-    // overflow: hidden;
+    /* overflow: hidden;*/
   }
 
   .tab-content {
-    // overflow-y: scroll;
-    // max-height: 100vh;
+    /* overflow-y: scroll;*/
+    /* max-height: 100vh;*/
   }
 }
 
@@ -629,7 +679,7 @@ body.overlay-active {
   min-height: $spacing-overlaybar;
 
   background-color: $primary-color;
-  font-size: $small-font-size; // 18px;
+  font-size: $small-font-size; /* 18px;*/
   font-family: $ff-century;
 
   padding-left: 1rem;
@@ -647,13 +697,20 @@ body.overlay-active {
 }
 
 .overlay-head__event {
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
   background-color: $third-color;
   line-height: 1;
-  position: relative;
+
+
   .sub {
     font-family: $ff-sans;
     font-size: $tiny-font-size;
   }
+
 }
 
 
@@ -707,7 +764,8 @@ body.overlay-active {
         padding: $spacing-unit;
 
         &.next {
-          transform: scaleX(-1);
+          -webkit-transform: scaleX(-1);
+                  transform: scaleX(-1);
         }
       }
 
@@ -892,7 +950,7 @@ body.overlay-active {
     color: $black;
   }
 
-  margin-bottom: $tiny-font-size;
+  margin-bottom: 0.2rem;
 
 }
 
@@ -918,10 +976,10 @@ body.overlay-active {
 
   .title {
 
-    font-size: 13px;
+    font-size: $small-font-size;
 
     margin-left: 1.5rem;
-    // min-height: 2rem;
+    /* min-height: 2rem;*/
     display: inline-block;
     position: relative;
 
@@ -944,9 +1002,9 @@ body.overlay-active {
 }
 
 /* event map*/
-// .event-map {
-//   height: 70vh;
-// }
+/* .event-map {*/
+/*   height: 70vh;*/
+/* }*/
 
 .event-map-marker {
   background:red;
@@ -1005,8 +1063,10 @@ body.overlay-active {
     line-height: $spacing-overlaybar;
 
     margin-bottom: 0;
-    transform: rotate(-90deg) translate(50%, -100%);
-    transform-origin: 100% 0;
+    -webkit-transform: rotate(-90deg) translate(50%, -100%);
+            transform: rotate(-90deg) translate(50%, -100%);
+    -webkit-transform-origin: 100% 0;
+            transform-origin: 100% 0;
     font-family: $ff-century;
     font-size: $med-font-size;
     font-weight: 400;
@@ -1021,10 +1081,33 @@ body.overlay-active {
 
   }
 
+  .event-page-body {
+    padding-top: $spacing-overlaybar;
+  }
+
+
   .event-page-meta-section {
+
     margin-top: $spacing-unit;
     margin-bottom:  $spacing-unit;
+
+    display: flex;
+
+
   }
+
+  .event-page-signup-button {
+    margin-right: $spacing-unit;
+  }
+
+  .btn.button-signup {
+    background-color: $primary-color;
+    padding: 0.5rem 1rem;
+    &:hover, &:active, &:focus {
+      color: $black;
+    }
+  }
+
 
   .event-page-content-section {
     margin-top: $spacing-unit;
@@ -1045,7 +1128,8 @@ body.overlay-active {
 
     &:before {
       content:"";
-      transform: translateY(-0.5 * $spacing-unit);
+      -webkit-transform: translateY(-0.5 * $spacing-unit);
+              transform: translateY(-0.5 * $spacing-unit);
       border-top: $line-width solid $black;
       display: block;
       width: 100%;
@@ -1062,7 +1146,8 @@ body.overlay-active {
 
     &:before {
       content:"";
-      transform: translateY(-0.5 * $spacing-unit);
+      -webkit-transform: translateY(-0.5 * $spacing-unit);
+              transform: translateY(-0.5 * $spacing-unit);
       border-top: $line-width solid $black;
       display: block;
       width: 100%;
@@ -1111,34 +1196,13 @@ body.overlay-active {
     &:before, &:after {
       content:"";
       border-top: $line-width solid $black;
-      margin-top: -5px;
+      margin-bottom: 5px;
 
-      display: inline-block;
+      display: block;
       width: 100%;
     }
   }
 
-}
-
-.event-page-signup-button {
-
-  z-index: 5000;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: $third-color;
-  min-height: $spacing-overlaybar;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn.button-signup {
-  background-color: RGBA(0,0,0,0.7);
-  color: $white;
-  padding: 0.7rem 2rem;
-  max-width: 75%;
 }
 
 

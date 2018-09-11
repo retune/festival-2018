@@ -2,7 +2,21 @@
   <div class="event-carousel">
     {% for event in events %}
       <div class="carousel-cell">
-          {% picture carousel-size {{ event.thumb }} class="carousel-image" %}
+
+        {% if event.imagefolder %}
+        {% assign images = "" | split: ',' %}
+          {% for image in site.static_files %}
+             {% if image.path contains event.imagefolder %}
+                {% assign images = images | push: image %}
+             {% endif %}
+          {% endfor %}
+        {% endif %}
+
+        {% for img in images %}
+          {% if forloop.first %}
+          {% picture carousel-size {{ img.path }} class="carousel-image" %}
+          {% endif %}
+        {% endfor %}
       </div>
     {% endfor %}
   </div>
