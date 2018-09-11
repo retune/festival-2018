@@ -181,6 +181,8 @@
 
             $( ajaxTarget ).load( ajaxUrl + " #ajax-content" , function( response, status, xhr ) {
 
+              window.history.pushState(null,null,ajaxUrl);
+              console.log(ajaxUrl);
               if(ref.viewport.screensize == "mobile") {
 
                 if($(this).closest('.overlay').hasClass('active'))
@@ -199,7 +201,7 @@
 
                     if($(this).closest('.overlay').hasClass('active'))
                     {
-
+                      window.history.back();
                       ref.overlayStack.pop();
                       $(this).closest('.overlay').removeClass('active');
 
