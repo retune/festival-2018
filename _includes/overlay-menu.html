@@ -4,13 +4,13 @@
 
   <div class="program-body">
 
-   <ul class="list-unstyled list-inline nav-days" role="tablist">
+   <!-- <ul class="list-unstyled list-inline nav-days" role="tablist">
      <li class="" ><a href="#prev" class="text-hide prev"> Prev </a>
      </li>
      <li>
        <a href="#next" class="text-hide next"> Next </a>
      </li>
-   </ul>
+   </ul> -->
 
     <div class="overlay-program-day active overlay-program-day__1">
       <div class="container-fluid">
@@ -23,10 +23,10 @@
           </span>
 
           <ul class="list-unstyled list-inline nav-tab" role="tablist">
-            <li class="active"><a data-toggle="tab" href="#mainstage" role="tab">Main Stage</a>
+            <li class="active"><a data-toggle="tab" href="#mainstage" role="tab">Day 1, Sep 27th</a>
             </li>
             <li>
-              <a class="" data-toggle="tab" href="#discussionarea" role="tab">Discussion Area</a>
+              <a class="" data-toggle="tab" href="#discussionarea" role="tab">Day 2, Sep 28th</a>
             </li>
           </ul>
         </div>
@@ -36,7 +36,7 @@
           <div class="tab-pane active" id="mainstage" role="tabpanel">
             <div class="container-fluid">
 
-            {% assign events = site.events | where:"type","talk" | sort_natural: 'eventtime' %}
+            {% assign events = site.events | where:"eventdate","2018-09-27" | sort_natural: 'eventtime' %}
             {% include event-list.html %}
             </div>
           </div>
@@ -44,8 +44,10 @@
           <div class="tab-pane " id="discussionarea" role="tabpanel">
             <div class="container-fluid">
 
-            {% assign events = site.events | where:"type","panel" | sort_natural: 'eventtime' %}
+            {% assign events = site.events | where:"eventdate","2018-09-28" | sort_natural: 'eventtime' %}
             {% include event-list.html %}
+            <!-- {% assign events = site.events | where:"type","panel" | sort_natural: 'eventtime' %}
+            {% include event-list.html %} -->
             </div>
           </div>
 
@@ -75,7 +77,7 @@
         <div class="container-fluid">
 
           <div class="tab-pane active event-list-satellites" id="sattelitesList" role="tabpanel">
-            {% assign events = site.events | where:"type","workshop" | sort_natural: 'eventtime' %}
+            {% assign events = site.events | where:"eventdate","2018-09-28" | sort_natural: 'eventtime' %}
             {% include event-list.html %}
           </div>
 

@@ -7,7 +7,7 @@ bodyclass: event-single
 
 <div id="ajax-content" class="page-event">
 
-  {% if page.type == "workshop" %}
+  {% if page.eventdate == "2018-09-28" %}
     {% capture subsub %}
       <span class="time">{{ page.eventtime }}, {{ page.eventdate | date: "%d. %B" }}</span> <br> <span class="capacity">Capacity: {{ page.eventcapacity }}</span>
     {% endcapture %}
@@ -58,7 +58,7 @@ bodyclass: event-single
         {% endif %}
       {% endfor %}
 
-      {% if page.type == "workshop" %}
+      {% if page.eventdate == "2018-09-28" %}
       <div class="container-fluid event-page-meta-section">
 
             {% if page.eventstatus == 'signup' and page.eventtitorelease  %}
@@ -152,5 +152,3 @@ bodyclass: event-single
     </div>
 
 </div>
-
-
