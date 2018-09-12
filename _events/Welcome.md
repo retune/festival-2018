@@ -3,12 +3,12 @@ layout: event
 type: opening
 featured: true
 
-host: Retune 
+host: Retune
 imagefolder: /img/events/banz_bowinkel/
 
 eventtitle: Welcome
 eventdate: 2018-09-27
-eventtime: 9:45 - 10:00
+eventtime: 09:45 - 10:00
 
 eventtitorelease: hjq0wop-qne
 eventtitoevent: retune/retune-festival-2018
@@ -22,17 +22,17 @@ eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
-  - name: 
-    url: 
+  - name:
+    url:
 
-intro: 
+intro:
 
-outro: 
+outro:
 
 ---
