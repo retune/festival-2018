@@ -1,40 +1,41 @@
 ---
 layout: event
-type: talk
+type: installation & performance
 featured: true
 
-host: Banz & Bowinkel
+host: KLING KLANG KLONG
 imagefolder: /img/events/banz_bowinkel/
 
-eventtitle: Painting Analytics / The development of digital painting and AR
+eventtitle: GORILLAS 
 eventdate: 2018-09-27
-eventtime: 10:00 - 10:30
+eventtime: 12:00 - 21:00
+
 eventtitorelease: hjq0wop-qne
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
-evnetcapacity: 5
+eventcapacity: 5
 
-eventlocation: Silent Green - Main Stage
+eventlocation: Silent Green - Garden
 eventaddress: Gerichtstraße 35, 13347 Berlin
 eventlat: 54
 eventlong: 14
 
 
 videos:
-  - provider: vimeo
-    url: https://vimeo.com/132085365
-  - provider: youtube
-    url: https://www.youtube.com/watch?v=fCGtpRdydic
+  - provider: 
+    url: 
+  - provider: 
+    url: 
 
 links:
-  - name: banzbowinkel.de
-    url: https://www.banzbowinkel.de/
+  - name: klingklangklong.com
+    url: http://www.klingklangklong.com/
 
-intro: Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
+intro: GORILLAS turns Silent Green’s courtyard, the entrance to the old crematory, into a living ecosystem of sound objects. Together, the objects create an evolving soundscape where light, fog and sound come together as a narrative environment. The audience can interact with the objects, close/mute or move them in space. 
 
-outro: Giulia Bowinkel and Friedemann Banz form the artist duo Banz & Bowinkel. In their work, Banz & Bowinkel deal with the computer as an everyday medium and its influence on our society. The focus here is on the perception of the world, which humans understand as reality and which can now be simulated with the help of computers.
+Don't miss out when the clock strikes 20:15 as the installation will then move into an elevated interactive performance once the sun goes down and the atmosphere of the space transforms. 
 
-The award-winning works by Banz & Bowinkel have been exhibited in numerous exhibitions in Germany and abroad, including the NRW Forum Düsseldorf, the Haus der elektronischen Künste in Basel and the Museum Abteiberg in Mönchengladbach.
+outro: KLING KLANG KLONG is a creative studio for sound, music and acoustic narratives based in Berlin. Our work stands in the intersection between art, science and communication. As a result, our projects create new pioneering approaches to communicate with audiences through exhibition spaces, motion pictures, interactive installations, performances and public spaces.
 
 ---
 

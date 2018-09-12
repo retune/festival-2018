@@ -1,40 +1,39 @@
 ---
 layout: event
-type: talk
+type: poetic lecture
 featured: true
 
-host: Banz & Bowinkel
+host: Petja Ivanova
 imagefolder: /img/events/banz_bowinkel/
 
-eventtitle: Painting Analytics / The development of digital painting and AR
+eventtitle: A New Materialist Cyborg - thoughts on post-technological becomings 
 eventdate: 2018-09-27
-eventtime: 10:00 - 10:30
+eventtime: 17:00 - 17:30
+
 eventtitorelease: hjq0wop-qne
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
-evnetcapacity: 5
+eventcapacity: 5
 
-eventlocation: Silent Green - Main Stage
+eventlocation: Silent Green - Discussion Area
 eventaddress: Gerichtstraße 35, 13347 Berlin
 eventlat: 54
 eventlong: 14
 
 
 videos:
-  - provider: vimeo
-    url: https://vimeo.com/132085365
-  - provider: youtube
-    url: https://www.youtube.com/watch?v=fCGtpRdydic
+  - provider: 
+    url: 
+  - provider: 
+    url: 
 
 links:
-  - name: banzbowinkel.de
-    url: https://www.banzbowinkel.de/
+  - name: poeticfutures.net
+    url: https://www.poeticfutures.net/
 
-intro: Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
+intro: Inspirational talk about Styroworm - the one who transverses the boundaries between the artificial and the natural. What we can learn from its actions to rethinking the Cyborg and our existences as assemblages and assemblage-converters.  
 
-outro: Giulia Bowinkel and Friedemann Banz form the artist duo Banz & Bowinkel. In their work, Banz & Bowinkel deal with the computer as an everyday medium and its influence on our society. The focus here is on the perception of the world, which humans understand as reality and which can now be simulated with the help of computers.
-
-The award-winning works by Banz & Bowinkel have been exhibited in numerous exhibitions in Germany and abroad, including the NRW Forum Düsseldorf, the Haus der elektronischen Künste in Basel and the Museum Abteiberg in Mönchengladbach.
+outro: Petja Ivanova founded "Studio for Poetic Futures" in Berlin out of frustration with the domination of the scientific method in the field of (computational) art. She works with electronics and organisms to explain which forms poetry can take in media art and art with complex systems. 
 
 ---
 

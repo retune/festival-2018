@@ -6,16 +6,16 @@ featured: true
 host: Banz & Bowinkel
 imagefolder: /img/events/banz_bowinkel/
 
-eventtitle: Painting Analytics / The development of digital painting and AR
+eventtitle: Painting with AR
 eventdate: 2018-09-27
-eventtime: 10:00 - 10:30
+eventtime: 14:00 - 15:00
 eventtitorelease: hjq0wop-qne
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 evnetcapacity: 5
 
-eventlocation: Silent Green - Main Stage
-eventaddress: Gerichtstraße 35, 13347 Berlin
+eventlocation: STATE Studio
+eventaddress: Hauptstraße 3, 10827 Berlin
 eventlat: 54
 eventlong: 14
 
@@ -32,9 +32,9 @@ links:
 
 intro: Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
 
-outro: Giulia Bowinkel and Friedemann Banz form the artist duo Banz & Bowinkel. In their work, Banz & Bowinkel deal with the computer as an everyday medium and its influence on our society. The focus here is on the perception of the world, which humans understand as reality and which can now be simulated with the help of computers.
+outro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quos commodi consequuntur eos, fugiat maiores deleniti laudantium similique, consequatur, vero porro officia pariatur provident. Neque debitis minima ipsum tenetur mollitia.
 
-The award-winning works by Banz & Bowinkel have been exhibited in numerous exhibitions in Germany and abroad, including the NRW Forum Düsseldorf, the Haus der elektronischen Künste in Basel and the Museum Abteiberg in Mönchengladbach.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quos commodi consequuntur eos, fugiat maiores deleniti laudantium similique, consequatur, vero porro officia pariatur provident. Neque debitis minima ipsum tenetur mollitia.
 
 ---
 
