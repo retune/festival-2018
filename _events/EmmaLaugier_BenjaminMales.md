@@ -31,20 +31,16 @@ links:
   - name: laugiermales.com
     url: https://www.laugiermales.com/
 
-intro: The talk will focus on interesting technologies on the horizon and the ways they might impact our worlds, like his dresses that ended up on world-famous music artists. At the same time, it will cover how creating "Skunkworks" type teams helps to create amazing things. 
+intro: |
+  The talk will focus on interesting technologies on the horizon and the ways they might impact our worlds, like his dresses that ended up on world-famous music artists. At the same time, it will cover how creating "Skunkworks" type teams helps to create amazing things. 
 
-outro: Benjamin Males is a Creative, Technologist and Entrepreneur who bridges the gap between Science and Art.
+outro: |
+  Benjamin Males is a Creative, Technologist and Entrepreneur who bridges the gap between Science and Art.
 
-Both a Designer and Engineer by training, Benjamin upholds the principles of cross-disciplinarity and “Skunkworks” to push the boundary of where design and technology meet. Benjamin believes that technology is a ubiquitous resource that can be applied to places and spaces to create extraordinary and unexpected outcomes.
+  Both a Designer and Engineer by training, Benjamin upholds the principles of cross-disciplinarity and “Skunkworks” to push the boundary of where design and technology meet. Benjamin believes that technology is a ubiquitous resource that can be applied to places and spaces to create extraordinary and unexpected outcomes.
 
-In 2011 Benjamin co-founded Studio XO, a creative agency which conceived some of the most high-profile wearable technologies for artists and brands including Haus of Gaga, Arcade Fire, Black Eyed Peas, Pepsi, Disney, Intel and more. Arguably their most famous work was Lady Gaga’s flying dress Volantis, built from titanium and carbon fibre that flew Lady Gaga into her Artpop launch party in 2013.
+  In 2011 Benjamin co-founded Studio XO, a creative agency which conceived some of the most high-profile wearable technologies for artists and brands including Haus of Gaga, Arcade Fire, Black Eyed Peas, Pepsi, Disney, Intel and more. Arguably their most famous work was Lady Gaga’s flying dress Volantis, built from titanium and carbon fibre that flew Lady Gaga into her Artpop launch party in 2013.
 
-Benjamin consults across the design, technology and entertainment industries on bleeding edge technology.
+  Benjamin consults across the design, technology and entertainment industries on bleeding edge technology.
 
 ---
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.

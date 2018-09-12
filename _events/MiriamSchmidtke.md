@@ -22,24 +22,20 @@ eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
   - name: miriamschmidtke.de
     url: http://miriamschmidtke.de/
 
-intro: The theatrical space used to be an elitist set-up driven by a certain canon. The subversive political potential of art and theatre may increase through technology. How can digitalization of theatre democratize the art form itself? What alternative theatrical spaces result from digitalization and how did performance manage to turn the status quo of our post fordist society it often criticized into something productive?
+intro: |
+  The theatrical space used to be an elitist set-up driven by a certain canon. The subversive political potential of art and theatre may increase through technology. How can digitalization of theatre democratize the art form itself? What alternative theatrical spaces result from digitalization and how did performance manage to turn the status quo of our post fordist society it often criticized into something productive?
 
-outro: Miriam Schmidtke (1991), is a media artist and director, working at the intersection of installation, sculpture, video and performance. She studied Exhibition Design, Sculpture and Stage Design in Berlin and Tokyo. 
-Her practice derives from built spaces and from highly choreographed filmic components. In her work she continually emphasizes and contextualizes aspects of loop and labour in durational performances. Therefore, one recurring key element of her projects are synchronized movements and synchronized video-channels. Until the beginning of 2018 she was the study coordinator at Technical University’s M.A. program „Bühnenbild_Szenischer Raum“. She now lives and works as an artist and researcher in Berlin.
+outro: |
+  Miriam Schmidtke (1991), is a media artist and director, working at the intersection of installation, sculpture, video and performance. She studied Exhibition Design, Sculpture and Stage Design in Berlin and Tokyo.
+  Her practice derives from built spaces and from highly choreographed filmic components. In her work she continually emphasizes and contextualizes aspects of loop and labour in durational performances. Therefore, one recurring key element of her projects are synchronized movements and synchronized video-channels. Until the beginning of 2018 she was the study coordinator at Technical University’s M.A. program „Bühnenbild_Szenischer Raum“. She now lives and works as an artist and researcher in Berlin.
 
 ---
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.

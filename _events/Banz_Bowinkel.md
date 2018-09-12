@@ -32,14 +32,9 @@ links:
 
 intro: Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
 
-outro: Giulia Bowinkel and Friedemann Banz form the artist duo Banz & Bowinkel. In their work, Banz & Bowinkel deal with the computer as an everyday medium and its influence on our society. The focus here is on the perception of the world, which humans understand as reality and which can now be simulated with the help of computers.
+outro: |
+  Giulia Bowinkel and Friedemann Banz form the artist duo Banz & Bowinkel. In their work, Banz & Bowinkel deal with the computer as an everyday medium and its influence on our society. The focus here is on the perception of the world, which humans understand as reality and which can now be simulated with the help of computers.
 
-The award-winning works by Banz & Bowinkel have been exhibited in numerous exhibitions in Germany and abroad, including the NRW Forum Düsseldorf, the Haus der elektronischen Künste in Basel and the Museum Abteiberg in Mönchengladbach.
+  The award-winning works by Banz & Bowinkel have been exhibited in numerous exhibitions in Germany and abroad, including the NRW Forum Düsseldorf, the Haus der elektronischen Künste in Basel and the Museum Abteiberg in Mönchengladbach.
 
 ---
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.

@@ -31,14 +31,11 @@ links:
   - name: emmajbaker.com
     url: http://www.emmajbaker.com/
 
-intro: As designers, we are intimately familiar with a set of ideologies, legends, and rituals related to our work. As artists, we're very in tune with our ability to channel our intuition into creative output. To the layperson, the creative process can seem opaque and mysterious, even arcane. We’ll examine the tension between creative intuition and rational processes, and discuss the case for irrational, intuitive leaps in design.
+intro: |
+  As designers, we are intimately familiar with a set of ideologies, legends, and rituals related to our work. As artists, we're very in tune with our ability to channel our intuition into creative output. To the layperson, the creative process can seem opaque and mysterious, even arcane. We’ll examine the tension between creative intuition and rational processes, and discuss the case for irrational, intuitive leaps in design.
 
-outro: Emma Baker is a designer and artist based in Boston. In her work as a Communication Designer at IDEO, she uses the tools of human-centered design to envision hopeful futures. Her artistic practice combines traditional media with immersive environments and performance. 
+outro: |
+  Emma Baker is a designer and artist based in Boston. In her work as a Communication Designer at IDEO, she uses the tools of human-centered design to envision hopeful futures. Her artistic practice combines traditional media with immersive environments and performance. 
 
 ---
 
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.

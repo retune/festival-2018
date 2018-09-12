@@ -1,12 +1,12 @@
 ---
 layout: event
-type: poetic lecture
+type: panel
 featured: true
 
 host: Petja Ivanova
 imagefolder: /img/events/banz_bowinkel/
 
-eventtitle: A New Materialist Cyborg - thoughts on post-technological becomings 
+eventtitle: A New Materialist Cyborg - thoughts on post-technological becomings
 eventdate: 2018-09-27
 eventtime: 17:00 - 17:30
 
@@ -22,23 +22,19 @@ eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
   - name: poeticfutures.net
     url: https://www.poeticfutures.net/
 
-intro: Inspirational talk about Styroworm - the one who transverses the boundaries between the artificial and the natural. What we can learn from its actions to rethinking the Cyborg and our existences as assemblages and assemblage-converters.  
+intro: |
+  Inspirational talk about Styroworm - the one who transverses the boundaries between the artificial and the natural. What we can learn from its actions to rethinking the Cyborg and our existences as assemblages and assemblage-converters.  
 
-outro: Petja Ivanova founded "Studio for Poetic Futures" in Berlin out of frustration with the domination of the scientific method in the field of (computational) art. She works with electronics and organisms to explain which forms poetry can take in media art and art with complex systems. 
+outro: |
+  Petja Ivanova founded "Studio for Poetic Futures" in Berlin out of frustration with the domination of the scientific method in the field of (computational) art. She works with electronics and organisms to explain which forms poetry can take in media art and art with complex systems.
 
 ---
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.

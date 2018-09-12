@@ -22,23 +22,19 @@ eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
   - name: linawassong.com
     url: http://www.linawassong.com/
 
-intro: The talk will focus on the intersection of technology and design to introduce you to physical computing and digital fabrication techniques for fashion design.
+intro: |
+  The talk will focus on the intersection of technology and design to introduce you to physical computing and digital fabrication techniques for fashion design.
 
-outro: Berlin-based engineer Lina Wassong is a pioneer in integrating digital fabrication and electronics into fashion. She has designed pieces using 3D printing, laser cutting, and physical computing. Through her work, she wants to make technology more emotional and aesthetic. Besides running her design studio, Wassong lectures at the University of Applied Sciences Potsdam and published three books about electronics and programming.  
+outro: |
+  Berlin-based engineer Lina Wassong is a pioneer in integrating digital fabrication and electronics into fashion. She has designed pieces using 3D printing, laser cutting, and physical computing. Through her work, she wants to make technology more emotional and aesthetic. Besides running her design studio, Wassong lectures at the University of Applied Sciences Potsdam and published three books about electronics and programming.  
 
 ---
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
-
-Using selected series, Banz and Bowinkel show their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
