@@ -1,6 +1,6 @@
 ---
 layout: event
-type: talk
+type: performance
 featured: true
 
 host: ABOVE&BELOW
