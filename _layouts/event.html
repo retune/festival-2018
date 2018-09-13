@@ -9,6 +9,11 @@ bodyclass: event-single
 
   {% assign workshop-day = '2018-09-28' | date: '%s' %}
   {% assign event-day = page.eventdate | date: '%s' %}
+  {% if event-day < workshop-day %}
+    {% assign day = "conferenceday" %}
+  {% else %}
+    {% assign day = "workshopday" %}
+  {% endif %}
 
   {% if event-day > workshop-day %}
     {% capture subsub %}
@@ -67,6 +72,10 @@ bodyclass: event-single
             {% if page.eventstatus == 'signup' and page.eventtitorelease  %}
             <div class="event-page-signup-button">
               <button class="button-signup btn btn-primary" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">Sign up!</button>
+            </div>
+            {% elsif day == "workshopday" %}
+            <div class="event-page-signup-button ">
+              <span class="button-public">public</span>
             </div>
             {% endif %}
 

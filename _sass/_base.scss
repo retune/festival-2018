@@ -917,11 +917,18 @@ body.overlay-active {
     width: 63px;
     line-height: 21px;
     border-radius: 21px;
-    background: $white;
+    background: $primary-color;
     color: $black;
+    text-align: center;
   }
 
   margin-bottom: 0.2rem;
+
+  .button-signup-public {
+    @extend .button-signup;
+    background-color: white;
+    border: 1px solid $primary-color;
+  }
 
 }
 
@@ -1073,9 +1080,28 @@ body.overlay-active {
   .btn.button-signup {
     background-color: $primary-color;
     padding: 0.5rem 1rem;
+    text-shadow: none;
     &:hover, &:active, &:focus {
       color: $black;
     }
+  }
+
+  .button-public {
+    background-color: #FFA682;
+    padding: 0.5rem 1rem;
+    background: $white;
+    color: $black;
+    border: 1px solid;
+    border-color: $primary-color;
+    border-radius: 8px;
+    box-shadow: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
   }
 
 

@@ -18,6 +18,8 @@
 
           {% if event.eventstatus == "signup" %}
             <button class="button-signup" data-release="{{ event.eventtitorelease }}" data-event="{{ event.eventtitoevent }}">sign up</button>
+          {% elsif day == "workshopday" %}
+            <span class="button-signup-public">public</span>
           {% endif %}
 
         </div>
