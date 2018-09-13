@@ -29,7 +29,7 @@ links:
     url: https://www.neeeu.io/
 
 intro: |
-  Learn how to augment physical artworks with virtual content. Using some flea market paintings as markers, the workshop attendees will learn the basics of AR in Unity, how to place virtual overlays on top of real objects and how to build interactive mobile AR experiences.
+  In the DIY Augmented workshop »Spirits, Steaks & Angels« you will learn how to augment physical artworks with virtual content. Using some flea market paintings as markers, the workshop attendees will learn the basics of AR in Unity, how to place virtual overlays on top of real objects and how to build interactive mobile AR experiences.
 
 outro: |
   Neeeu is an independent design & innovation studio. We specialise in the creation of unique spatial experiences. Join us where digital & physical realities meet.

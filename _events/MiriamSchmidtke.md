@@ -33,7 +33,7 @@ links:
     url: http://miriamschmidtke.de/
 
 intro: |
-  The theatrical space used to be an elitist set-up driven by a certain canon. The subversive political potential of art and theatre may increase through technology. How can digitalization of theatre democratize the art form itself? What alternative theatrical spaces result from digitalization and how did performance manage to turn the status quo of our post fordist society it often criticized into something productive?
+  In the talk »No one can do the same things twice – loop and labour in performance and media art« Miriam Schmidtke takes a closer look on performing arts in the digital era. The theatrical space used to be an elitist set-up driven by a certain canon. The subversive political potential of art and theatre may increase through technology. How can digitalization of theatre democratize the art form itself? What alternative theatrical spaces result from digitalization and how did performance manage to turn the status quo of our post fordist society it often criticized into something productive?
 
 outro: |
   Miriam Schmidtke (1991), is a media artist and director, working at the intersection of installation, sculpture, video and performance. She studied Exhibition Design, Sculpture and Stage Design in Berlin and Tokyo.

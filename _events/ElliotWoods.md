@@ -33,7 +33,7 @@ links:
     url: https://www.kimchiandchips.com/
 
 intro: |
-  Elliot will discuss the flows of thinking between Kimchi and Chips artworks including their series Drawing in the Air. The talk will visit how artworks can attempt to present phenomena which highlight gaps in the paradigms of the viewer, and that by highlighting this incompleteness, the viewer is invited to rebuild their own reality paradigms. This journey will feature past works of the studio and art pieces currently under development and the methods behind them. These artworks draw physical ghosts into space and time, materialise second moons in the sky and bring the sun down to earth.
+  In the keynote »Drawing in the Air« Elliot will discuss the flows of thinking between Kimchi and Chips artworks including their series Drawing in the Air. The talk will visit how artworks can attempt to present phenomena which highlight gaps in the paradigms of the viewer, and that by highlighting this incompleteness, the viewer is invited to rebuild their own reality paradigms. This journey will feature past works of the studio and art pieces currently under development and the methods behind them. These artworks draw physical ghosts into space and time, materialise second moons in the sky and bring the sun down to earth.
 
 outro: |
   Elliot Woods is a digital media artist from Manchester. He tests possible futures between humans and visual design technologies (e.g. cameras, projectors, computation). He is known for being the first to 3D calibrate a Kinect to a video projector, for creating monumental scale light field projections, for drawing a volumetric image of the sun out of sunlight, and for releasing approximately 200 open source creative tools and libraries.

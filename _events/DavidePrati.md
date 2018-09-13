@@ -29,7 +29,7 @@ links:
     url: https://www.davideprati.com/
 
 intro: |
-  The workshop gives an overview on how to write programs that generate 3D forms of trees and flowers. It focuses on two topics, phyllotaxis and L-Systems; exploring these two topics, the participants will discover the simple and beautiful mathematics hidden in plants. The knowledge acquired in this workshop can be applied to design, illustration, 3D printing, 3D modelling & video games.
+  The workshop »Algorithmic Botany Workshop« gives an overview on how to write programs that generate 3D forms of trees and flowers. It focuses on two topics, phyllotaxis and L-Systems; exploring these two topics, the participants will discover the simple and beautiful mathematics hidden in plants. The knowledge acquired in this workshop can be applied to design, illustration, 3D printing, 3D modelling & video games.
 
 outro: |
   Davide Prati is a visual artist and interactive developer born in Italy and currently based in Berlin.

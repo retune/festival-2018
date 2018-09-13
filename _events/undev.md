@@ -29,8 +29,7 @@ links:
     url: http://www.undev.de/
 
 intro: |
-  cables.gl is a visual development tool to create interactive webgl experiences directly in the browser.
-  They will show you how to import your own models, play audio, animate things, export and embed those in your own website etc.
+  In the workshop you will build 3D and motion graphics in the browser with cables. cables.gl is a visual development tool to create interactive webgl experiences directly in the browser. undev will show you how to import your own models, play audio, animate things, export and embed those in your own website.
 
 outro: |
   undev is a development and design studio for interactive experiences using modern web technologies. They push the boundaries of what’s possible using WebGL, Web Audio and WebVR.

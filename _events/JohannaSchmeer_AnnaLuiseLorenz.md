@@ -31,7 +31,7 @@ links:
     url: http://annaluiselorenz.com/
 
 intro: |
-  In this workshop you will investigate the poetics, challenges, and politics of air as a result of climate change. You will design inflatables which will let us exist in, perceive, consume, or interact with new bodies of air, charged with extreme CO2 concentrations, ancient hazardous bacteria, cloud-forming dust, and arctic vibrations.
+  In the »Airology« workshop you will investigate the poetics, challenges, and politics of air as a result of climate change. You will design inflatables which will let us exist in, perceive, consume, or interact with new bodies of air, charged with extreme CO2 concentrations, ancient hazardous bacteria, cloud-forming dust, and arctic vibrations.
 
 outro: |
   Johanna Schmeer is an artist and designer. Her work focusses on hybridity and interactions between the natural and the artificial — asking questions and discussing ideas related to technologically enhanced ecosystems, new materials, and artificial extensions of the self. Johanna’s work has been published, awarded, and exhibited internationally, including recently at the Museum for Art & Design Hamburg, the National Museum Stockholm, the Venice Biennale, and Ars Electronica Center Linz.
@@ -41,3 +41,4 @@ outro: |
 ---
 
 No specific skills required. Please bring a flat iron for welding balloon foil and scissors, we'll provide the rest.
+The workshop is held in collaboration with Futurium.

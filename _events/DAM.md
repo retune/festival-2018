@@ -29,9 +29,9 @@ links:
     url: https://dam-gallery.de/
 
 intro: |
-  A talk between the gallerist Wolf Lieser and the co-founder of a website dedicated to VR pieces only: RadianceVR. After the talk Wolf Lieser gives an introduction to the current solo show by Manfred Mohr, a major pioneer of Digital Art since the 1970s.
+ Wolf Lieser will discuss with RadianceVR about art in the age of Virtual Reality and its implications for art distribution. After the talk, you are invited and will receive an introduction to the current solo show by Manfred Mohr, a major forerunner of Digital Art since the 70s.
 
 outro: |
-  Pioneering gallery in the field of digital media. Represents the whole history from the 1960s to the present.
+  DAM Gallery is a pioneering gallery in the field of digital media representing the entire history of media art from the 1960s to the present. 
 
 ---

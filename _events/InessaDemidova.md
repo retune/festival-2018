@@ -29,9 +29,9 @@ links:
     url: https://www.arup.com/
 
 intro: |
-  A workshop aimed at people working in the technologically-driven art sphere focusing on improving the understanding of light, space and human perception of these.
+  The workshop »On light and space for digital artists« aims at people working in the technologically-driven art sphere focusing on improving the understanding of light, space and human perception of these.
 
 outro: |
-  Lighting at Arup brings together art, science and technology. Our team of designers create thoughtful, sustainable and award-winning concepts with light.
+  Inessa Demidova is a lightning designer at Arup. Lighting at Arup brings together art, science and technology. Our team of designers create thoughtful, sustainable and award-winning concepts with light.
 
 ---
