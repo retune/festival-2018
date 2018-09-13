@@ -15,22 +15,23 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5
 
-eventlocation: Silent Green - Discussion Area
+eventlocation: Silent Green
+eventstage: Discussion Area
 eventaddress: Gerichtstraße 35, 13347 Berlin
 eventlat: 54
 eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
   - name: vinzent.me
     url: http://www.vinzent.me/
- 
+
 
 intro: |
   The Session is about finding ways to design for the digital world. Visualising things that are invisible (e.g. code) will become more and more a task designers have to tackle. What does a blockchain look like? How to visualise the "smartness" of a device or technology? Will AI and "machine learning" change the design of the future? A panel discussion about possible strategies and ideas from the fields of coding, design and semiotics. 

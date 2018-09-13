@@ -15,17 +15,18 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5
 
-eventlocation: Silent Green - Main Stage
+eventlocation: Silent Green
+eventstage: Main Stage
 eventaddress: Gerichtstraße 35, 13347 Berlin
 eventlat: 54
 eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
   - name: kimchiandchips.com

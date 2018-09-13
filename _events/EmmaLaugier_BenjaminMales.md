@@ -15,24 +15,25 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5
 
-eventlocation: Silent Green - Main Stage
+eventlocation: Silent Green
+eventstage: Main Stage
 eventaddress: Gerichtstraße 35, 13347 Berlin
 eventlat: 54
 eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
   - name: laugiermales.com
     url: https://www.laugiermales.com/
 
 intro: |
-  The talk will focus on interesting technologies on the horizon and the ways they might impact our worlds, like his dresses that ended up on world-famous music artists. At the same time, it will cover how creating "Skunkworks" type teams helps to create amazing things. 
+  The talk will focus on interesting technologies on the horizon and the ways they might impact our worlds, like his dresses that ended up on world-famous music artists. At the same time, it will cover how creating "Skunkworks" type teams helps to create amazing things.
 
 outro: |
   Benjamin Males is a Creative, Technologist and Entrepreneur who bridges the gap between Science and Art.

@@ -15,7 +15,8 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5
 
-eventlocation: Silent Green - Garden
+eventlocation: Silent Green
+eventstage: Garden
 eventaddress: Gerichtstraße 35, 13347 Berlin
 eventlat: 54
 eventlong: 14

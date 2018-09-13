@@ -15,24 +15,25 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5
 
-eventlocation: Silent Green - Main Stage
+eventlocation: Silent Green
+eventstage: Main Stage
 eventaddress: Gerichtstraße 35, 13347 Berlin
 eventlat: 54
 eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
   - name: beyondresolution.info
     url: https://beyondresolution.info/
 
 intro: |
-  Resolutions are non-neutral standard settings that involve political, economical, technological and cultural values and ideologies, embedded in the genealogies and ecologies of our media. In an uncompromisingly fashion, quality (fidelity), speed (governed by efficiency), volume (generally encapsulated in tiny-ness for hardware and big when it comes to data) and profit (economic or ownership) have been responsible for plotting these resolutions, following a dogma of 'progress'. 
+  Resolutions are non-neutral standard settings that involve political, economical, technological and cultural values and ideologies, embedded in the genealogies and ecologies of our media. In an uncompromisingly fashion, quality (fidelity), speed (governed by efficiency), volume (generally encapsulated in tiny-ness for hardware and big when it comes to data) and profit (economic or ownership) have been responsible for plotting these resolutions, following a dogma of 'progress'.
   In this talk, Rosa will propose how de-calibration can offer us an insightful technique to get a sense of what is sacrificed during the setting of a resolution.
 
 outro: |
