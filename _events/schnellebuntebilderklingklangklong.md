@@ -33,7 +33,7 @@ links:
 intro: |
   Schnellebuntebilder will setup a little VR-Playground, where you can dive into huge virtual caves or perceive the world like a fish. Plus they're gonna show you some insights of they're latest and not yet released projects. And if you are lucky, you can see some schnellebuntebilders in their natural habitat.
 
-  Kling klang klong will open doors to give you a glimpse on what they’ve been doing lately. There will be piano pieces interpreting the flow of rivers, composed by a learning machine. Plus examples of intelligent playback systems, generative sound production and all kinds of insight on their latest audio projects.
+  Their direct neighbor Kling klang klong will open doors to give you a glimpse on what they’ve been doing lately. There will be piano pieces interpreting the flow of rivers, composed by a learning machine. Plus examples of intelligent playback systems, generative sound production and all kinds of insight on their latest audio projects.
 
 outro: |
   Founded in 2011, schnellebuntebilder is a collaboration between Johannes Timpernagel, Robert Pohle, Sebastian Huber, Michael Burk, Ann-Katrin Krenz and Felix Worseck to develop and create multimedia design and digital art.
