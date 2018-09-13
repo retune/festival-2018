@@ -1,6 +1,6 @@
 ---
 layout: event
-type: performance
+type: installation & performance
 featured: true
 
 host: Rainer Kohlberger
@@ -22,10 +22,10 @@ eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
   - name: kohlberger.net

@@ -1,12 +1,12 @@
 ---
 layout: event
-type: installation
+type: installation & performance
 featured: true
 
 host: RLON
 imagefolder: /img/events/banz_bowinkel/
 
-eventtitle: timeline 
+eventtitle: timeline
 eventdate: 2018-09-27
 eventtime: 09:00 - 22:00
 
@@ -22,17 +22,17 @@ eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
-  - provider: 
-    url: 
+  - provider:
+    url:
+  - provider:
+    url:
 
 links:
   - name: rlon.com
     url: https://www.rlon.com/
 
 intro: |
-  The installation ‘timeline’ by studio RLON at this year’s festival venue plays with our perception of time and space. An endless string is spanned on several pulleys across the cupola of the former crematorium. Two parts of the rope are black, the rest is white. A motor keeps the string in constant movement, causing the black parts of the string to continuously cross the room like a ray of light. 
+  The installation ‘timeline’ by studio RLON at this year’s festival venue plays with our perception of time and space. An endless string is spanned on several pulleys across the cupola of the former crematorium. Two parts of the rope are black, the rest is white. A motor keeps the string in constant movement, causing the black parts of the string to continuously cross the room like a ray of light.
   The length of each black part is exactly one second. While passing through long distances as a straight line, the seconds appears to be slow and content. Other passages require quick shifts of direction and the perception changes to fast and sudden movements.
 
 outro: |

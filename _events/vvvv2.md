@@ -1,7 +1,7 @@
 ---
 layout: event
 type: workshop
-featured: true
+featured: false
 
 host: vvvv group
 imagefolder: /img/events/banz_bowinkel/
@@ -21,7 +21,7 @@ eventlong: 14
 
 
 videos:
-  - provider: 
+  - provider:
     url:
 
 links:
