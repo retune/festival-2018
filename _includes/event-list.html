@@ -2,7 +2,15 @@
 
   {% for event in events %}
 
-    <li data-id="{{ forloop.index0 }}" class="event-list-item event-list-item__{{ event.type }}">
+    {% assign workshop-day = '2018-09-28' | date: '%s' %}
+    {% assign event-day = event.eventdate | date: '%s' %}
+    {% if event-day < workshop-day %}
+      {% assign day = "conferenceday" %}
+    {% else %}
+      {% assign day = "workshopday" %}
+    {% endif %}
+
+    <li data-id="{{ forloop.index0 }}" class="event-list-item event-list-item__{{ day }}">
         <div class="event-list-item-meta">
           <span class="time">{{ event.eventtime }}, {{event.eventstage }}</span>
           <span class="type type__{{ event.type }} status status__{{ event.eventstatus }}">{{ event.type }}</span>
@@ -17,13 +25,15 @@
             {% assign workshop-day = '2018-09-28' | date: '%s' %}
             {% assign event-day = event.eventdate | date: '%s' %}
 
-            {% if event-day < workshop-day %}
+            {% if day == "conferenceday" %}
               <span class="host">{{ event.host }}</span>
-              <span class="title">{{ event.eventtitle }}</span>
+              <span class="title">» {{ event.eventtitle }} «</span>
             {% else %}
-              <span class="title">{{ event.eventtitle }}</span><br>
-              <span class="host">hosted by {{ event.host }}</span>
-              <span class="location">{{ event.eventlocation }}, {{ event.eventaddress }} </span>
+              <span class="host">{{ event.host }}</span>
+              <span class="title">» {{ event.eventtitle }} «</span>
+              <!-- <span class="title">{{ event.eventtitle }}</span><br>
+              <span class="host">by {{ event.host }}</span>
+              <span class="location">{{ event.eventlocation }}, {{ event.eventaddress }} </span> -->
             {% endif %}
           </a>
         </div>

@@ -940,37 +940,36 @@ body.overlay-active {
 }
 
 /* workshops/satellites */
-.event-list-item__workshop {
-  .event-list-item-head {
-    font-size: $tiny-font-size;
-  }
-
-  .title {
-
-    font-size: $small-font-size;
-
-    margin-left: 1.5rem;
-    /* min-height: 2rem;*/
-    display: inline-block;
-    position: relative;
-
-    &:before {
-      content: $content-middot;
-      position: absolute;
-      top: -7px;
-      left: -1.5rem;
-      font-size: $med-font-size;
-    };
-  }
-
-  .host {
-    font-size: 13px;
-  }
-
-  .location {
-    font-family: $ff-sans;
-  }
-}
+// .event-list-item__workshopday {
+//   .event-list-item-head {
+//     font-size: $tiny-font-size;
+//   }
+//
+//   .title {
+//
+//     font-size: $small-font-size;
+//
+//     margin-left: 1.5rem;
+//     display: inline-block;
+//     position: relative;
+//
+//     &:before {
+//       content: $content-middot;
+//       position: absolute;
+//       top: -7px;
+//       left: -1.5rem;
+//       font-size: $med-font-size;
+//     };
+//   }
+//
+//   .host {
+//     font-size: 13px;
+//   }
+//
+//   .location {
+//     font-family: $ff-sans;
+//   }
+// }
 
 /* event map*/
 /* .event-map {*/
