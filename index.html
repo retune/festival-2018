@@ -39,7 +39,19 @@ layout: default
 
     <div class="">
       <h3 class="section-subtitle">Talks</h3>
-      {% assign events = site.events | where:"type","talk" | where:"featured","true" | sort_natural: 'host' %}
+      <!-- {% assign events = site.events | where:"type","talk" | where:"featured","true" | sort_natural: 'host' %} -->
+
+      {% assign events = "" | split: ',' %}
+      {% for event in site.events %}
+        {% assign workshop-day = '2018-09-28' | date: '%s' %}
+        {% assign event-day = event.eventdate | date: '%s' %}
+
+        {% if event.type == "talk" or event.type == "keynote" %}
+          {% if event-day < workshop-day %}
+            {% assign events = events | push: event %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
       {% include event-carousel.html %}
     </div>
 
@@ -151,7 +163,3 @@ layout: default
 <div class="container-fluid event-page-content-section">
   {% include footer.html %}
 </div>
-
-
-
-
