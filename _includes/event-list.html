@@ -12,7 +12,8 @@
 
     <li data-id="{{ forloop.index0 }}" class="event-list-item event-list-item__{{ day }}">
         <div class="event-list-item-meta">
-          <span class="time">{{ event.eventtime }}, {{event.eventstage }}</span>
+          <span class="time">{{ event.eventtime }}{% if event.eventstage %}, {{ event.eventstage }}{% endif %}
+          </span>
           <span class="type type__{{ event.type }} status status__{{ event.eventstatus }}">{{ event.type }}</span>
 
           {% if event.eventstatus == "signup" %}
@@ -22,8 +23,6 @@
         </div>
         <div class="event-list-item-head">
           <a href="{{ event.url }}" class="ajax-to-overlay" >
-            {% assign workshop-day = '2018-09-28' | date: '%s' %}
-            {% assign event-day = event.eventdate | date: '%s' %}
 
             {% if day == "conferenceday" %}
               <span class="host">{{ event.host }}</span>
