@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: Rosa Menkman
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/rosa_menkman/
 
 eventtitle: A call for de-calibration
 eventdate: 2018-09-27

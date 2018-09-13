@@ -4,13 +4,13 @@ type: workshop
 featured: true
 
 host: dadamachines
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/dadamachines/
 
 eventtitle: Build your own dadamachines
 eventtime: 10:00 - 18:00
 eventtitorelease: hjq0wop-qne
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: singnup
 evnetcapacity: 25
 
 eventlocation:  Blockchain Embassy Berlin

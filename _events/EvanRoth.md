@@ -4,7 +4,7 @@ type: keynote
 featured: true
 
 host: Evan Roth
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/evan_roth/
 
 eventtitle: Landscape, Signal and Empire
 eventdate: 2018-09-27

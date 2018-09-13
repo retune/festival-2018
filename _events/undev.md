@@ -4,7 +4,7 @@ type: workshop
 featured: true
 
 host: undev
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/undev/
 
 eventtitle: Cables - Build 3D and motion graphics in the browser
 eventdate: 2018-09-28
@@ -14,14 +14,14 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 evnetcapacity: 15
 
-eventlocation: 
-eventaddress: 
+eventlocation:
+eventaddress:
 eventlat: 54
 eventlong: 10
 
 
 videos:
-  - provider: 
+  - provider:
     url:
 
 links:
@@ -37,4 +37,4 @@ outro: |
 
 ---
 
-Please bring your own laptop and a mouse. 
+Please bring your own laptop and a mouse.

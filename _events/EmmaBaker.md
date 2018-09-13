@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: Emma Baker
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/emma_baker/
 
 eventtitle: Design Mysticism
 eventdate: 2018-09-27

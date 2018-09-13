@@ -4,7 +4,7 @@ type: workshop
 featured: true
 
 host: Davide Prati
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/davide/
 
 eventtitle: Algorithmic Botany Workshop
 eventdate: 2018-09-28

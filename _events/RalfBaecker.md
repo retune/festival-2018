@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: Ralf Baecker
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/ralf_baecker/
 
 eventtitle: Matter Matters
 eventdate: 2018-09-27

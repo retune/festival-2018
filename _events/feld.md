@@ -4,9 +4,9 @@ type: talk
 featured: true
 
 host: FELD
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/feld/
 
-eventtitle: Speculative Design Experiments 
+eventtitle: Speculative Design Experiments
 eventdate: 2018-09-28
 eventtime: 15:00 - 17:00
 eventtitorelease: hjq0wop-qne
@@ -21,7 +21,7 @@ eventlong: 10
 
 
 videos:
-  - provider: 
+  - provider:
     url:
 
 links:
@@ -41,4 +41,3 @@ outro: |
   FELD believes in a collaborative and interdisciplinary design process. At our Berlin studio, designers, architects and engineers work and create with content specialists, researchers and project managers. We think, plan, prototype and realize – together.
 
 ---
-

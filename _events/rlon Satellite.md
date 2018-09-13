@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: RLON
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/rlon/
 
 eventtitle: conscious spaces - how to create environments that trigger awareness and reward curiosity
 eventdate: 2018-09-28
@@ -14,14 +14,14 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 evnetcapacity: 40
 
-eventlocation: 
+eventlocation:
 eventaddress: Ritterstraße 26, 10969 Berlin
 eventlat: 54
 eventlong: 10
 
 
 videos:
-  - provider: 
+  - provider:
     url:
 
 links:
@@ -40,4 +40,4 @@ outro: |
 
 ---
 
-The workshop is open for participation to anyone with no necessary experience or background in design. 
+The workshop is open for participation to anyone with no necessary experience or background in design.

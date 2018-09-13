@@ -4,7 +4,7 @@ type: workshop
 featured: true
 
 host: Konstruktiv
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/konstruktiv/
 
 eventtitle: A brief journey into motor control
 eventdate: 2018-09-28

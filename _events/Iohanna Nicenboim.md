@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: Iohanna Nicenboim
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/iohanna_nicenboim/
 
 eventtitle: More than Human Centered Design
 eventdate: 2018-09-27

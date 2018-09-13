@@ -4,7 +4,7 @@ type: short talk
 featured: true
 
 host: Albert Barqué-Duran, Samim Wininger & Appu Shaji
-imagefolder: /img/events/albert_barque-duran/
+imagefolder: /img/events/blackboxes_shorttalks/
 
 eventtitle: Black Boxes for Artists – Short Talks
 eventdate: 2018-09-27

@@ -4,7 +4,7 @@ type: panel
 featured: true
 
 host: Petja Ivanova
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/petja_ivanova/
 
 eventtitle: A New Materialist Cyborg - thoughts on post-technological becomings
 eventdate: 2018-09-27

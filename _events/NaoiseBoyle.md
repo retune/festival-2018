@@ -4,7 +4,7 @@ type: workshop
 featured: true
 
 host: Naoise Boyle
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/naoise/
 
 eventtitle: Radical Spaces Laboratory
 eventdate: 2018-09-28

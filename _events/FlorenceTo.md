@@ -21,8 +21,8 @@ eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
+  - provider:
+    url:
 
 links:
   - name: florence-to.com

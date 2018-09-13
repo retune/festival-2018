@@ -4,7 +4,7 @@ type: panel
 featured: true
 
 host: Vinzent Britz
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/vinzent_britz/
 
 eventtitle: Visual Communication for an Invisible World
 eventdate: 2018-09-27

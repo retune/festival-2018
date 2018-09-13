@@ -4,9 +4,9 @@ type: workshop
 featured: true
 
 host: Inessa Demidova
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/inessa/
 
-eventtitle: On light and space for digital artists 
+eventtitle: On light and space for digital artists
 eventdate: 2018-09-28
 eventtime: 10:00 - 12:00
 eventtitorelease: hjq0wop-qne
@@ -21,7 +21,7 @@ eventlong: 10
 
 
 videos:
-  - provider: 
+  - provider:
     url:
 
 links:
@@ -32,6 +32,6 @@ intro: |
   A workshop aimed at people working in the technologically-driven art sphere focusing on improving the understanding of light, space and human perception of these.
 
 outro: |
-  Lighting at Arup brings together art, science and technology. Our team of designers create thoughtful, sustainable and award-winning concepts with light. 
+  Lighting at Arup brings together art, science and technology. Our team of designers create thoughtful, sustainable and award-winning concepts with light.
 
 ---

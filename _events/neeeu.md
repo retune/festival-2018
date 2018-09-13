@@ -4,7 +4,7 @@ type: workshop
 featured: true
 
 host: NEEEU
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/neeeu/
 
 eventtitle: Spirits, Steaks & Angels - A DIY Augmented Reality Workshop
 eventdate: 2018-09-28

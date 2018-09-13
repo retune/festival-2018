@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: Benjamin Males & Emma Laugier
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/benjamin_males/
 
 eventtitle: People, Places, Spaces and Things
 eventdate: 2018-09-27

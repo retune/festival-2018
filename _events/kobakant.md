@@ -4,7 +4,7 @@ type: discussion
 featured: true
 
 host: KOBAKANT
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/kobakant/
 
 eventtitle: Tailoring Electronic Textiles -  fairytale or fiction?
 eventdate: 2018-09-28
@@ -21,7 +21,7 @@ eventlong: 14
 
 
 videos:
-  - provider: 
+  - provider:
     url:
 
 links:
@@ -29,7 +29,7 @@ links:
     url: http://www.kobakant.at/
 
 intro: |
-  KOBAKANT is currently running a one-year art project in Berlin which is a tailor shop for electronic textiles and wearable technology. Their shop proposes that if there was the option to have technology custom made, we would be making different kinds of technology. They would like to speculate with you how the technology will develop in future, and how its production and consumption will take place. What is the ideal scenario? Can we imagine the future without a dark dystopian end? 
+  KOBAKANT is currently running a one-year art project in Berlin which is a tailor shop for electronic textiles and wearable technology. Their shop proposes that if there was the option to have technology custom made, we would be making different kinds of technology. They would like to speculate with you how the technology will develop in future, and how its production and consumption will take place. What is the ideal scenario? Can we imagine the future without a dark dystopian end?
   They invite you to join them for 2 hours of discussion and brainstorming session to speculate the technology for future we want to live in. As Retune is an art, design and technology festival, they expect many people in the audience to be involved creatively in technology, providing them with the strength to imagine what they want.
 
 outro: |

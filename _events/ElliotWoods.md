@@ -4,7 +4,7 @@ type: keynote
 featured: true
 
 host: Elliot Woods (Kimchi and Chips)
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/kimchi_chips/
 
 eventtitle: Drawing in the Air
 eventdate: 2018-09-27

@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: schnellebuntebilder & kling klang klong
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/sbb_klongs/
 
 eventtitle: LIGHT + SOUND – See, hear and play with our latest creations
 eventdate: 2018-09-28

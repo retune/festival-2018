@@ -4,7 +4,7 @@ type: workshop
 featured: true
 
 host: Studio Milz
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/studiomilz/
 
 eventtitle: JOYN MACHINE - design, produce and build a wooden framework construction at the Retune party venue!
 eventdate: 2018-09-28
@@ -21,7 +21,7 @@ eventlong: 14
 
 
 videos:
-  - provider: 
+  - provider:
     url:
 
 links:
@@ -29,8 +29,8 @@ links:
     url: https://www.milz.studio/
 
 intro: |
-  JOYN MACHINE is an interactive tool that enables the design of wooden framework constructions and their semi-automated production. 
-  The underlying principle is smart simplification of otherwise complex processes - thereby taking mobile and fast production processes of wooden structures to the next level. 
+  JOYN MACHINE is an interactive tool that enables the design of wooden framework constructions and their semi-automated production.
+  The underlying principle is smart simplification of otherwise complex processes - thereby taking mobile and fast production processes of wooden structures to the next level.
 
   After a short introduction to our project we will design, produce and build simple constructions on site to launch a spatial experiment.
 
@@ -42,7 +42,6 @@ outro: |
 
 ---
 
-You will work with wood so it will get a bit loud and dirty - but there are absolutely no woodworking skills required. 
+You will work with wood so it will get a bit loud and dirty - but there are absolutely no woodworking skills required.
 If you want to take part in digital designing and modifying the construction we'll build on site you need basic skills in CAD.
 Bring your Laptop and any CAD-Software - specialized software tools are not required.
-

@@ -4,7 +4,7 @@ type: workshop
 featured: true
 
 host: vvvv group
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/vvvv/
 
 eventtitle: computer vision and data viz with vvvv/vl
 eventdate: 2018-09-28
@@ -21,7 +21,7 @@ eventlong: 14
 
 
 videos:
-  - provider: 
+  - provider:
     url:
 
 links:

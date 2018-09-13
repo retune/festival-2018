@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: Laura Couto Rosado & Jeremi Niedziela
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/laurarosado_jereminiedziela/
 
 eventtitle: Touching the Invisible – A sparkling quantum plasticine
 eventdate: 2018-09-27

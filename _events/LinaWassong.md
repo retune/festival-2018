@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: Lina Wassong
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/lina_wassong/
 
 eventtitle: Aesthetics of Technology
 eventdate: 2018-09-27

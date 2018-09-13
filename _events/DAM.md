@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: DAM Gallery
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/dam/
 
 eventtitle: VR - a new art form
 eventdate: 2018-09-28
