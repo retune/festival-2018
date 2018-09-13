@@ -1,14 +1,14 @@
 ---
 layout: event
-type: installation & performance
+type: installation
 featured: true
 
-host: KLING KLANG KLONG
+host: kling klang klong
 imagefolder: /img/events/banz_bowinkel/
 
 eventtitle: GORILLAS
 eventdate: 2018-09-27
-eventtime: 12:00 - 21:00
+eventtime: all day
 
 eventtitorelease: hjq0wop-qne
 eventtitoevent: retune/retune-festival-2018

@@ -8,7 +8,7 @@ imagefolder: /img/events/banz_bowinkel/
 
 eventtitle: timeline
 eventdate: 2018-09-27
-eventtime: 09:00 - 22:00
+eventtime: all day
 
 eventtitorelease: hjq0wop-qne
 eventtitoevent: retune/retune-festival-2018

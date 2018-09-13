@@ -4,7 +4,7 @@ type: performance
 featured: true
 
 host: ABOVE&BELOW
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/above_below/
 
 eventtitle: Sustainable AR
 eventdate: 2018-09-27

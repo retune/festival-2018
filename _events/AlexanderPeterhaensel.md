@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: Alexander Peterhaensel
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/alexander_peterhaensel/
 
 eventtitle: Smile to Vote - Political Physiognomy Analytics
 eventdate: 2018-09-27
