@@ -32,7 +32,7 @@ links:
     url: https://www.lcr.digital/
 
 intro: |
-  A scientist and an artist collaborate on a common ground creating an audio-visual experience to make people feel and understand fascinating quantum phenomena that are beyond our imagination.
+  A scientist and an artist collaborate on a common ground creating an audio-visual experience. In the performance lecture »Touching the Invisible – A sparkling quantum plasticine« the duo will make you feel and understand fascinating quantum phenomena that are beyond your imagination.
   Jeremi Niedziela, physicist at CERN, tells the story of elementary particles and high energy physics, while the media designer Laura Couto Rosado is following him and expressing the intangible quantum world with unique visuals. 
 
 outro: |
