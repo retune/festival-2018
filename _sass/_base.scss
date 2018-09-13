@@ -740,41 +740,45 @@ body.overlay-active {
     position: relative;
   }
 
-  .nav-days {
+}
+.day-nav {
 
-    position: absolute;
-    width: 100%;
-    top: 2.5rem;
+  position: absolute;
+  top: 0; right: 0; left: 0;
+  padding-top: $spacing-unit;
 
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0;
+}
 
-    li {
+.day-tab {
 
-      a {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
 
-        display: block;
-        height: 33px;
-        width: 42px;
-        background-image: url('../img/icons/prevnext.svg');
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
+  li {
+    width: calc(50% - 0.5rem);
+    text-align:center;
+    font-size: $tiny-font-size;
+    border: $line-width solid $white;
+    border-radius: 8px;
+    padding:0;
 
-        padding: $spacing-unit;
-
-        &.next {
-          -webkit-transform: scaleX(-1);
-                  transform: scaleX(-1);
-        }
-      }
-
-      &:last-child {
-        margin-left: auto;
-      }
-
+    &:last-child {
+      margin-left: auto;
     }
 
+    a {
+      width: 100%;
+      display: block;
+      padding: 0.5rem 0;
+    }
+
+    &.active {
+      background: $black;
+      a, a:hover, a:visited, a:hover {
+        color: white;
+      }
+    }
   }
 }
 
@@ -784,7 +788,7 @@ body.overlay-active {
 
 .overlay-program-day {
 
-  padding-top: 2rem;
+  padding-top: 3 * $spacing-unit;
   display: none;
 
   &.active {
@@ -803,10 +807,10 @@ body.overlay-active {
 
 .overlay-program-day-head {
 
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: $line-width solid $white;
   padding-top: 1rem;
 
   .overlay-program-day-title,
@@ -820,44 +824,11 @@ body.overlay-active {
     display: block;
   }
 
-  .nav-tab {
-
-    padding-top: 2rem;
-    display: flex;
-    width: 100%;
-
-    li {
-      width: calc(50% - 0.5rem);
-      text-align:center;
-      font-size: $tiny-font-size;
-      border: $line-width solid $white;
-      border-radius: 8px;
-      padding:0;
-
-      &:last-child {
-        margin-left: auto;
-      }
-
-      a {
-        width: 100%;
-        display: block;
-        padding: 0.5rem 0;
-      }
-
-      &.active {
-        background: $black;
-        a, a:hover, a:visited, a:hover {
-          color: white;
-        }
-      }
-    }
-  }
-
 }
 
 .event-list {
   margin-bottom: 0;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
   padding-bottom: 2rem;
 }
 
