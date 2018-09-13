@@ -9,10 +9,10 @@ imagefolder: /img/events/vvvv/
 eventtitle: computer vision and data viz with vvvv/vl - part 1
 eventdate: 2018-09-28
 eventtime: 10:00 - 13:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: v5ovkvpd7ho
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 10
+eventstatus: signup
+eventcapacity: 10
 
 eventlocation: front house, 1st floor
 eventaddress: Oranienstrasse 10, 10997 Berlin
@@ -33,7 +33,7 @@ intro: |
 
   They'll show you how, with just a few clicks, to create complex, interactive graphics and save snapshots as a .pdf without writing a single line of code. Or how to achieve advanced computer-vision tasks, like face-tracking, again within just a few minutes of using VL. 
 
-outro: 
+outro:
   While being easy on beginners, VL is also targeted at developers: It essentially combines the advantages of dataflow and object-oriented programming in one visual environment. It builds to the .NET intermediate language and supports features like classes, generics, delegates, async tasks and more. Being compatible with .NET also means that it allows to access any thirdparty .NET library in a drag-and-drop fashion. VL is still in an technology-preview stage at this point and they're looking forward to participants feedback.
 
 

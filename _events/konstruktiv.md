@@ -9,10 +9,10 @@ imagefolder: /img/events/konstruktiv/
 eventtitle: A brief journey into motor control
 eventdate: 2018-09-28
 eventtime: 10:00 - 13:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: dhagkx-bzam
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 20
+eventstatus: signup
+eventcapacity: 20
 
 eventlocation: August & Piela Konstruktiv GbR
 eventaddress: Tempelhofer Weg 11-12, 10829 Berlin

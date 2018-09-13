@@ -10,7 +10,7 @@ eventtitle: Visual Communication for an Invisible World
 eventdate: 2018-09-27
 eventtime: 14:30 - 15:30
 
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5

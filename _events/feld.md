@@ -9,10 +9,10 @@ imagefolder: /img/events/feld/
 eventtitle: Speculative Design Experiments
 eventdate: 2018-09-28
 eventtime: 15:00 - 17:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
-evnetcapacity: 50
+eventcapacity: 50
 
 eventlocation: FELD studio for digital crafts
 eventaddress: Urbanstraße 116, 10967 Berlin

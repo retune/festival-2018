@@ -9,10 +9,10 @@ imagefolder: /img/events/banz_bowinkel/
 eventtitle: Painting with AR
 eventdate: 2018-09-27
 eventtime: 14:00 - 15:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
-evnetcapacity: 5
+eventcapacity: 5
 
 eventlocation: STATE Studio
 eventaddress: Hauptstraße 3, 10827 Berlin

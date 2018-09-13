@@ -9,10 +9,10 @@ imagefolder: /img/events/naoise/
 eventtitle: Radical Spaces Laboratory
 eventdate: 2018-09-28
 eventtime: 14:00 - 17:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: l9mdkp9fhbu
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 15
+eventstatus: signup
+eventcapacity: 10
 
 eventlocation:
 eventaddress: Volkspark Hasenheide

@@ -9,10 +9,10 @@ imagefolder: /img/events/sbb_klongs/
 eventtitle: LIGHT + SOUND – See, hear and play with our latest creations
 eventdate: 2018-09-28
 eventtime: 16:00 - 19:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
-evnetcapacity: 80
+eventcapacity: 80
 
 eventlocation: schnellebuntebilder & kling klang klong
 eventaddress: 1st and 2nd floor, Rudolfstraße 11, 10245 Berlin

@@ -8,10 +8,10 @@ imagefolder: /img/events/thomas_ness_cirg/
 
 eventtitle: You and Me (and the Internet)
 eventtime: 14:00 - 17:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: qa8dvgsdap8
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 15
+eventstatus: signup
+eventcapacity: 15
 
 eventlocation: Retune Studio
 eventaddress: Glogauer Str. 21, 10999 Berlin

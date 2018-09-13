@@ -10,7 +10,7 @@ eventtitle: About wool in clouds and flying music discs
 eventdate: 2018-09-27
 eventtime: 12:00 - 12:30
 
-eventtitorelease: hjq0wop-qne
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5

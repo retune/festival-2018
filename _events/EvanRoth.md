@@ -10,7 +10,7 @@ eventtitle: Landscape, Signal and Empire
 eventdate: 2018-09-27
 eventtime: 11:00 - 11:45
 
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5

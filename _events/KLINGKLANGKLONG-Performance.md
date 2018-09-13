@@ -10,7 +10,7 @@ eventtitle: GORILLAS
 eventdate: 2018-09-27
 eventtime: 20:15 - 21:00
 
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5

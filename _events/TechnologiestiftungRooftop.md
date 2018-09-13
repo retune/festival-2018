@@ -9,10 +9,10 @@ imagefolder: /img/events/banz_bowinkel/
 eventtitle: Rooftop Networking
 eventdate: 2018-09-28
 eventtime: 17:00 - 19:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
-evnetcapacity: 80
+eventcapacity: 80
 
 eventlocation: Technologiestiftung Berlin
 eventaddress: Grunewaldstraße 61-62, 10825 Berlin

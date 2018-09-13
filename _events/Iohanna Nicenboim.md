@@ -10,7 +10,7 @@ eventtitle: More than Human Centered Design
 eventdate: 2018-09-27
 eventtime: 16:00 - 16:30
 
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5

@@ -10,7 +10,7 @@ eventtitle: Satellite Teaser
 eventdate: 2018-09-27
 eventtime: 18:00 - 18:15
 
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5

@@ -10,7 +10,7 @@ eventtitle: Black Boxes for Artists – Short Talks
 eventdate: 2018-09-27
 eventtime: 15:00 - 15:30
 
-eventtitorelease: hjq0wop-qne
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5

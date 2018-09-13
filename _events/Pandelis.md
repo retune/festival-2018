@@ -9,10 +9,10 @@ imagefolder: /img/events/banz_bowinkel/
 eventtitle: Go Back to Hiding in the Shadows
 eventdate: 2018-09-28
 eventtime: 22:00 - 22:30
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
-evnetcapacity: 5
+eventcapacity: 5
 
 eventlocation: STATE Studio
 eventaddress: Hauptstraße 3, 10827 Berlin

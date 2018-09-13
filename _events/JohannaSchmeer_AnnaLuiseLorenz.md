@@ -9,10 +9,10 @@ imagefolder: /img/events/johanna_anna-luise/
 eventtitle: Airology
 eventdate: 2018-09-28
 eventtime: 14:00 - 18:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: ptulfgbnpzo
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 16
+eventstatus: signup
+eventcapacity: 16
 
 eventlocation: Futurium
 eventaddress: Alexanderufer 2, 10117 Berlin

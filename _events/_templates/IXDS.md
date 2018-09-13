@@ -18,7 +18,7 @@ eventdate: 2018-09-28
 eventtime: 10:00 - 17:00
 eventcapacity: 10
 eventstatus: closed
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 
 eventlocation: IXDS Studio

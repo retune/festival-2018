@@ -9,10 +9,10 @@ imagefolder: /img/events/inessa/
 eventtitle: On light and space for digital artists
 eventdate: 2018-09-28
 eventtime: 10:00 - 12:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: dvhjglmdufu
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 12
+eventstatus: signup
+eventcapacity: 12
 
 eventlocation: NEEEU Spaces GmbH
 eventaddress: Chodowieckistraße 31, 10405 Berlin

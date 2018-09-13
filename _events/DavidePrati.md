@@ -9,10 +9,10 @@ imagefolder: /img/events/davide/
 eventtitle: Algorithmic Botany Workshop
 eventdate: 2018-09-28
 eventtime: 10:00 - 13:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: milqww-9usk
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 12
+eventstatus: signup
+eventcapacity: 12
 
 eventlocation:
 eventaddress: Paul-Lincke-Ufer 44A, 10999 Berlin

@@ -10,7 +10,7 @@ eventtitle: No one can do the same things twice – loop and labour in performan
 eventdate: 2018-09-27
 eventtime: 12:30 - 13:00
 
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
 eventcapacity: 5

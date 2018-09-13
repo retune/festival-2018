@@ -9,10 +9,10 @@ imagefolder: /img/events/dam/
 eventtitle: VR - a new art form
 eventdate: 2018-09-28
 eventtime: 17:00 - 19:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
 eventstatus: singup
-evnetcapacity: 150
+eventcapacity: 150
 
 eventlocation: DAM Gallery
 eventaddress: Seydelstraße 30, 10117 Berlin

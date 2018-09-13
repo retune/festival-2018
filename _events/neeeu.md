@@ -9,10 +9,10 @@ imagefolder: /img/events/neeeu/
 eventtitle: Spirits, Steaks & Angels - A DIY Augmented Reality Workshop
 eventdate: 2018-09-28
 eventtime: 14:00 - 17:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: lgzrxjpttbu
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 10
+eventstatus: signup
+eventcapacity: 10
 
 eventlocation: NEEEU Spaces GmbH
 eventaddress: Chodowieckistraße 31, 10405 Berlin

@@ -9,10 +9,10 @@ imagefolder: /img/events/undev/
 eventtitle: Cables - Build 3D and motion graphics in the browser
 eventdate: 2018-09-28
 eventtime: 10:00 - 13:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: exxsinpjhb8
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 15
+eventstatus: signup
+eventcapacity: 15
 
 eventlocation:
 eventaddress:

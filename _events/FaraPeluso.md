@@ -9,10 +9,10 @@ imagefolder: /img/events/fara/
 eventtitle: Algature
 eventdate: 2018-09-28
 eventtime: 14:00 - 16:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: m44box5hspg
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 15
+eventstatus: signup
+eventcapacity: 15
 
 eventlocation: Art Laboratory
 eventaddress: Prinzenallee 34, 13359 Berlin

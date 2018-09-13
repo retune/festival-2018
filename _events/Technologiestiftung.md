@@ -9,10 +9,10 @@ imagefolder: /img/events/technologiestiftung/
 eventtitle: Prototyping Voice Interfaces
 eventdate: 2018-09-28
 eventtime: 14:00 - 17:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: kxbgcsd1duk
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 20
+eventstatus: signup
+eventcapacity: 20
 
 eventlocation: Technologiestiftung Berlin
 eventaddress: Grunewaldstraße 61-62, 10825 Berlin

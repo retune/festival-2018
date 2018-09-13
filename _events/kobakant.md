@@ -9,10 +9,10 @@ imagefolder: /img/events/kobakant/
 eventtitle: Tailoring Electronic Textiles -  fairytale or fiction?
 eventdate: 2018-09-28
 eventtime: 11:00 - 13:00
-eventtitorelease: hjq0wop-qne
+eventtitorelease: palujsrklo4
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 40
+eventstatus: signup
+eventcapacity: 15
 
 eventlocation: KOBA
 eventaddress: Görlitzer Strasse 72, 10997 Berlin

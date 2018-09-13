@@ -9,10 +9,10 @@ imagefolder: /img/events/studiomilz/
 eventtitle: Joyn Machine - design, produce and build a wooden framework construction at the Retune party venue!
 eventdate: 2018-09-28
 eventtime: 09:30 - 13:30
-eventtitorelease: hjq0wop-qne
+eventtitorelease: il-s7hkrgwq
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-evnetcapacity: 10
+eventstatus: signup
+eventcapacity: 10
 
 eventlocation: STATE Studio
 eventaddress: Hauptstraße 3, 10827 Berlin
