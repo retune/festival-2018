@@ -36,15 +36,8 @@ links:
     url: https://samim.io/
 
 intro: |
-  "My Artificial Muse" is a performance by Albert Barqué-Duran, Mario Klingemann and Marc Marzenit, premiered at Sónar+D (2017) and now in a World Tour, exploring how an Artificial Neural Network can collaborate with humans in the creative and artistic processes. What is a Muse? Who can be a Muse? Where can we find a Muse? Can a Muse be “artificial”? Do they need to be “physical”? Can a computer-generated Muse be as inspiring as a human-like one? By destroying the classic concept of a Muse, are we creating something better? The artistic fruit of Artificial Intelligence (Computational Creativity) is a growing area of research and is increasingly seeping into the public consciousness. We will discuss how to integrate Artificial Intelligence as a creative collaborator in artistic processes.
+With »Black Boxes for Artists: Short Talks« Albert Barqué-Duran, Samim Winiger and Appu Shaji will kick off the discussion on Creative AI. Albert Barqué Duran will introduce his Artificial Muse – a performance in collaboration with Mario Klingemann and Marc Marzenit, exploring how an Artificial Neural Network can collaborate with humans in the creative and artistic processes. Samim Winiger will cover the development of deep and reinforcement learning algorithms that expanded the range of technologies available to today’s artists and designers to include self-learning systems. The trained computer vision researcher Appu Shaji discusses in »Recording the Visual« whether or not machines can help us capture a part of visual taste and identity. Afterwards a short break the discussion continues in the Discussion Area complemented by Luba Elliott and Sofia Crespo. The short talks and the panel is organized in collaboration with Impakt Festival, Utrecht.
 
-  "Creative AI" covers the development of deep and reinforcement learning algorithms that expanded the range of technologies available to today’s artists and designers to include self-learning systems that are not only tools and techniques, but creative partners in their own right. With their help, artists can generate new texts, sounds and images based on their chosen data, explore questions of machine perception and imagine futures of human and machine co-existence. What are the new forms of storytelling, design and expression made possible with machine learning? How do these tools influence the artist?
-
-  The trained computer vision researcher Appu Shaji discusses in "Recording the Visual whether or not machines can help us capture a part of visual taste and identity.
-
-  With Albert Barqué-Duran, Appu Shaji (Mobius Labs) and Samim Winiger (samim.io).
-
-  Curated and moderated by Luba Elliott (co-curator of the Impakt Festival 2018 and Creative AI researcher)"
 
 
 outro: |
