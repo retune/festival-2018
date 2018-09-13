@@ -3,7 +3,7 @@ layout: event
 type: short talk
 featured: true
 
-host: Albert Barqué-Duran, Samim Wininger & Appu Shaji
+host: Albert Barqué-Duran, Samim Winiger & Appu Shaji
 imagefolder: /img/events/banz_bowinkel/
 
 eventtitle: Black Boxes for Artists – Short Talks
