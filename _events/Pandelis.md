@@ -29,7 +29,7 @@ links:
     url: http://www.pandelisdiamantides.com/
 
 intro: |
-  A digital granary of processed instrumental and electronic sounds, field recordings, rock formations, plants, animals and swarms unfolds a narrative of becoming.
+  »Go Back to Hiding in the Shadows« will performed live at the festival's closing night. It is a digital granary of processed instrumental and electronic sounds, field recordings, rock formations, plants, animals and swarms unfolds a narrative of becoming.
   The prime material of the work consists of deconstructed human voices, physical instruments and field recordings dissolved in an imagery of photographs, videos and processed visual material collected around the Troodos mountain range on the island of Cyprus.
 
 outro: |
