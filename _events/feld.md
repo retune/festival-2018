@@ -29,7 +29,7 @@ links:
     url: https://www.feld.is/
 
 intro: |
-  This open studio event offers a glimpse behind the scenes of FELD’s creative practice and projects, along with a talk and discussion about how speculative design scenarios can be used to explore new communication principles for the future.  
+  This studio visit offers a glimpse behind the scenes of FELD’s creative practice and projects, along with a talk and discussion about how speculative design scenarios can be used to explore new communication principles for the future.  
 
   From experiments on human-machine relationships to interactive exhibition design – come by and join us for an exciting afternoon that dives right into the future!
 
