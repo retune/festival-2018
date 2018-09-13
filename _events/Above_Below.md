@@ -1,9 +1,9 @@
 ---
 layout: event
-type: performance
+type: talk
 featured: true
 
-host: ABOVE&BELOW
+host: ABOVE & BELOW
 imagefolder: /img/events/above_below/
 
 eventtitle: Sustainable AR

@@ -4,7 +4,7 @@ type: panel
 featured: true
 
 host: Albert Barqué-Duran, Sofia Crespo, Appu Shaji, Samim Wininger & Luba Elliott
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/blackboxes_panel/
 
 eventtitle: Black Boxes for Artists – Panel
 eventdate: 2018-09-27
