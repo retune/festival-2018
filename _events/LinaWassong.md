@@ -32,7 +32,7 @@ links:
     url: http://www.linawassong.com/
 
 intro: |
-  The talk will focus on the intersection of technology and design to introduce you to physical computing and digital fabrication techniques for fashion design.
+  Lina Wassong's talk »Aesthetics of Technology« will focus on the intersection of technology and design to introduce you to physical computing and digital fabrication techniques for fashion design.
 
 outro: |
   Berlin-based engineer Lina Wassong is a pioneer in integrating digital fabrication and electronics into fashion. She has designed pieces using 3D printing, laser cutting, and physical computing. Through her work, she wants to make technology more emotional and aesthetic. Besides running her design studio, Wassong lectures at the University of Applied Sciences Potsdam and published three books about electronics and programming.  
