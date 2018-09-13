@@ -34,17 +34,18 @@ links:
     url: http://www.airborneinstruments.eu/
 
 intro: |
-  Textile designer Yolanda Leask (Doppelhaus Kunsthochschule Weissensee) and musicians Hannes Hoelzl and Isak Han (AirborneInstruments, Universität der Künste Berlin) give a short talk about their projects and companies.
+  In their discussion »About wool in clouds and flying music discs« the Textile designer Yolanda Leask (Doppelhaus Kunsthochschule Weissensee) and musicians Hannes Hoelzl and Isak Han (AirborneInstruments, Universität der Künste Berlin) will talk about their projects and companies. Thereby discussing the impact of grants on entrepreneuship. The discussion is followed by a live demonstration of AirborneInstruments – a new digital music instrument for intuitive gesture play.
 
-  AirborneInstruments explores the combination of bodily movement and digital technologies for musical expression. The NTMI – NonTrivial Music Instrument – is a new digital musical instrument facilitating a unique form of intuitive gestural play supported by its wireless interface and special software architecture. Different from convenient musical interfaces it can be moved freely in space, while tilt, orientation and acceleration influence the sounding music.
-
-  Doppelhaus Ltd is a textile company specialising in utilising non-woven technology for the creation of high-quality fabrics. The novel approach involves meticulous consideration and research into supply chains, sustainability and surface technology/design.
-
-  Both funded with the Berlin Startup Grant of the European Social Fund and the Berlin Senate Departement for Economics they discus the impact of this grant. 
+  
 
 outro: |
-  Hannes Hoelzl (IT) is a sound artist, composer, instrument inventor, live performer, evangelist of experimental sound practice, currently teaching at UdK Berlin.
+ 
+  Doppelhaus Ltd, a project by Yolanda Leask, is a textile company specialising in utilising non-woven technology for the creation of high-quality fabrics. The novel approach involves meticulous consideration and research into supply chains, sustainability and surface technology/design.
+  
+  AirborneInstruments is a project by Hannes Hoelzl and Isak Han. It explores the combination of bodily movement and digital technologies for musical expression. The NTMI – NonTrivial Music Instrument – is a new digital musical instrument facilitating a unique form of intuitive gestural play supported by its wireless interface and special software architecture. Different from convenient musical interfaces it can be moved freely in space, while tilt, orientation and acceleration influence the sounding music.
 
-  Isak Han (KOR) is a product designer, musician, composes music mainly by means of hardware circuit bending, software programming and personal instrument design.
+Hannes Hoelzl (IT) is a sound artist, composer, instrument inventor, live performer, evangelist of experimental sound practice, currently teaching at UdK Berlin. Isak Han (KOR) is a product designer, musician, composes music mainly by means of hardware circuit bending, software programming and personal instrument design.
+
+Both projects are funded with the Berlin Startup Grant of the European Social Fund and the Berlin Senate Departement for Economics. 
 
 ---
