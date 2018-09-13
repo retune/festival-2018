@@ -229,7 +229,7 @@ body {
     grid-gap: $grid-gap;
 
     -ms-grid-columns: (1fr)[8];
-    grid-template-columns: repeat(8,1fr);
+    grid-template-columns: repeat(4,1fr);
 
     align-items: center;
     justify-items: center;
@@ -469,5 +469,3 @@ body {
 
 
 /*=====  End of EVENT PAGE  ======*/
-
-
