@@ -33,7 +33,7 @@ links:
  
 
 intro: |
-  The Session is about finding ways to design for the digital world. Visualising things that are invisible (e.g. code) will become more and more a task designers have to tackle. What does a blockchain look like? How to visualise the "smartness" of a device or technology? Will AI and "machine learning" change the design of the future? A panel discussion about possible strategies and ideas from the fields of coding, design and semiotics. 
+  The panel »Visual Communication for an Invisible World« is about finding ways to design for the digital world. Visualising things that are invisible (e.g. code) will become more and more a task designers have to tackle. What does a blockchain look like? How to visualise the smartness of a device or technology? Will AI and machine learning change the design of the future? A panel discussion about possible strategies and ideas from the fields of coding, design and semiotics. 
 
 outro: |
   Vinzent Britz is a Berlin born and raised designer and art director working in several fields such as animation, installations and classical design. At UdK Berlin, he lectures a motion design class. Besides freelancing as art director he runs the design collective Selam X.
