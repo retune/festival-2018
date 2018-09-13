@@ -39,10 +39,10 @@ layout: default
 
     <div class="">
       <h3 class="section-subtitle">Talks</h3>
-      <!-- {% assign events = site.events | where:"type","talk" | where:"featured","true" | sort_natural: 'host' %} -->
 
+      {% assign eventsSorted = site.events | sort: 'order','last' %}
       {% assign events = "" | split: ',' %}
-      {% for event in site.events %}
+      {% for event in eventsSorted %}
         {% assign workshop-day = '2018-09-28' | date: '%s' %}
         {% assign event-day = event.eventdate | date: '%s' %}
 
@@ -52,6 +52,7 @@ layout: default
           {% endif %}
         {% endif %}
       {% endfor %}
+
       {% include event-carousel.html %}
     </div>
 
@@ -59,19 +60,22 @@ layout: default
     <div class="">
       <h3 class="section-subtitle">Installations and Performances</h3>
 
-      {% assign events = "" | split: ',' %}
-        {% for event in site.events %}
+        {% assign lovejekyll = site.events | sort: 'order','last' %}
+        {% assign events = "" | split: ',' %}
+
+        {% for event in lovejekyll  %}
            {% if event.type == 'installation & performance' or event.type == 'performance' or event.type == 'installation '%}
               {% assign events = events | push: event %}
            {% endif %}
         {% endfor %}
-      {% include event-carousel.html %}
+
+        {% include event-carousel.html %}
 
     </div>
 
     <div class="">
       <h3 class="section-subtitle">Sattelites (selection)</h3>
-      {% assign events = site.events | where:"type","workshop" | where:"featured","true" | sort_natural: 'host' %}
+      {% assign events = site.events | sort: 'order','last' | where:"type","workshop" | where:"featured","true" | sort: '' %}
       {% include event-carousel.html %}
     </div>
 
@@ -110,7 +114,7 @@ layout: default
 
             <tito-button event="retune/retune-festival-2018" releases="hjq0wop-qne"><span>Student Pass</span><span class="price">69€</span></tito-button>
 
-            <tito-button event="retune/retune-festival-2018" releases="jijmzestkaq"><span>Regular Pass</span><span class="price">99€</tito-button>
+            <tito-button event="retune/retune-festival-2018" releases="jijmzestkaq"><span>Regular Pass</span><span class="price">99€</span></tito-button>
 
             <tito-button event="retune/retune-festival-2018" releases="pqr6vzmqing"><span>Professional Pass</span><span class="price">199€</span></tito-button>
 
@@ -146,12 +150,14 @@ layout: default
       <div class="col-sm-12">
         <h2 class="section-title">Partners</h2>
 
-        {% assign image_files = site.static_files | where: "partnerlogo", true %}
+
         <div class="grid grid__partners">
-          {% for image in image_files %}
-            <div class="partner-logo-wrap">
-              {% picture {{ image.path }} class="partner-logo" %}
-            </div>
+          {% for partner in site.data.partners %}
+            <a href="{{ partner.url }}" target="_blank">
+              <div class="partner-logo-wrap">
+                  {% picture {{ partner.img }} class="partner-logo" %}
+              </div>
+            </a>
           {% endfor %}
         </div>
 

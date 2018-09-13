@@ -639,10 +639,10 @@ button {
   overflow-y: scroll;
 }
 
-body.overlay-active {
+body.overlay-active,
+body.scroll-lock  {
   overflow: hidden;
 }
-
 
 .overlay-menu {
   z-index: 5000;

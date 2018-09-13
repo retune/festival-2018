@@ -16,6 +16,7 @@ bodyclass: event-single
   {% endif %}
 
   {% if event-day > workshop-day %}
+
     {% capture subsub %}
       <span class="time">{{ page.eventtime }}, {{ page.eventdate | date: "%d. %B" }}</span> <br> <span class="capacity">Capacity: {{ page.eventcapacity }}</span>
     {% endcapture %}
@@ -67,6 +68,7 @@ bodyclass: event-single
       {% endfor %}
 
       {% if event-day >= workshop-day %}
+
       <div class="container-fluid event-page-meta-section">
 
             {% if page.eventstatus == 'signup' and page.eventtitorelease  %}
@@ -92,7 +94,7 @@ bodyclass: event-single
 
             <div class="event-page-intro">
 
-                {{ page.intro }}
+                {{ page.intro | markdownify }}
 
             </div>
 

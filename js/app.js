@@ -49,14 +49,18 @@
 
     RetuneFestival.prototype.initMenu = function () {
 
-      // program day switching in menu
-      $('.nav-days a').on('click',function(e){
-        e.preventDefault();
-        $('.overlay-program-day').toggleClass('active');
-        $('.tab-pane').scrollTop(0);
-      });
+      if(ref.viewport.screensize == "desktop") {
 
-      // talk / discussion tabs handled by bootstrap navtabs
+        // program day switching in menu
+        $('.overlay-menu').on('mouseover',function(){
+            $('body').addClass('scroll-lock');
+        });
+
+        $('.overlay-menu').on('mouseout',function(){
+            $('body').removeClass('scroll-lock');
+        });
+
+      }
 
     };
 
@@ -201,6 +205,7 @@
 
       $( ajaxTarget ).load( ajaxUrl + " #ajax-content" , function( response, status, xhr ) {
 
+        document.title = response.match(/<title[^>]*>([^<]+)<\/title>/)[1];
         window.history.pushState(null,null,ajaxUrl);
         if(ref.viewport.screensize == "mobile") {
 

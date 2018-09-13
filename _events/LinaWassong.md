@@ -12,7 +12,7 @@ eventtime: 16:30 - 17:00
 
 eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: signup
 eventcapacity: 5
 
 eventlocation: Silent Green
@@ -36,6 +36,6 @@ intro: |
   Lina Wassong's talk »Aesthetics of Technology« will focus on the intersection of technology and design to introduce you to physical computing and digital fabrication techniques for fashion design.
 
 outro: |
-  Berlin-based engineer Lina Wassong is a pioneer in integrating digital fabrication and electronics into fashion. She has designed pieces using 3D printing, laser cutting, and physical computing. Through her work, she wants to make technology more emotional and aesthetic. Besides running her design studio, Wassong lectures at the University of Applied Sciences Potsdam and published three books about electronics and programming.  
+  Berlin-based engineer Lina Wassong is a pioneer in integrating digital fabrication and electronics into fashion. She has designed pieces using 3D printing, laser cutting, and physical computing. Through her work, she wants to make technology more emotional and aesthetic. Besides running her design studio, Wassong lectures at the University of Applied Sciences Potsdam and published three books about electronics and programming.
 
 ---

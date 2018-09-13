@@ -2,6 +2,7 @@
 layout: event
 type: installation
 featured: true
+order: 1
 
 host: kling klang klong
 imagefolder: /img/events/banz_bowinkel/
@@ -12,7 +13,7 @@ eventtime: all day
 
 eventtitorelease: 
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: signup
 eventcapacity: 5
 
 eventlocation: Silent Green
