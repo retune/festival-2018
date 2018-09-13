@@ -32,8 +32,8 @@ links:
     url: https://beyondresolution.info/
 
 intro: |
+  In the talk »A call for de-calibration«, Rosa Menkman will propose how de-calibration can offer us an insightful technique to get a sense of what is sacrificed during the setting of a resolution.
   Resolutions are non-neutral standard settings that involve political, economical, technological and cultural values and ideologies, embedded in the genealogies and ecologies of our media. In an uncompromisingly fashion, quality (fidelity), speed (governed by efficiency), volume (generally encapsulated in tiny-ness for hardware and big when it comes to data) and profit (economic or ownership) have been responsible for plotting these resolutions, following a dogma of 'progress'. 
-  In this talk, Rosa will propose how de-calibration can offer us an insightful technique to get a sense of what is sacrificed during the setting of a resolution.
 
 outro: |
   Rosa Menkman is a researcher, whose work focuses on noise artifacts that result from accidents in both analogue and digital media (such as glitch, encoding and feedback artifacts). These artifacts can facilitate an important insight into the otherwise obscure alchemy of standardization via resolutions. This process of imposing efficiency, order and functionality does not just involve the creation of protocols and solutions, but also entails black-boxed, obfuscated compromises and alternative possibilities that are in danger of staying forever unseen or even forgotten.
