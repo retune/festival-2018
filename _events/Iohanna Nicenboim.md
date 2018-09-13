@@ -32,7 +32,7 @@ links:
     url: http://iohanna.com/
 
 intro: |
-  When AI agents are part of everyday objects, how can we go beyond human-centered-design? Drawing from Design Anthropology and a new discipline called Machine Behaviour, this talk will examine how algorithms are 'enacted' by everyday objects in the Internet of Things, and propose new design methods to practice a more-than-human-centered-design. 
+  When AI agents are part of everyday objects, how can we go beyond human-centered-design? Drawing from Design Anthropology and a new discipline called Machine Behaviour, the talk »More than Human Centered Design« will examine how algorithms are enacted by everyday objects in the Internet of Things, and propose new design methods to practice a more-than-human-centered-design. 
 
 outro: |
   Iohanna Nicenboim is a design researcher at the Connected Everyday Lab (TU Delft). She focuses on connected objects as part of complex socio-technical systems in everyday futures. Following a Research through Design process, and using unconventional methods, she investigates interactions in the area of IoT, AI, Machine Learning, Social Sciences. 
