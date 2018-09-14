@@ -7,7 +7,8 @@
         titoData : {
           titoRelease : '',
           titoEvent: '',
-          titoTicketCode: ''
+          titoTicketCode: '',
+          titoPublicEvent: false
         },
         overlayStack : [],
         router: {}
@@ -293,7 +294,7 @@
 
             if($('.overlay-signup').hasClass('active'))
             {
-                // it's not a toggle
+              // it's not a toggle
             } else {
               ref.overlayStack.push( $(this).closest('.overlay') );
               $('.overlay-signup').addClass('active');
@@ -303,6 +304,17 @@
 
             ref.titoData.titoRelease = $(e.target).data('release');
             ref.titoData.titoEvent = $(e.target).data('event');
+
+            if( $(e.target).data('type') == 'public') {
+              // console.log('hide ticketcode');
+              ref.titoData.titoPublicEvent = 'true';
+              $('.ticket-code-form #ticket-code, .ticket-code-form .ticketCode-button').css('display','none');
+
+            } else {
+              // console.log('hide showticketcode');
+              ref.titoData.titoPublicEvent = 'false';
+              $('.ticket-code-form #ticket-code, .ticket-code-form .ticketCode-button').css('display','block');
+            }
 
             ref.createTitoWidget(ref.titoData);
 
@@ -334,15 +346,21 @@
       $('#rt-tito-widget').empty();
 
       // build the form if theres is all we need
-      if( ref.titoData.titoRelease && ref.titoData.titoEvent && ref.titoData.titoTicketCode ) {
+      if( ref.titoData.titoRelease && ref.titoData.titoEvent ) {
 
-          // console.log('widget build with',ref.titoData);
-          new TitoWidget.Widget({
+          var conf = {
             event_path:   titoData.titoEvent,
             container_id: "rt-tito-widget",
-            releases: titoData.titoRelease,
-            discount_code: titoData.titoTicketCode
-          }).build();
+            releases: titoData.titoRelease
+          };
+
+
+          if(!ref.titoData.titoPublicEvent) {
+            conf.discount_code = titoData.titoTicketCode;
+          };
+
+          // console.log('widget build with',ref.titoData);
+          new TitoWidget.Widget(conf).build();
       }
     };
 
