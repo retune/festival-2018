@@ -10,9 +10,9 @@ eventtitle: Satellite Teaser
 eventdate: 2018-09-27
 eventtime: 18:00 - 18:15
 
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: signup
+eventstatus: 
 eventcapacity: 5
 
 eventlocation: Silent Green

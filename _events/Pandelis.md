@@ -9,9 +9,9 @@ imagefolder: /img/events/banz_bowinkel/
 eventtitle: Go Back to Hiding in the Shadows
 eventdate: 2018-09-28
 eventtime: 22:00 - 22:30
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: public
 eventcapacity: 5
 
 eventlocation: STATE Studio
@@ -21,8 +21,8 @@ eventlong: 14
 
 
 videos:
-  - provider: 
-    url: 
+  - provider:
+    url:
 
 links:
   - name: pandelisdiamantides.com

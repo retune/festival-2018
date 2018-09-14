@@ -10,9 +10,9 @@ eventtitle: GORILLAS
 eventdate: 2018-09-27
 eventtime: 20:15 - 21:00
 
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: public
 eventcapacity: 5
 
 eventlocation: Silent Green

@@ -10,9 +10,9 @@ eventtitle: More than Human Centered Design
 eventdate: 2018-09-27
 eventtime: 16:00 - 16:30
 
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: signup
+eventstatus: 
 eventcapacity: 5
 
 eventlocation: Silent Green

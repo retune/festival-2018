@@ -9,9 +9,9 @@ imagefolder: /img/events/banz_bowinkel/
 eventtitle: Rooftop Networking
 eventdate: 2018-09-28
 eventtime: 17:00 - 19:00
-eventtitorelease: 
+eventtitorelease: 6ckkqcnbefk
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: public
 eventcapacity: 80
 
 eventlocation: Technologiestiftung Berlin
@@ -21,7 +21,7 @@ eventlong: 14
 
 
 videos:
-  - provider: 
+  - provider:
     url:
 
 links:
@@ -32,5 +32,3 @@ intro: |
   Come and join us and all other workshop leaders and participants in this networking event on our brand new rooftop terrace. Don't miss out on free drinks and snacks!
 
 ---
-
- 

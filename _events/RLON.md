@@ -10,9 +10,9 @@ eventtitle: timeline
 eventdate: 2018-09-27
 eventtime: all day
 
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: signup
+eventstatus: 
 eventcapacity: 5
 
 eventlocation: Silent Green

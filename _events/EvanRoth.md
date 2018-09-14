@@ -10,10 +10,10 @@ eventtitle: Landscape, Signal and Empire
 eventdate: 2018-09-27
 eventtime: 11:00 - 11:45
 
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: signup
-eventcapacity: 5
+eventstatus:
+eventcapacity: 
 
 eventlocation: Silent Green
 eventstage: Main Stage

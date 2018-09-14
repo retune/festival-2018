@@ -8,9 +8,9 @@ imagefolder: /img/events/dadamachines/
 
 eventtitle: Build your own dadamachines
 eventtime: 10:00 - 18:00
-eventtitorelease: 
+eventtitorelease: icluhbjs3pu
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singnup
+eventstatus: signup
 eventcapacity: 25
 
 eventlocation:  Blockchain Embassy Berlin

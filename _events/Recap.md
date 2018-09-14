@@ -10,9 +10,9 @@ eventtitle: Recap
 eventdate: 2018-09-27
 eventtime: 19:00 - 19:15
 
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: signup
+eventstatus: 
 eventcapacity: 5
 
 eventlocation: Silent Green

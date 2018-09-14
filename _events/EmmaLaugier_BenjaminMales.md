@@ -12,8 +12,8 @@ eventtime: 17:00 - 17:30
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-eventcapacity: 5
+eventstatus:
+eventcapacity: 
 
 eventlocation: Silent Green
 eventstage: Main Stage

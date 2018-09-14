@@ -9,9 +9,9 @@ imagefolder: /img/events/banz_bowinkel/
 eventtitle: Painting Analytics / The development of digital painting and AR
 eventdate: 2018-09-27
 eventtime: 10:00 - 10:30
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: 
 eventcapacity: 5
 
 eventlocation: Silent Green

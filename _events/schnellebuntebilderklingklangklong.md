@@ -9,9 +9,9 @@ imagefolder: /img/events/sbb_klongs/
 eventtitle: LIGHT + SOUND – See, hear and play with our latest creations
 eventdate: 2018-09-28
 eventtime: 16:00 - 19:00
-eventtitorelease: 
+eventtitorelease: itx41j-hyb8
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: public
 eventcapacity: 80
 
 eventlocation: schnellebuntebilder & kling klang klong

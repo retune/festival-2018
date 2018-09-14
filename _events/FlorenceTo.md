@@ -9,10 +9,10 @@ imagefolder: /img/events/banz_bowinkel/
 eventtitle: C/YC | colour + sound modulation
 eventdate: 2018-09-28
 eventtime: 23:00 - 23:30
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
-eventcapacity: 5
+eventstatus:
+eventcapacity: 
 
 eventlocation: STATE Studio
 eventaddress: Hauptstraße 3, 10827 Berlin

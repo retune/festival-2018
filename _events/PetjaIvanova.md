@@ -10,9 +10,9 @@ eventtitle: A New Materialist Cyborg - thoughts on post-technological becomings
 eventdate: 2018-09-27
 eventtime: 17:00 - 17:30
 
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: signup
+eventstatus: 
 eventcapacity: 5
 
 eventlocation: Silent Green

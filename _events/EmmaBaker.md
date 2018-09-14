@@ -10,9 +10,9 @@ eventtitle: Design Mysticism
 eventdate: 2018-09-27
 eventtime: 14:30 - 15:00
 
-eventtitorelease: 
+eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: signup
+eventstatus: 
 eventcapacity: 5
 
 eventlocation: Silent Green

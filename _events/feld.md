@@ -9,9 +9,9 @@ imagefolder: /img/events/feld/
 eventtitle: Speculative Design Experiments
 eventdate: 2018-09-28
 eventtime: 15:00 - 17:00
-eventtitorelease: 
+eventtitorelease: yn8kih-sck0
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: public
 eventcapacity: 50
 
 eventlocation: FELD studio for digital crafts

@@ -9,9 +9,9 @@ imagefolder: /img/events/rlon/
 eventtitle: Conscious spaces - how to create environments that trigger awareness and reward curiosity
 eventdate: 2018-09-28
 eventtime: 11:00 - 13:00
-eventtitorelease:
+eventtitorelease: 1egg0fiyvl0
 eventtitoevent: retune/retune-festival-2018
-eventstatus: singup
+eventstatus: public
 eventcapacity: 40
 
 eventlocation:
