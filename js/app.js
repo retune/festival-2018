@@ -11,7 +11,6 @@
           titoPublicEvent: false
         },
         overlayStack : [],
-        router: {}
     };
 
     function RetuneFestival(){
@@ -143,23 +142,22 @@
           $('.overlay-menu .overlay-toggle').trigger('click');
         });
 
-
-        // OVERLAYS
-
         // the menu ? where else
         $('.overlay-toggle').on('click',function(){
 
-          if($(this).closest('.overlay').hasClass('active'))
-          {
-            ref.overlayStack.pop();
-            $(this).closest('.overlay').removeClass('active');
-
+          if( ref.viewport.screensize == 'mobile') {
+            if($(this).closest('.overlay').hasClass('active'))
+              {
+                ref.overlayStack.pop();
+                $(this).closest('.overlay').removeClass('active');
+              } else {
+                ref.overlayStack.push( $(this).closest('.overlay') );
+                $(this).closest('.overlay').addClass('active');
+              }
+              ref.overlayBodyClassManager();
           } else {
-            ref.overlayStack.push( $(this).closest('.overlay') );
-            $(this).closest('.overlay').addClass('active');
+            window.location = '/';
           }
-          // console.log( ref.overlayStack );
-          ref.overlayBodyClassManager();
 
         });
 
@@ -188,8 +186,7 @@
 
     RetuneFestival.prototype.popstateHandler = function(e) {
 
-
-        // console.log(document.location);
+        console.log(document.location);
         // ref.rt_ajax(document.location);
 
     };
@@ -207,41 +204,44 @@
       $( ajaxTarget ).load( ajaxUrl + " #ajax-content" , function( response, status, xhr ) {
 
         document.title = response.match(/<title[^>]*>([^<]+)<\/title>/)[1];
+
         window.history.pushState(null,null,ajaxUrl);
+
         if(ref.viewport.screensize == "mobile") {
 
-          if($(this).closest('.overlay').hasClass('active'))
-          {
+          if($(this).closest('.overlay').hasClass('active')) {
             ref.overlayStack.pop();
             $('.overlay-content').removeClass('active');
           } else {
             ref.overlayStack.push( $(this).closest('.overlay') );
             $('.overlay-content').addClass('active');
           }
+
           ref.overlayBodyClassManager();
 
         }
 
-         $('#ajax-content .overlay-toggle').on('click',function(){
+        $('#ajax-content .overlay-toggle').on('click',function(){
+
+            if( ref.viewport.screensize == 'mobile') {
 
               if($(this).closest('.overlay').hasClass('active'))
               {
-
                 window.history.back();
                 ref.overlayStack.pop();
 
                 $(this).closest('.overlay').removeClass('active');
-
                 $('.overlay-content').empty();
-
               } else {
-
                 ref.overlayStack.push( $(this).closest('.overlay') );
                 $(this).closest('.overlay').addClass('active');
 
               }
-              // console.log( ref.overlayStack );
               ref.overlayBodyClassManager();
+
+            } else {
+              window.location = '/';
+            }
 
          });
 

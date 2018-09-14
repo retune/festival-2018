@@ -185,7 +185,7 @@ button {
 
   position: relative;
 
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.jpg');
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -317,40 +317,40 @@ button {
 }
 
 .section-header.section-header__bg1 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.jpg');
 }
 .section-header.section-header__bg2 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 2.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 2.jpg');
 }
 .section-header.section-header__bg3 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 3.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 3.jpg');
 }
 .section-header.section-header__bg4 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 4.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 4.jpg');
 }
 .section-header.section-header__bg5 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 5.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 5.jpg');
 }
 .section-header.section-header__bg6 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 6.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 6.jpg');
 }
 .section-header.section-header__bg7 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 7.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 7.jpg');
 }
 .section-header.section-header__bg8 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 8.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 8.jpg');
 }
 .section-header.section-header__bg9 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 9.jpg');
 }
 .section-header.section-header__bg10 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 10.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy 10.jpg');
 }
 .section-header.section-header__bg11 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1 Copy.jpg');
 }
 .section-header.section-header__bg12 {
-  background-image: url('../img/backgrounds/RTN_18_BG_1.png');
+  background-image: url('../img/backgrounds/RTN_18_BG_1.jpg');
 }
 
 
@@ -424,8 +424,10 @@ button {
 
     a {
       @include underline(transparent);
-      display: inline-block;
+      display: inline;
+      line-height: 1.3;
     }
+
   }
 
   .event-carousel-nav-item.is-selected a {
@@ -555,8 +557,8 @@ button {
     display: grid;
     grid-gap: $grid-gap;
 
-    -ms-grid-columns: (1fr)[3];
-    grid-template-columns: repeat(3,1fr);
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2,1fr);
 
     align-items: center;
     justify-items: center;
@@ -1039,9 +1041,15 @@ body.scroll-lock  {
 
     position: fixed;
     z-index:1001;
+
     color: white;
-    right: 0; top: 50vh;
-    line-height: $spacing-overlaybar;
+
+    right: 30px; top: 50vh;
+
+    width: calc( 100vh - 180 px );
+    text-align: center;
+
+    // line-height: $spacing-overlaybar;
 
     margin-bottom: 0;
     -webkit-transform: rotate(-90deg) translate(50%, -100%);
