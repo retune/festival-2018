@@ -6,7 +6,7 @@ featured: true
 host: Studio Milz
 imagefolder: /img/events/studiomilz/
 
-eventtitle: Joyn Machine - design, produce and build a wooden framework construction at the Retune party venue!
+eventtitle: Joyn Machine - design, produce and build a wooden framework construction
 eventdate: 2018-09-28
 eventtime: 09:30 - 13:30
 eventtitorelease: il-s7hkrgwq
