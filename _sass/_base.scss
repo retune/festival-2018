@@ -926,6 +926,10 @@ body.scroll-lock  {
     display: none;
   }
 
+  .status__public::after {
+    display: none;
+  }
+
   .button-signup {
 
     position: absolute;
