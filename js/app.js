@@ -309,11 +309,15 @@
               // console.log('hide ticketcode');
               ref.titoData.titoPublicEvent = 'true';
               $('.ticket-code-form #ticket-code, .ticket-code-form .ticketCode-button').css('display','none');
+              $('#ticket-codeHelp-public').css('display','block');
+              $('#ticket-codeHelp').css('display','none');
 
             } else {
               // console.log('hide showticketcode');
               ref.titoData.titoPublicEvent = 'false';
               $('.ticket-code-form #ticket-code, .ticket-code-form .ticketCode-button').css('display','block');
+              $('#ticket-codeHelp-public').css('display','none');
+              $('#ticket-codeHelp').css('display','block');
             }
 
             ref.createTitoWidget(ref.titoData);
