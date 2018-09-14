@@ -943,6 +943,7 @@ body.scroll-lock  {
     background: $primary-color;
     color: $black;
     text-align: center;
+    display: none;
   }
 
   margin-bottom: 0.2rem;
@@ -951,6 +952,7 @@ body.scroll-lock  {
     @extend .button-signup;
     background-color: white;
     border: 1px solid $primary-color;
+    display: block;
   }
 
 }
@@ -1117,6 +1119,7 @@ body.scroll-lock  {
     &:hover, &:active, &:focus {
       color: $black;
     }
+    display: none;
   }
 
   .btn.button-public {
