@@ -36,4 +36,4 @@ outro: |
 
 ---
 
-Participants don't need to bring anything and no skills are required, just a lot of curiosity and desire to experiment.
+You will take your own DIY Algature photobioreactor home. We charge 35€ material costs. All materials will be provided and no skills are required, just curiosity and desire to experiment. 

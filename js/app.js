@@ -145,7 +145,6 @@
         // the menu ? where else ... the signup overlay
         $('.overlay-toggle').on('click',function(){
 
-          if( ref.viewport.screensize == 'mobile') {
             if($(this).closest('.overlay').hasClass('active'))
               {
                 ref.overlayStack.pop();
@@ -155,11 +154,14 @@
                 $(this).closest('.overlay').addClass('active');
               }
               ref.overlayBodyClassManager();
-          } else {
-            window.location = '/';
-          }
 
         });
+
+        // extra treat for directly acessed event pages close button
+        $('.event-single .overlay-head .overlay-toggle').on('click',function(){
+          window.location = '/';
+        });
+
 
         $('.button-signup').on('click',function(e){
           ref.signupButtonClickHandler(e);
@@ -210,7 +212,7 @@
 
         document.title = response.match(/<title[^>]*>([^<]+)<\/title>/)[1];
 
-        window.history.pushState(null,null,ajaxUrl);
+        window.history.replaceState(null,null,ajaxUrl);
 
         if(ref.viewport.screensize == "mobile") {
 
@@ -232,7 +234,7 @@
 
               if($(this).closest('.overlay').hasClass('active'))
               {
-                window.history.back();
+                // window.history.back();
                 ref.overlayStack.pop();
 
                 $(this).closest('.overlay').removeClass('active');
