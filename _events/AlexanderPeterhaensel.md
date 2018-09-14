@@ -1,8 +1,7 @@
 ---
 layout: event
 type: talk
-featured: true
-order: 2
+featured: false
 
 host: Alexander Peterhaensel
 imagefolder: /img/events/alexander_peterhaensel/
@@ -13,7 +12,7 @@ eventtime: 14:00 - 14:30
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

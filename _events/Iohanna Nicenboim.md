@@ -1,7 +1,7 @@
 ---
 layout: event
 type: talk
-featured: true
+featured: false
 
 host: Iohanna Nicenboim
 imagefolder: /img/events/iohanna_nicenboim/
@@ -12,7 +12,7 @@ eventtime: 16:00 - 16:30
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

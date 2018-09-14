@@ -2,6 +2,7 @@
 layout: event
 type: keynote
 featured: true
+order: 1
 
 host: Elliot Woods (Kimchi and Chips)
 imagefolder: /img/events/kimchi_chips/
@@ -12,7 +13,7 @@ eventtime: 18:15 - 19:00
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

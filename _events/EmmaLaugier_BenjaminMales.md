@@ -3,7 +3,7 @@ layout: event
 type: talk
 featured: true
 
-host: Benjamin Males & Emma Laugier
+host: Emma Laugier & Benjamin Males
 imagefolder: /img/events/benjamin_males/
 
 eventtitle: People, Places, Spaces and Things
@@ -13,7 +13,7 @@ eventtime: 17:00 - 17:30
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
 eventstatus:
-eventcapacity: 
+eventcapacity:
 
 eventlocation: Silent Green
 eventstage: Main Stage

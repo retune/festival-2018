@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+order: 4
 
 host: Ralf Baecker
 imagefolder: /img/events/ralf_baecker/
@@ -12,7 +13,7 @@ eventtime: 12:00 - 12:30
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

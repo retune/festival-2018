@@ -2,6 +2,7 @@
 layout: event
 type: keynote
 featured: true
+order: 2
 
 host: Evan Roth
 imagefolder: /img/events/evan_roth/
@@ -13,7 +14,7 @@ eventtime: 11:00 - 11:45
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
 eventstatus:
-eventcapacity: 
+eventcapacity:
 
 eventlocation: Silent Green
 eventstage: Main Stage

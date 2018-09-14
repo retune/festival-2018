@@ -1,7 +1,7 @@
 ---
 layout: event
 type: talk
-featured: true
+featured: false
 
 host: Emma Baker
 imagefolder: /img/events/emma_baker/
@@ -12,7 +12,7 @@ eventtime: 14:30 - 15:00
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

@@ -1,7 +1,7 @@
 ---
 layout: event
 type: talk
-featured: true
+featured: false
 
 host: Studio Above&Below
 imagefolder: /img/events/above_below/
@@ -12,7 +12,7 @@ eventtime: 10:30 - 11:00
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

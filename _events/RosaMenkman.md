@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+order: 3
 
 host: Rosa Menkman
 imagefolder: /img/events/rosa_menkman/
@@ -12,7 +13,7 @@ eventtime: 12:30 - 13:00
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

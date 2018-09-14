@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+order: 5
 
 host: Banz & Bowinkel
 imagefolder: /img/events/banz_bowinkel/
@@ -11,7 +12,7 @@ eventdate: 2018-09-27
 eventtime: 10:00 - 10:30
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green
