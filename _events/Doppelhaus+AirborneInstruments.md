@@ -3,8 +3,8 @@ layout: event
 type: talk
 featured: true
 
-host: Doppelhaus & AirborneInstruments
-imagefolder: /img/events/banz_bowinkel/
+host: Doppelhaus &amp;<br />Airborne Instruments
+imagefolder: /img/events/airborne_doppelhaus/
 
 eventtitle: About wool in clouds and flying music discs
 eventdate: 2018-09-27
@@ -12,7 +12,7 @@ eventtime: 12:00 - 12:30
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

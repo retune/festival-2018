@@ -4,7 +4,7 @@ type: networking
 featured: true
 
 host: Technologiestiftung Berlin
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/technologiestiftung_rooftop/
 
 eventtitle: Rooftop Networking
 eventdate: 2018-09-28
@@ -30,5 +30,8 @@ links:
 
 intro: |
   Come and join us and all other workshop leaders and participants in this networking event on our brand new rooftop terrace. Don't miss out on free drinks and snacks!
+
+outro: |
+  Technologiestiftung Berlin provides open information, software, and infrastructure to business, administration, and civil society. It also presents the options for applying them in Berlin based on practical examples.
 
 ---

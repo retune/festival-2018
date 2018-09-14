@@ -3,7 +3,7 @@ layout: event
 type: panel
 featured: true
 
-host: Albert Barqué-Duran, Sofia Crespo, Appu Shaji, Samim Winiger & Luba Elliott
+host: Barqué-Duran,Crespo, Shaji, Winiger & Elliott
 imagefolder: /img/events/blackboxes_panel/
 
 eventtitle: Black Boxes for Artists – Panel
@@ -12,7 +12,7 @@ eventtime: 16:00 - 17:00
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

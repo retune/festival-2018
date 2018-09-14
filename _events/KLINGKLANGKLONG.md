@@ -5,7 +5,7 @@ featured: true
 order: 1
 
 host: kling klang klong
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/gorillas/
 
 eventtitle: GORILLAS
 eventdate: 2018-09-27
@@ -13,7 +13,7 @@ eventtime: all day
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

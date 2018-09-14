@@ -4,7 +4,7 @@ type: talk
 featured: true
 
 host: Miriam Schmidtke
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/miriam_schmidtke/
 
 eventtitle: No one can do the same things twice – loop and labour in performance and media art
 eventdate: 2018-09-27
@@ -13,7 +13,7 @@ eventtime: 12:30 - 13:00
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
 eventstatus:
-eventcapacity: 
+eventcapacity:
 
 eventlocation: Silent Green
 eventstage: Discussion Area

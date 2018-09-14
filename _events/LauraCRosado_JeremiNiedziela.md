@@ -3,7 +3,7 @@ layout: event
 type: talk
 featured: true
 
-host: Laura Couto Rosado & Jeremi Niedziela
+host: Laura Couto Rosado &amp;<br />Jeremi Niedziela
 imagefolder: /img/events/laurarosado_jereminiedziela/
 
 eventtitle: Touching the Invisible – A sparkling quantum plasticine
@@ -12,7 +12,7 @@ eventtime: 14:00 - 14:30
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

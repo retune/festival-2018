@@ -1,10 +1,10 @@
 ---
 layout: event
-type: installation & performance
+type: installation
 featured: true
 
 host: RLON
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/rlon_timeline/
 
 eventtitle: timeline
 eventdate: 2018-09-27
@@ -12,7 +12,7 @@ eventtime: all day
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

@@ -1,9 +1,9 @@
 ---
 layout: event
-type: short talk
+type: short talks
 featured: true
 
-host: Albert Barqué-Duran, Samim Winiger & Appu Shaji
+host: Barqué-Duran, Winiger & Shaji
 imagefolder: /img/events/blackboxes_shorttalks/
 
 eventtitle: Black Boxes for Artists – Short Talks
@@ -12,7 +12,7 @@ eventtime: 15:00 - 15:30
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green
@@ -37,7 +37,7 @@ links:
     url: https://samim.io/
 
 intro: |
-With »Black Boxes for Artists: Short Talks« Albert Barqué-Duran, Samim Winiger and Appu Shaji will kick off the discussion on Creative AI. Albert Barqué Duran will introduce his Artificial Muse – a performance in collaboration with Mario Klingemann and Marc Marzenit, exploring how an Artificial Neural Network can collaborate with humans in the creative and artistic processes. Samim Winiger will cover the development of deep and reinforcement learning algorithms that expanded the range of technologies available to today’s artists and designers to include self-learning systems. The trained computer vision researcher Appu Shaji discusses in »Recording the Visual« whether or not machines can help us capture a part of visual taste and identity. Afterwards a short break the discussion continues in the Discussion Area complemented by Luba Elliott and Sofia Crespo.
+  With »Black Boxes for Artists: Short Talks« Albert Barqué-Duran, Samim Winiger and Appu Shaji will kick off the discussion on Creative AI. Albert Barqué Duran will introduce his Artificial Muse – a performance in collaboration with Mario Klingemann and Marc Marzenit, exploring how an Artificial Neural Network can collaborate with humans in the creative and artistic processes. Samim Winiger will cover the development of deep and reinforcement learning algorithms that expanded the range of technologies available to today’s artists and designers to include self-learning systems. The trained computer vision researcher Appu Shaji discusses in »Recording the Visual« whether or not machines can help us capture a part of visual taste and identity. Afterwards a short break the discussion continues in the Discussion Area complemented by Luba Elliott and Sofia Crespo.
 
 
 

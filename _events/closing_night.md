@@ -4,7 +4,7 @@ type: performance
 featured: true
 
 host: Retune Festival
-imagefolder: /img/events/above_below/
+imagefolder: /img/events/closing_night/
 
 eventtitle: Closing Night
 eventdate: 2018-09-28

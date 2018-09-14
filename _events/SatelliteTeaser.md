@@ -4,7 +4,7 @@ type: teaser
 featured: true
 
 host: Retune Festival
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/satellite_teaser/
 
 eventtitle: Satellite Teaser
 eventdate: 2018-09-27

@@ -4,7 +4,7 @@ type: closing
 featured: true
 
 host: Retune Festival
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/recap/
 
 eventtitle: Recap
 eventdate: 2018-09-27

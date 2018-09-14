@@ -4,7 +4,7 @@ type: opening
 featured: true
 
 host: Retune Festival
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/welcome/
 
 eventtitle: Welcome
 eventdate: 2018-09-27
