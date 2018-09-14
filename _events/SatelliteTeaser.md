@@ -3,7 +3,7 @@ layout: event
 type: teaser
 featured: true
 
-host: Retune
+host: Retune Festival
 imagefolder: /img/events/banz_bowinkel/
 
 eventtitle: Satellite Teaser
@@ -12,7 +12,7 @@ eventtime: 18:00 - 18:15
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

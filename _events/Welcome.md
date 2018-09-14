@@ -3,7 +3,7 @@ layout: event
 type: opening
 featured: true
 
-host: Retune
+host: Retune Festival
 imagefolder: /img/events/banz_bowinkel/
 
 eventtitle: Welcome
@@ -12,7 +12,7 @@ eventtime: 09:45 - 10:00
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green
