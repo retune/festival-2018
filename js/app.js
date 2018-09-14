@@ -142,7 +142,7 @@
           $('.overlay-menu .overlay-toggle').trigger('click');
         });
 
-        // the menu ? where else
+        // the menu ? where else ... the signup overlay
         $('.overlay-toggle').on('click',function(){
 
           if( ref.viewport.screensize == 'mobile') {
@@ -176,6 +176,11 @@
 
         // LOADINGing events/pages to overlay-content ... or desktop content area
         $("a.ajax-to-overlay").on( 'click', function( e ) {
+
+            $('.event-list-item').removeClass('active');
+
+            $(e.target).closest('.event-list-item').addClass('active');
+
 
             e.preventDefault();
             var ajaxUrl = $(this).attr('href');

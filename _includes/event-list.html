@@ -10,10 +10,17 @@
       {% assign day = "workshopday" %}
     {% endif %}
 
-    <li data-id="{{ forloop.index0 }}" class="event-list-item event-list-item__{{ day }}">
+
+    {% if event.path == page.path %}
+      {% assign activeClass = "active" %}
+    {% else %}
+      {% assign activeClass = "" %}
+    {% endif %}
+
+    <li data-id="{{ forloop.index0 }}" class="event-list-item event-list-item__{{ day }} {{ activeClass }}">
+      <div class="container-fluid">
         <div class="event-list-item-meta">
-          <span class="time">{{ event.eventtime }}{% if event.eventstage %}, {{ event.eventstage }}{% endif %}
-          </span>
+          <span class="time">{{ event.eventtime }}{% if event.eventstage %}, {{ event.eventstage }}{% endif %}</span>
           <span class="type type__{{ event.type }} status status__{{ event.eventstatus }}">{{ event.type }}</span>
 
           {% if event.eventstatus == "signup" %}
@@ -25,9 +32,8 @@
           {% endif %}
 
         </div>
-        <div class="event-list-item-head">
-          <a href="{{ event.url }}" class="ajax-to-overlay" >
-
+        <a href="{{ event.url }}" class="ajax-to-overlay" >
+          <div class="event-list-item-head">
             {% if day == "conferenceday" %}
               <span class="host">{{ event.host }}</span>
               <span class="title">» {{ event.eventtitle }} «</span>
@@ -38,8 +44,10 @@
               <span class="host">by {{ event.host }}</span>
               <span class="location">{{ event.eventlocation }}, {{ event.eventaddress }} </span> -->
             {% endif %}
-          </a>
-        </div>
+          </div>
+        </a>
+
+      </div>
     </li>
 
   {% endfor %}

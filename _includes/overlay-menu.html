@@ -24,9 +24,11 @@
                 Conference Day<br>Silent Green
               </span>
             </div>
-            {% assign events = site.events | where:"eventdate","2018-09-27" | sort_natural: 'eventtime' %}
-            {% include event-list.html %}
           </div>
+
+        {% assign events = site.events | where:"eventdate","2018-09-27" | sort_natural: 'eventtime' %}
+        {% include event-list.html %}
+
       </div>
 
       <div class="overlay-program-day overlay-program-day__2 tab-pane" id="day2" role="tabpanel">
@@ -37,11 +39,11 @@
                 Satellite Day<br>All across Berlin
               </span>
             </div>
-
-            {% assign events = site.events | where:"eventdate","2018-09-28" | sort_natural: 'eventtime' %}
-            {% include event-list.html %}
-
           </div>
+
+          {% assign events = site.events | where:"eventdate","2018-09-28" | sort_natural: 'eventtime' %}
+          {% include event-list.html %}
+
       </div>
 
     </div>

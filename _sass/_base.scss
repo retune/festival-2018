@@ -807,6 +807,23 @@ body.scroll-lock  {
   background-color: $third-color;
 }
 
+.overlay-program-day__1 {
+  .event-list-item {
+    &.active, &:hover {
+      background: $primary-color-highlight;
+    }
+  }
+}
+
+.overlay-program-day__2 {
+  .event-list-item {
+    &.active, &:hover {
+      background: $third-color-highlight;
+    }
+  }
+}
+
+
 .overlay-program-day-head {
 
   text-align: center;
@@ -836,7 +853,7 @@ body.scroll-lock  {
 
 .event-list-item {
 
-  margin-bottom: 1.2rem;
+  padding-bottom: 1.2rem;
 
   &:last-child {
     margin-bottom: 0;
@@ -849,6 +866,7 @@ body.scroll-lock  {
   color: $white;
 
   display: flex;
+  padding-top: 5px;
 
   position: relative;
 
@@ -858,7 +876,6 @@ body.scroll-lock  {
     top: 0;
     width: 45%;
     border-top: $line-width solid $white;
-    margin-top: -5px;
   }
 
   .time {
