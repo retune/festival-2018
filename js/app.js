@@ -212,7 +212,7 @@
 
         document.title = response.match(/<title[^>]*>([^<]+)<\/title>/)[1];
 
-        window.history.pushState(null,null,ajaxUrl);
+        window.history.replaceState(null,null,ajaxUrl);
 
         if(ref.viewport.screensize == "mobile") {
 
@@ -234,7 +234,7 @@
 
               if($(this).closest('.overlay').hasClass('active'))
               {
-                window.history.back();
+                // window.history.back();
                 ref.overlayStack.pop();
 
                 $(this).closest('.overlay').removeClass('active');
