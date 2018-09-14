@@ -1090,13 +1090,12 @@ body.scroll-lock  {
     }
   }
 
-  .button-public {
-    background-color: #FFA682;
+  .btn.button-public {
+    background-color: $third-color;
     padding: 0.5rem 1rem;
-    background: $white;
     color: $black;
     border: 1px solid;
-    border-color: $primary-color;
+    border-color: $black;
     border-radius: 8px;
     box-shadow: none;
     display: inline-block;
