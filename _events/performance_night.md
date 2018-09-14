@@ -1,7 +1,7 @@
 ---
 layout: event
 type: performance
-featured: true
+featured: false
 
 host: Retune Festival
 imagefolder: /img/events/performance_night/
@@ -29,7 +29,7 @@ videos:
     url:
 
 links:
-  - name: 
+  - name:
     url:
   - name:
     url:
