@@ -32,8 +32,7 @@ links:
   - name:
     url:
 
-intro:
-The first day of the festival slowly comes to an end. So we want to make sure you are prepared for the night and the second day of the festival. We will give you a short overview what to expect in the satellite program, with some of our personal not-to-be-missed highlights.
+intro: The first day of the festival slowly comes to an end. So we want to make sure you are prepared for the night and the second day of the festival. We will give you a short overview what to expect in the satellite program, with some of our personal not-to-be-missed highlights.
 
 outro:
 

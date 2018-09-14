@@ -14,8 +14,8 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: signup
 eventcapacity: 15
 
-eventlocation:
-eventaddress:
+eventlocation: Retune Studio
+eventaddress: Glogauer Str. 21, 2nd backyard, 10999 Berlin
 eventlat: 54
 eventlong: 10
 

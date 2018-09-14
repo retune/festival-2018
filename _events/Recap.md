@@ -32,8 +32,8 @@ links:
   - name:
     url:
 
-intro:
-We are closing the first day of the festival. The moderators Alex Wolf, Fernanda Parente and Christian Zöllner will recapitulate their very personal perspective of the day with a beer. What stuck to their mind? What was the absolute highlight? And with which speaker, they'd definitely want to arm wrestle at the bar afterwards?
+intro: |
+  We are closing the first day of the festival. The moderators Alex Wolf, Fernanda Parente and Christian Zöllner will recapitulate their very personal perspective of the day with a beer. What stuck to their mind? What was the absolute highlight? And with which speaker, they'd definitely want to arm wrestle at the bar afterwards?
 
 outro:
 

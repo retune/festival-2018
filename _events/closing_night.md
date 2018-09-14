@@ -10,9 +10,9 @@ eventtitle: Closing Night
 eventdate: 2018-09-28
 eventtime: 20:00 - 02:00
 
-eventtitorelease:
+eventtitorelease: 2hdbw2yphxc
 eventtitoevent: retune/retune-festival-2018
-eventstatus:
+eventstatus: public
 eventcapacity: 199
 
 eventlocation: STATE Studio
