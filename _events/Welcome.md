@@ -33,6 +33,7 @@ links:
     url:
 
 intro:
+It's this time again: The Retune Festival is about to start. We want to welcome everyone to the first day of the festival and introduce you to our wonderful moderators, Alex Wolf, Fernanda Parente and Chrisitan Zöllner. After a short introduction into the program, they will take over the stage and guide you throughout the day.
 
 outro:
 
