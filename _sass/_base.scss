@@ -463,6 +463,12 @@ button {
   .section-body {
     font-size: $med-font-size;
   }
+
+  .smaller {
+    font-size: $base-font-size;
+    line-height: 1.4;
+    margin-top: 3rem;
+  }
 }
 
 /*===============================
