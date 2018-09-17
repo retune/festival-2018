@@ -42,6 +42,7 @@
           </div>
 
           {% assign events = site.events | where:"eventdate","2018-09-28" | sort_natural: 'eventtime' %}
+          {% assign events = events | where_exp: "item", "item.hide-from-menu != true" %}
           {% include event-list.html %}
 
       </div>
