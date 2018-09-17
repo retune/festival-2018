@@ -6,7 +6,7 @@ featured: true
 host: Studio Milz
 imagefolder: /img/events/studiomilz/
 
-eventtitle: Joyn Machine - design, produce and build a wooden framework construction at the Retune party venue!
+eventtitle: Joyn Machine - build a wooden framework
 eventdate: 2018-09-28
 eventtime: 09:30 - 13:30
 eventtitorelease: il-s7hkrgwq
@@ -29,10 +29,10 @@ links:
     url: https://www.milz.studio/
 
 intro: |
-  In this hands-on workshop you will construct a collaborative wood sculpture with the Joyn Machine – an interactive tool that enables the design of wooden framework constructions and their semi-automated production.
+  In this hands-on workshop you will construct a collaborative wood sculpture with the Joyn Machine – an interactive tool that enables the design of wooden framework constructions and their semi-automated production. 
   The underlying principle is smart simplification of otherwise complex processes - thereby taking mobile and fast production processes of wooden structures to the next level.
 
-  After a short introduction to our project we will design, produce and build simple constructions on site to launch a spatial experiment.
+  After a short introduction to our project we will design, produce and build simple constructions on site for the Retune Closing night to launch a spatial experiment.
 
 
 outro: |
