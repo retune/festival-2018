@@ -442,6 +442,7 @@ button {
     &:after {
       color: $primary-color;
       content: '•';
+      padding: 0 0.3rem;
     }
 
     a,a:visited,a:focus,a:hover {
