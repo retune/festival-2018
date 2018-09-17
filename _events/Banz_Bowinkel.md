@@ -32,7 +32,8 @@ links:
   - name: banzbowinkel.de
     url: https://www.banzbowinkel.de/
 
-intro: Using selected series, Banz and Bowinkel will show in their talk »Painting Analytics / the development of digital painting and AR« their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
+intro: |
+  Using selected series, Banz and Bowinkel will show in their talk »Painting Analytics / the development of digital painting and AR« their development from classical painting to a computer-artist duo. They provide insights and backgrounds into their topics, which arise from the examination of our digitized present.
 
 outro: |
   Giulia Bowinkel and Friedemann Banz form the artist duo Banz & Bowinkel. In their work, Banz & Bowinkel deal with the computer as an everyday medium and its influence on our society. The focus here is on the perception of the world, which humans understand as reality and which can now be simulated with the help of computers.

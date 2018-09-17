@@ -4,7 +4,7 @@ type: exhibition
 featured: true
 
 host: Letters Are My Friends
-imagefolder: /img/events/above_below/
+imagefolder: /img/events/ALT+FCTS/
 
 eventtitle: ALT+FCTS on VRenice Beach
 eventdate: 2018-09-28

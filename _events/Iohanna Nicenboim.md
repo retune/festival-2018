@@ -21,7 +21,6 @@ eventaddress: Gerichtstraße 35, 13347 Berlin
 eventlat: 54
 eventlong: 14
 
-
 videos:
   - provider:
     url:

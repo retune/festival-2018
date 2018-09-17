@@ -1,11 +1,11 @@
 ---
 layout: event
-type: installation & performance
+type: installation
 featured: true
 hide-from-menu: true
 
 host: Rainer Kohlberger
-imagefolder: /img/events/banz_bowinkel/
+imagefolder: /img/events/rainer_kohlberger/
 
 eventtitle: live
 eventdate: 2018-09-27
@@ -37,4 +37,4 @@ intro: |
 
 outro: |
   Rainer Kohlberger is an Austrian born freelance visual artist and film maker living in Berlin. His work is primarily based on algorithmic compositions with reductionistic aesthetics influenced by flatness, drones and interference. Within his works there always lies a layer of noise, that fascinates him as a sense of the infinite, which is both the ultimate abstraction and inveterately fuzzy. In his films, installations and live performances maximum forms of intensities come into play. His work has won several prizes internationally.
- ---
+---

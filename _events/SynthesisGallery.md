@@ -4,7 +4,7 @@ type: exhibition
 featured: true
 
 host: Synthesis Gallery
-imagefolder: /img/events/above_below/
+imagefolder: /img/events/synthesis_gallery/
 
 eventtitle: Sorry, I didn't mean to break it
 eventdate: 2018-09-28

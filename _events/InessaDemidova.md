@@ -19,7 +19,6 @@ eventaddress: Chodowieckistraße 31, 10405 Berlin
 eventlat: 54
 eventlong: 10
 
-
 videos:
   - provider:
     url:
@@ -33,5 +32,4 @@ intro: |
 
 outro: |
   Inessa Demidova is a lightning designer at Arup. Lighting at Arup brings together art, science and technology. Our team of designers create thoughtful, sustainable and award-winning concepts with light.
-
 ---
