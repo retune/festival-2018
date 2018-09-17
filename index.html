@@ -74,7 +74,7 @@ layout: default
     </div>
 
     <div class="">
-      <h3 class="section-subtitle">Sattelites (selection)</h3>
+      <h3 class="section-subtitle">Satelites (selection)</h3>
       {% assign events = site.events | sort: 'order','last' | where:"type","workshop" | where:"featured","true" | sort: '' %}
       {% include event-carousel.html %}
     </div>
@@ -120,12 +120,6 @@ layout: default
           </p>
           <div class="ticket-button-wrap">
 
-          <tito-button event="retune/retune-festival-2018" releases="hjq0wop-qne">
-            <span class="ticket-title">Student <br />Pass</span>
-            <span class="description">You own a legal and valid student card and you bring it with you to the registration. Otherwise you will have to pay the price difference to the regular ticket at the door.</span>
-            <span class="price">69€</span>
-          </tito-button>
-
           <tito-button event="retune/retune-festival-2018" releases="jijmzestkaq">
             <span class="ticket-title">Regular <br />Pass</span>
             <span class="description">You are either an artist, a freelancer new to the business, starting your own thing or you're in an otherwise precarious working situation. You have never heard of a thing called "pension insurance". We've been there :) This ticket is for you.</span>
@@ -142,6 +136,12 @@ layout: default
             <span class="ticket-title">Professional<br />Plus Pass</span>
             <span class="description">This professional pass includes breakfast, lunch, coffee, softdrinks and beer on the conference day. Also you'll receive an invitation to the exclusive Festival Reception together with the artists, the team, snacks and drinks. Plus: free drinks at the closing party, and a BVG day-pass for the Satellite Day! This ticket can be paid via invoice.</span>
             <span class="price">349€</span>
+          </tito-button>
+
+          <tito-button event="retune/retune-festival-2018" releases="hjq0wop-qne">
+            <span class="ticket-title">Student <br />Pass</span>
+            <span class="description">You own a legal and valid student card and you bring it with you to the registration. Otherwise you will have to pay the price difference to the regular ticket at the door.</span>
+            <span class="price">69€</span>
           </tito-button>
 
           </div>
