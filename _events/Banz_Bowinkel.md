@@ -3,6 +3,7 @@ layout: event
 type: talk
 featured: true
 order: 5
+title: Banz & Bowinkel
 
 host: Banz & Bowinkel
 imagefolder: /img/events/banz_bowinkel/

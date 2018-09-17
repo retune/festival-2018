@@ -3,6 +3,7 @@ layout: event
 type: installation
 featured: true
 order: 1
+title: kling klang klong - GORILLAS
 
 host: kling klang klong
 imagefolder: /img/events/gorillas/

@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: Inessa Demidova
 
 host: Inessa Demidova
 imagefolder: /img/events/inessa/

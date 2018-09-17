@@ -2,7 +2,7 @@
 layout: event
 type: talk
 featured: true
-
+title: Alexander Peterhaensel
 host: Alexander Peterhaensel
 imagefolder: /img/events/alexander_peterhaensel/
 

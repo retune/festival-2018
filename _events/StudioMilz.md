@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: Studio Milz
 
 host: Studio Milz
 imagefolder: /img/events/studiomilz/

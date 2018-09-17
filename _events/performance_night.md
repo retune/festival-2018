@@ -2,6 +2,7 @@
 layout: event
 type: performance
 featured: false
+title: Performance Night
 
 host: Retune Festival
 imagefolder: /img/events/performance_night/

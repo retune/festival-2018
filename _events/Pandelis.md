@@ -3,6 +3,7 @@ layout: event
 type: installation
 featured: true
 hide-from-menu: true
+title: Pandelis Diamantides
 
 host: Pandelis Diamantides
 imagefolder: /img/events/PandelisDiamantides/

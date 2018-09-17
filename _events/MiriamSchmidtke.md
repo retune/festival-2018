@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: Miriam Schmidtke
 
 host: Miriam Schmidtke
 imagefolder: /img/events/miriam_schmidtke/

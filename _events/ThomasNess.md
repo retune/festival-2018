@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: Thomas Ness
 
 host: Prof. Thomas Ness
 imagefolder: /img/events/thomas_ness_cirg/

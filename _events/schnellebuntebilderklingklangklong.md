@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: schnellebuntebilder & kling klang klong
 
 host: schnellebuntebilder & kling klang klong
 imagefolder: /img/events/sbb_klongs/

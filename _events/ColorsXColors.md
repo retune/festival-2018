@@ -3,6 +3,7 @@ layout: event
 type: installation
 featured: true
 hide-from-menu: true
+title: Oilhack &amp; Thomas Blanchard
 
 host: Oilhack &amp; Thomas Blanchard
 imagefolder: /img/events/ColorsXColors/
@@ -18,7 +19,7 @@ eventcapacity: 5
 
 eventlocation: STATE Studio
 eventstage:
-eventaddress: 
+eventaddress:
 eventlat: 54
 eventlong: 14
 

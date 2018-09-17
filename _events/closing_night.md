@@ -2,6 +2,7 @@
 layout: event
 type: performance
 featured: false
+title: Closing Night
 
 host: Retune Festival
 imagefolder: /img/events/closing_night/

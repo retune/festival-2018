@@ -3,6 +3,7 @@ layout: event
 type: talk
 featured: true
 order: 3
+title: Rosa Menkman
 
 host: Rosa Menkman
 imagefolder: /img/events/rosa_menkman/

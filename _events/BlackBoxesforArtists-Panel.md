@@ -2,6 +2,7 @@
 layout: event
 type: panel
 featured: true
+title: Black Boxes for Artists - Panel
 
 host: Barqué-Duran, Crespo, Shaji, Winiger & Elliott
 imagefolder: /img/events/blackboxes_panel/

@@ -2,6 +2,7 @@
 layout: event
 type: panel
 featured: true
+title: Vinzent Britz
 
 host: Vinzent Britz
 imagefolder: /img/events/vinzent_britz/

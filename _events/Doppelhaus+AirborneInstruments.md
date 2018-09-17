@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: Doppelhaus &amp; Airborne Instruments
 
 host: Doppelhaus &amp; Airborne Instruments
 imagefolder: /img/events/airborne_doppelhaus/

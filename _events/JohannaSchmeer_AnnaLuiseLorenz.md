@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: Johanna Schmeer & Anna-Luise Lorenz
 
 host: Johanna Schmeer & Anna-Luise Lorenz
 imagefolder: /img/events/johanna_anna-luise/

@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: DAM Gallery
 
 host: DAM Gallery
 imagefolder: /img/events/dam/

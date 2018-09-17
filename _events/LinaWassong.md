@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: Lina Wassong
 
 host: Lina Wassong
 imagefolder: /img/events/lina_wassong/
@@ -12,7 +13,7 @@ eventtime: 16:30 - 17:00
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green

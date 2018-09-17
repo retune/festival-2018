@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: Emma Baker
 
 host: Emma Baker
 imagefolder: /img/events/emma_baker/

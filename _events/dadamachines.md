@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: dadamachines
 
 host: dadamachines
 imagefolder: /img/events/dadamachines/

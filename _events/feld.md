@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: FELD
 
 host: FELD
 imagefolder: /img/events/feld/

@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: Petja Ivanova
 
 host: Petja Ivanova
 imagefolder: /img/events/petja_ivanova/

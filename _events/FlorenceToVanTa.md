@@ -3,6 +3,7 @@ layout: event
 type: performance
 featured: true
 hide-from-menu: true
+title: Florence To & VanTa
 
 host: Florence To & VanTa
 imagefolder: /img/events/FlorenceVanTa/

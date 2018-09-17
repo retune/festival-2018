@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: Fara Peluso
 
 host: Fara Peluso
 imagefolder: /img/events/fara/
@@ -36,4 +37,4 @@ outro: |
 
 ---
 
-You will take your own DIY Algature photobioreactor home. We charge 35€ material costs. All materials will be provided and no skills are required, just curiosity and desire to experiment. 
+You will take your own DIY Algature photobioreactor home. We charge 35€ material costs. All materials will be provided and no skills are required, just curiosity and desire to experiment.

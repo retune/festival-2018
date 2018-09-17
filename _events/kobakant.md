@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: KOBAKANT
 
 host: KOBAKANT
 imagefolder: /img/events/kobakant/

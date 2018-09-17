@@ -2,6 +2,7 @@
 layout: event
 type: exhibition
 featured: true
+title: Synthesis Gallery
 
 host: Synthesis Gallery
 imagefolder: /img/events/synthesis_gallery/

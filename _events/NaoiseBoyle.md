@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: Naoise Boyle
 
 host: Naoise Boyle
 imagefolder: /img/events/naoise/

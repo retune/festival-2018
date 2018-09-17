@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: Emma Laugier & Benjamin Males
 
 host: Emma Laugier & Benjamin Males
 imagefolder: /img/events/benjamin_males/

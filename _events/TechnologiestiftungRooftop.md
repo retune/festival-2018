@@ -2,6 +2,7 @@
 layout: event
 type: networking
 featured: false
+title: Technologiestiftung Berlin - Rooftop Networking
 
 host: Technologiestiftung Berlin
 imagefolder: /img/events/technologiestiftung_rooftop/

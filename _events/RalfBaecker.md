@@ -3,6 +3,7 @@ layout: event
 type: talk
 featured: true
 order: 4
+title: Ralf Baecker
 
 host: Ralf Baecker
 imagefolder: /img/events/ralf_baecker/

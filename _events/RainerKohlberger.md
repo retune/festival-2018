@@ -3,6 +3,7 @@ layout: event
 type: installation
 featured: true
 hide-from-menu: true
+title: Rainer Kohlberger - Live
 
 host: Rainer Kohlberger
 imagefolder: /img/events/rainer_kohlberger/

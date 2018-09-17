@@ -2,6 +2,7 @@
 layout: event
 type: installation
 featured: true
+title: Pfadfinderei - Monolith
 
 host: Pfadfinderei
 imagefolder: /img/events/pfadfinderei/

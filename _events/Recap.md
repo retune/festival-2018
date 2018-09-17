@@ -2,6 +2,7 @@
 layout: event
 type: closing
 featured: true
+title: Recap
 
 host: Retune Festival
 imagefolder: /img/events/recap/

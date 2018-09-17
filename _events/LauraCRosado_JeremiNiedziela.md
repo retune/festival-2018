@@ -2,6 +2,7 @@
 layout: event
 type: talk
 featured: true
+title: Laura Couto Rosado &amp; Jeremi Niedziela
 
 host: Laura Couto Rosado &amp; Jeremi Niedziela
 imagefolder: /img/events/laurarosado_jereminiedziela/

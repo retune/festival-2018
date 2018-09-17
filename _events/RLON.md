@@ -2,6 +2,7 @@
 layout: event
 type: installation
 featured: true
+title: RLON - Timeline
 
 host: RLON
 imagefolder: /img/events/rlon_timeline/

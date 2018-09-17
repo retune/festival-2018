@@ -2,6 +2,7 @@
 layout: event
 type: exhibition
 featured: true
+title: ALT+FCTS
 
 host: Letters Are My Friends
 imagefolder: /img/events/ALT+FCTS/

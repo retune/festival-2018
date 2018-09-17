@@ -2,6 +2,7 @@
 layout: event
 type: short talks
 featured: true
+title: Black Boxes for Artists - Short Talks
 
 host: Barqué-Duran, Winiger & Shaji
 imagefolder: /img/events/blackboxes_shorttalks/

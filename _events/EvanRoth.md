@@ -3,6 +3,7 @@ layout: event
 type: keynote
 featured: true
 order: 2
+title: Evan Roth
 
 host: Evan Roth
 imagefolder: /img/events/evan_roth/

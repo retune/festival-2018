@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: NEEEU
 
 host: NEEEU
 imagefolder: /img/events/neeeu/

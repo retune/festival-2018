@@ -3,6 +3,7 @@ layout: event
 type: performance
 featured: true
 hide-from-menu: true
+title: Nicola L. Hein &amp; Lukas Truniger
 
 host: Nicola L. Hein &amp; Lukas Truniger
 imagefolder: /img/events/truniger_hein/

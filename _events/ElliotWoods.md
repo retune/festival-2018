@@ -3,6 +3,7 @@ layout: event
 type: keynote
 featured: true
 order: 1
+title: Elliot Woods
 
 host: Elliot Woods (Kimchi and Chips)
 imagefolder: /img/events/kimchi_chips/

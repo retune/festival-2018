@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: Technologiestiftung Berlin
 
 host: Technologiestiftung Berlin
 imagefolder: /img/events/technologiestiftung/

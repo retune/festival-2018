@@ -2,6 +2,7 @@
 layout: event
 type: workshop
 featured: true
+title: undev
 
 host: undev
 imagefolder: /img/events/undev/
