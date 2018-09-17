@@ -76,7 +76,7 @@ layout: default
         {% assign workshop-day = '2018-09-28' | date: '%s' %}
         {% assign event-day = event.eventdate | date: '%s' %}
 
-        {% if event.type == "talk" or event.type == "keynote" %}
+        {% if event.type == "talk" or event.type == "keynote" or event.type == "panel" %}
           {% if event-day < workshop-day %}
             {% assign events = events | push: event %}
           {% endif %}
@@ -105,7 +105,19 @@ layout: default
 
     <div class="">
       <h3 class="section-subtitle">Satelites (selection)</h3>
-      {% assign events = site.events | sort: 'order','last' | where:"type","workshop" | where:"featured","true" | sort: '' %}
+      {% assign eventsSorted = site.events | where:"featured","true" | sort: 'order','last' %}
+      {% assign events = "" | split: ',' %}
+      {% for event in eventsSorted %}
+        {% assign workshop-day = '2018-09-28' | date: '%s' %}
+        {% assign event-day = event.eventdate | date: '%s' %}
+
+        {% if event.type == "workshop" or event.type == "talk" %}
+          {% if event-day >= workshop-day %}
+            {% assign events = events | push: event %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      
       {% include event-carousel.html %}
     </div>
 
