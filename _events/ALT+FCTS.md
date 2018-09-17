@@ -1,6 +1,6 @@
 ---
 layout: event
-type: performance
+type: exhibition
 featured: true
 
 host: Letters Are My Friends

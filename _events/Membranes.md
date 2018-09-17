@@ -2,6 +2,7 @@
 layout: event
 type: performance
 featured: true
+hide-from-menu: true
 
 host: Nicola L. Hein & Lukas Truniger
 imagefolder: /img/events/banz_bowinkel/
@@ -13,7 +14,7 @@ eventtime: 21:00 - 21:30
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
 eventstatus: public
-eventcapacity: 
+eventcapacity:
 
 eventlocation: STATE Studio
 eventaddress: Hauptstraße 3, 10827 Berlin
@@ -42,5 +43,5 @@ Lukas Truniger is an artist and musician, who engages in the areas of multimedia
 Nicola L. Hein - guitarist, soundartist, philosopher and composer - is a very active player on the german/international scene of improvised music.
   Studied Philosophy / German Philology (B.A.), Jazzperformance (B.A.) and Soundart-composition (M.A.) at the University of Mainz.
   Moreover soundart (soundinstallations, site specific instruments, conceptual compositions for improvising musicians etc.) and the collaboration in different interdisciplinary settings (dance, installation, video art etc.) are an important focus of his art and form a second emphasis besides the work as a guitarist.
-  
+
  ---

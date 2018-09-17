@@ -2,6 +2,7 @@
 layout: event
 type: installation & performance
 featured: true
+hide-from-menu: true
 
 host: Rainer Kohlberger
 imagefolder: /img/events/banz_bowinkel/
@@ -13,7 +14,7 @@ eventtime: 21:15 - 22:00
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
 eventstatus: public
-eventcapacity: 
+eventcapacity:
 
 eventlocation: Silent Green
 eventstage: Main Stage
@@ -32,7 +33,7 @@ links:
     url: http://kohlberger.net/
 
 intro: |
-  Rainer Kohlberger will perform an immersive audiovisual performance live at Silent Green. Kohlberger uses digital-projection technology in a radical way. Through impulses and waves of pure light, the intentional overload of the human perception apparatus leads to visual impressions that appear exclusively in the literal »eye of the beholder«. Layers of noise, drones and stroboscopic lights unfold a sense of the infinite, which fascinates him both as the ultimate abstraction and because it is inveterately fuzzy. Image surface and image space meld into one (consciousness-)state, in which categories such as being and non-being, material and immaterial appear obsolete. 
+  Rainer Kohlberger will perform an immersive audiovisual performance live at Silent Green. Kohlberger uses digital-projection technology in a radical way. Through impulses and waves of pure light, the intentional overload of the human perception apparatus leads to visual impressions that appear exclusively in the literal »eye of the beholder«. Layers of noise, drones and stroboscopic lights unfold a sense of the infinite, which fascinates him both as the ultimate abstraction and because it is inveterately fuzzy. Image surface and image space meld into one (consciousness-)state, in which categories such as being and non-being, material and immaterial appear obsolete.
 
 outro: |
   Rainer Kohlberger is an Austrian born freelance visual artist and film maker living in Berlin. His work is primarily based on algorithmic compositions with reductionistic aesthetics influenced by flatness, drones and interference. Within his works there always lies a layer of noise, that fascinates him as a sense of the infinite, which is both the ultimate abstraction and inveterately fuzzy. In his films, installations and live performances maximum forms of intensities come into play. His work has won several prizes internationally.
