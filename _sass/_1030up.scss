@@ -169,7 +169,7 @@ body {
   .section-body {
     font-size: 1.5 * $med-font-size;
 
-    
+
   }
 
 
@@ -188,20 +188,24 @@ body {
 
   .ticket-button-wrap {
 
-    flex-direction: row;
-    justify-content: space-between;
-    margin: $spacing-unit auto;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // margin: $spacing-unit auto;
 
   }
 
   tito-button {
-    width: auto;
-    min-width: calc(25% - 1rem);
+    width: 25%;
+    // min-width: calc(25% - 1rem);
   }
 
   .ticket-content-wrap {
-    text-align: left;
+    // text-align: left;
   }
+
+    .tito-ticket-button {
+      // flex-direction: column;
+    }
 
 
 

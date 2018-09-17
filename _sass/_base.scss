@@ -479,6 +479,8 @@ button {
 
   background: $black;
   color: $white;
+  text-align: left;
+  padding-bottom: 2rem;
 
   .section-title {
     color: $primary-color;
@@ -486,44 +488,90 @@ button {
 
   .ticket-button-wrap {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: $spacing-unit auto;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    /* align-items: center;
+    // flex-direction: column;
+    // margin: $spacing-unit auto; */
   }
 
   tito-button {
+    // width: 100%;
     width: 100%;
+    padding: 5px;
+    display: flex;
+    margin: 1rem 0;
+
   }
 
-
   .tito-tickets-button {
+    display: flex;
+    flex-direction: column;
+    white-space: normal;
+    // background-color: #fff;
+    // padding: 1em;
+    // width: 100%;
+    // text-align: left;
+    padding: 1rem;
+    border: $line-width solid $white;
+    border-radius: 8px;
 
-      display: flex;
-      flex-direction: row;
-      flex-wrap: no-wrap;
-      justify-content: space-between;
+      // display: flex;
+      // flex-direction: row;
+      // flex-wrap: wrap;
+      // justify-content: space-between;
+      //
+      // width: 100%;
+      // margin: 0 auto 0.5rem auto;
+      // padding: 1rem 1rem;
+      //
+      // text-align: center;
+      //
 
-      width: 100%;
-      margin: 0 auto 0.5rem auto;
-      padding: 1rem 2rem;
-
-      text-align: center;
-
-      border: $line-width solid $white;
-      border-radius: 8px;
 
       .price {
         color: $primary-color;
+        font-family: $ff-century;
+        font-size: $med-font-size;
+        border-top: 1px solid white;
+        padding-top: 1rem;
+        width: 100%;
+      }
+
+      .ticket-title {
+        font-family: $ff-century;
+        font-size: $small-font-size;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding-bottom: 1rem;
+        width: 100%;
       }
 
       &:hover {
         background: $white;
         color: $black;
+        border-color: $primary-color;
+
+        .ticket-title {
+          border-color: black;
+        }
+        .price {
+          border-color: black;
+        }
+      }
+
+      .description {
+        white-space: normal;
+        margin-top: 1rem;
+        text-align: left;
+        font-size: $tiny-font-size;
+        flex: 1 0 auto;
+        padding-bottom: 1rem;
       }
   }
 
   .ticket-content-wrap {
-    text-align: center;
+    // text-align: center;
   }
 
 
@@ -753,7 +801,8 @@ body.scroll-lock  {
 
   position: absolute;
   top: 0; right: 0; left: 0;
-  padding-top: $spacing-unit;
+  // padding-top: $spacing-unit;
+  padding-top: 1rem;
 
 }
 
@@ -766,10 +815,10 @@ body.scroll-lock  {
   li {
     width: calc(50% - 0.5rem);
     text-align:center;
-    font-size: $tiny-font-size;
+    font-size: $base-font-size;
     border: $line-width solid $white;
     border-radius: 8px;
-    padding:0;
+    padding:0.5rem 0;
 
     &:last-child {
       margin-left: auto;
@@ -836,7 +885,7 @@ body.scroll-lock  {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1rem;
+  // padding-top: 1rem;
 
   .overlay-program-day-title,
   .overlay-program-day-sub {
