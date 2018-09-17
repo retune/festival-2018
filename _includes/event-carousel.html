@@ -25,11 +25,7 @@
     {% for event in events %}
       <h4 class="event-host event-carousel-nav-item">
         <a href="{{ event.url }}" class="ajax-to-overlay" >
-          {% if event.type == "workshop" %}
-            {{ event.eventtitle }} <span style="font-size: 13px;">– {{ event.host }}</span>
-          {% else %}
             {{ event.host }}
-          {% endif %}
         </a>
       </h4>
     {% endfor %}

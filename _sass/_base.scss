@@ -415,6 +415,7 @@ button {
   .event-carousel-nav {
     margin-top: $spacing-unit;
     margin-bottom: 2 * $spacing-unit;
+    padding: 0 1rem;
 
   }
 
@@ -435,11 +436,28 @@ button {
   }
 
   .event-host {
+    display: inline-block;
     font-size: $med-font-size;
+
+    &:after {
+      color: $primary-color;
+      content: '•';
+    }
+
     a,a:visited,a:focus,a:hover {
       color: $primary-color;
     }
+
+    &:last-child {
+      &:after {
+        content: '';
+      }
+    }
+
+
   }
+
+
 
 }
 
@@ -1139,6 +1157,8 @@ body.scroll-lock  {
     font-weight: 400;
 
   }
+
+
 
   .event-page-meta {
 
