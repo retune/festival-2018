@@ -27,6 +27,36 @@ layout: default
 
 </header>
 
+<section class="section-about">
+  <div class="container-fluid">
+
+        <p class="section-title section-title__about">About</p>
+        <div class="section-body">
+          <p>
+            The Retune Festival is a biennial event at the intersection of art, design, and technology. In its fifth edition, Retune will bring together more than 500 intrepid minds across 2 days.
+          </p>
+
+          <p>
+            The Festival is a “think-and-do-tank” and explores the ­speculative futures of our digital society. Cutting edge digital ­artists, researchers, and engineers working on latest technologies will share their inspirational ­insights in talks, ­discussions, workshops and –performances. Get inspired by internationally renowned creatives, get your hands-on and experiment with future ideas and technologies or exchange with creative pioneers.
+          </p>
+
+          <p>
+            Expect a whole lot of design ­friction, glitched visions and real future shit.
+          </p>
+
+          <p class="smaller">
+            The Retune Festival is a project by <a href="https://retune.de" target="_blank">Retune Creative Technology GmbH</a>.<br />
+            Julian Adenauer (director), Jasmin Grimm (program directress), Nushin Isabelle Yazdani, Wiebke Holtermann (head of production).<br />
+            Graphic Design by <a href="http://www.studio-regular.com" target="_blank">Studio Regular</a>, Coding by <a href="https://streiten.org">Alex Tolar</a>
+          </p>
+
+        </div>
+
+
+  </div>
+</section>
+
+
 <section class="section-program text-center">
 
     <div class="container-fluid">
@@ -58,18 +88,18 @@ layout: default
 
 
     <div class="">
-      <h3 class="section-subtitle">Installations and Performances</h3>
+      <h3 class="section-subtitle">Exhibitions and Performances</h3>
 
-        {% assign lovejekyll = site.events | where:"featured","true" | sort: 'order','last' %}
-        {% assign events = "" | split: ',' %}
+      {% assign lovejekyll = site.events | where:"featured","true" | sort: 'order','last' %}
+      {% assign events = "" | split: ',' %}
 
-        {% for event in lovejekyll  %}
-           {% if event.type == 'installation & performance' or event.type == 'performance' or event.type == 'installation' %}
-              {% assign events = events | push: event %}
-           {% endif %}
-        {% endfor %}
+      {% for event in lovejekyll  %}
+         {% if event.type == 'installation & performance' or event.type == 'performance' or event.type == 'installation' or event.type == 'exhibition' %}
+            {% assign events = events | push: event %}
+         {% endif %}
+      {% endfor %}
 
-        {% include event-carousel.html %}
+      {% include event-carousel.html %}
 
     </div>
 
@@ -81,34 +111,6 @@ layout: default
 
 </section>
 
-<section class="section-about">
-  <div class="container-fluid">
-
-        <p class="section-title section-title__about">About</p>
-        <div class="section-body">
-          <p>
-            The Retune Festival is a biennial event at the intersection of art, design, and technology. In its fifth edition, Retune will bring together more than 500 intrepid minds across 2 days.
-          </p>
-
-          <p>
-            The Festival is a “think-and-do-tank” and explores the ­speculative futures of our digital society. Cutting edge digital ­artists, researchers, and engineers working on latest technologies will share their inspirational ­insights in talks, ­discussions, workshops and –performances. Get inspired by internationally renowned creatives, get your hands-on and experiment with future ideas and technologies or exchange with creative pioneers.
-          </p>
-
-          <p>
-            Expect a whole lot of design ­friction, glitched visions and real future shit.
-          </p>
-
-          <p class="smaller">
-            The Retune Festival is a project by <a href="https://retune.de" target="_blank">Retune Creative Technology GmbH</a>.<br />
-            Julian Adenauer (director), Jasmin Grimm (program directress), Nushin Isabelle Yazdani, Wiebke Holtermann (head of production).<br />
-            Graphic Design by <a href="http://www.studio-regular.com" target="_blank">Studio Regular</a>, Coding by <a href="https://streiten.org">Alex Tolar</a>
-          </p>
-
-        </div>
-
-
-  </div>
-</section>
 
 <section class="section-tickets">
     <div class="container-fluid">
