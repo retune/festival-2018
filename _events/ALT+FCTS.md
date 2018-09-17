@@ -8,7 +8,7 @@ imagefolder: /img/events/above_below/
 
 eventtitle: ALT+FCTS on VRenice Beach
 eventdate: 2018-09-28
-eventtime: 20:00 - 02:00
+eventtime: all day
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
