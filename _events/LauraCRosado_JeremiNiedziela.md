@@ -3,7 +3,7 @@ layout: event
 type: talk
 featured: true
 
-host: Laura Couto Rosado &amp;<br />Jeremi Niedziela
+host: Laura Couto Rosado &amp; Jeremi Niedziela
 imagefolder: /img/events/laurarosado_jereminiedziela/
 
 eventtitle: Touching the Invisible – A sparkling quantum plasticine

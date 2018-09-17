@@ -3,7 +3,7 @@ layout: event
 type: talk
 featured: true
 
-host: Doppelhaus &amp;<br />Airborne Instruments
+host: Doppelhaus &amp; Airborne Instruments
 imagefolder: /img/events/airborne_doppelhaus/
 
 eventtitle: About wool in clouds and flying music discs
