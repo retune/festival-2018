@@ -3,7 +3,7 @@ layout: event
 type: panel
 featured: true
 
-host: Barqué-Duran,Crespo, Shaji, Winiger & Elliott
+host: Barqué-Duran, Crespo, Shaji, Winiger & Elliott
 imagefolder: /img/events/blackboxes_panel/
 
 eventtitle: Black Boxes for Artists – Panel
@@ -51,9 +51,9 @@ outro: |
 
   Luba Elliott is a curator, artist and researcher specialising in artificial intelligence in the creative industries.  She is currently working to engage the broader public about the latest developments in creative AI through monthly meetups, talks and tech demonstrations. This year, she is curating Impakt Festival in October, themed on post-truth and AI. As curator, she organised workshops and exhibitions on art and AI for The Photographers’ Gallery, the Leverhulme Centre for the Future of Intelligence and Google. She is part of the AI Think Tank of the British Interactive Media Association and has advised organisations including The World Economic Forum on the topic.
 
-  Samim Wininger is a designer and code magician, doing Research and Projects at the intersection of  Machine Learning, Human-Computer-Interaction, Generative Design and Mindful Creativity. He's interested in a range of ideas, but his focus lies on building tools for enlightenment.
+  Samim Winiger is a designer and code magician, doing Research and Projects at the intersection of  Machine Learning, Human-Computer-Interaction, Generative Design and Mindful Creativity. He's interested in a range of ideas, but his focus lies on building tools for enlightenment.
 
-  Sofia is an Art Director (and long-term aspiring Computer Scientist). Her interests go from memes (being the most relevant one) to microbiology, neuroscience, botany and human-machine collaboration.
+  Sofia Crespo is an Art Director (and long-term aspiring Computer Scientist). Her interests go from memes (being the most relevant one) to microbiology, neuroscience, botany and human-machine collaboration.
 
 ---
 
