@@ -183,6 +183,8 @@
 
             $(e.target).closest('.event-list-item').addClass('active');
 
+            window.scrollTo(0, 0);
+
 
             e.preventDefault();
             var ajaxUrl = $(this).attr('href');
