@@ -1,6 +1,6 @@
 ---
 layout: event
-type: discussion
+type: workshop
 featured: true
 
 host: KOBAKANT

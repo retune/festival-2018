@@ -1,6 +1,6 @@
 ---
 layout: event
-type: panel
+type: talk
 featured: true
 
 host: Petja Ivanova
@@ -12,7 +12,7 @@ eventtime: 17:00 - 17:30
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus: 
+eventstatus:
 eventcapacity: 5
 
 eventlocation: Silent Green
