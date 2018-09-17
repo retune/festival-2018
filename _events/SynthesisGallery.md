@@ -12,7 +12,7 @@ eventtime: all day
 
 eventtitorelease:
 eventtitoevent: retune/retune-festival-2018
-eventstatus:
+eventstatus: public
 eventcapacity:
 
 eventlocation: Synthesis Gallery
