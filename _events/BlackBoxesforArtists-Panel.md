@@ -3,7 +3,7 @@ layout: event
 type: panel
 featured: true
 
-host: Barqué-Duran,Crespo, Shaji, Winiger & Elliott
+host: Barqué-Duran, Crespo, Shaji, Winiger & Elliott
 imagefolder: /img/events/blackboxes_panel/
 
 eventtitle: Black Boxes for Artists – Panel
@@ -42,7 +42,7 @@ links:
 
 
 intro: |
-  In the panel »Black Boxes for Artists« discusses the development of deep and reinforcement learning algorithms, that has expanded the range of technologies available to today’s artists and designers to include self-learning systems that are not only tools and techniques, but creative partners in their own right. With their help, artists can generate new texts, sounds and images based on their chosen data, explore questions of machine perception and imagine futures of human and machine co-existence. What are the new forms of storytelling, design and expression made possible with machine learning? How do these tools influence the artist? The panel is a continuation of »Black Boxes for Artists: Short talks«.
+  The panel »Black Boxes for Artists« discusses the development of deep and reinforcement learning algorithms, that has expanded the range of technologies available to today’s artists and designers to include self-learning systems that are not only tools and techniques, but creative partners in their own right. With their help, artists can generate new texts, sounds and images based on their chosen data, explore questions of machine perception and imagine futures of human and machine co-existence. What are the new forms of storytelling, design and expression made possible with machine learning? How do these tools influence the artist? The panel is a continuation of »Black Boxes for Artists: Short talks«.
 
 outro: |
   Albert is a Postdoctoral Researcher in Cognitive Science and a Contemporary Artist at City University of London. Albert’s research concerns new approaches and frameworks for cognitive modelling and judgment and decision-making. His artwork and performances are inspired by his research and combine classical techniques from fine arts such as oil painting, data, digital arts and experimental electronic music. He leads disruptive projects at the intersection of art and research with the aim of finding novel formats of generating scientific knowledge to reflect about contemporary and futuristic issues and its cultural implications. He has exhibited and performed at Sónar+D(Barcelona, Spain), Creative Reactions(London, UK), Cambridge Neuroscience Society (Cambridge, UK), Max Planck (Berlin, Germany), SciArt Center (New York, USA).
@@ -51,9 +51,9 @@ outro: |
 
   Luba Elliott is a curator, artist and researcher specialising in artificial intelligence in the creative industries.  She is currently working to engage the broader public about the latest developments in creative AI through monthly meetups, talks and tech demonstrations. This year, she is curating Impakt Festival in October, themed on post-truth and AI. As curator, she organised workshops and exhibitions on art and AI for The Photographers’ Gallery, the Leverhulme Centre for the Future of Intelligence and Google. She is part of the AI Think Tank of the British Interactive Media Association and has advised organisations including The World Economic Forum on the topic.
 
-  Samim Wininger is a designer and code magician, doing Research and Projects at the intersection of  Machine Learning, Human-Computer-Interaction, Generative Design and Mindful Creativity. He's interested in a range of ideas, but his focus lies on building tools for enlightenment.
+  Samim Winiger is a designer and code magician, doing Research and Projects at the intersection of  Machine Learning, Human-Computer-Interaction, Generative Design and Mindful Creativity. He's interested in a range of ideas, but his focus lies on building tools for enlightenment.
 
-  Sofia is an Art Director (and long-term aspiring Computer Scientist). Her interests go from memes (being the most relevant one) to microbiology, neuroscience, botany and human-machine collaboration.
+  Sofia Crespo is an Art Director (and long-term aspiring Computer Scientist). Her interests go from memes (being the most relevant one) to microbiology, neuroscience, botany and human-machine collaboration.
 
 ---
 
