@@ -1,7 +1,7 @@
 ---
 layout: event
 type: talk
-featured: false
+featured: true
 
 host: Iohanna Nicenboim
 imagefolder: /img/events/iohanna_nicenboim/

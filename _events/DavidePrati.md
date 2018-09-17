@@ -1,7 +1,7 @@
 ---
 layout: event
 type: workshop
-featured: false
+featured: true
 
 host: Davide Prati
 imagefolder: /img/events/davide/

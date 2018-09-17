@@ -1,7 +1,7 @@
 ---
 layout: event
 type: networking
-featured: true
+featured: false
 
 host: Technologiestiftung Berlin
 imagefolder: /img/events/technologiestiftung_rooftop/

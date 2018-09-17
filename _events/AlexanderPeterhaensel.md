@@ -1,7 +1,7 @@
 ---
 layout: event
 type: talk
-featured: false
+featured: true
 
 host: Alexander Peterhaensel
 imagefolder: /img/events/alexander_peterhaensel/

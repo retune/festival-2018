@@ -1,7 +1,7 @@
 ---
 layout: event
 type: opening
-featured: true
+featured: false
 
 host: Retune Festival
 imagefolder: /img/events/welcome/

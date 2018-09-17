@@ -1,7 +1,7 @@
 ---
 layout: event
 type: teaser
-featured: true
+featured: false
 
 host: Retune Festival
 imagefolder: /img/events/satellite_teaser/

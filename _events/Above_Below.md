@@ -1,7 +1,7 @@
 ---
 layout: event
 type: talk
-featured: false
+featured: true
 
 host: Studio Above&Below
 imagefolder: /img/events/above_below/

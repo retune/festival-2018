@@ -1,7 +1,7 @@
 ---
 layout: event
 type: talk
-featured: false
+featured: true
 
 host: Emma Baker
 imagefolder: /img/events/emma_baker/
