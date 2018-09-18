@@ -8,6 +8,7 @@ host: Prof. Thomas Ness
 imagefolder: /img/events/thomas_ness_cirg/
 
 eventtitle: You and Me (and the Internet)
+eventdate: 2018-09-28
 eventtime: 14:00 - 17:00
 eventtitorelease: qa8dvgsdap8
 eventtitoevent: retune/retune-festival-2018
