@@ -14,8 +14,8 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: signup
 eventcapacity: 10
 
-eventlocation: front house, 1st floor
-eventaddress: Oranienstrasse 10, 10997 Berlin
+eventlocation: vvvv
+eventaddress: Oranienstrasse 10, 10997 Berlin, front house, 1st floor
 eventlat: 54
 eventlong: 14
 
