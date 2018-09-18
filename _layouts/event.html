@@ -19,10 +19,12 @@ bodyclass: event-single
 
     {% capture subsub %}
       <span class="time">{{ page.eventtime }}, {{ page.eventdate | date: "%d. %B" }}</span> <br> <span class="capacity">Capacity: {{ page.eventcapacity }}</span>
+      <!-- => workshop! event-day: {{event-day}} // workshop-day:{{workshop-day}} -->
     {% endcapture %}
   {% else %}
     {% capture subsub %}
       <span class="time">{{ page.eventdate | date: "%d. %B" }}, {{ page.eventtime }}</span>  <br> <span class="location">{{ page.eventlocation }} – {{ page.eventstage }}</span>
+      <!-- => talk! event-day: {{event-day}} // workshop-day:{{workshop-day}} -->
     {% endcapture %}
   {% endif %}
 
