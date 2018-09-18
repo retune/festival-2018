@@ -24,7 +24,7 @@
   <div class="event-carousel-nav">
     {% for event in events %}
       <h4 class="event-host event-carousel-nav-item">
-        <a href="{{ event.url }}" class="ajax-to-overlay" >
+        <a href="{{ site.baseurl }}{{ event.url }}" class="ajax-to-overlay" >
             {{ event.host }}
         </a>
       </h4>
