@@ -599,7 +599,7 @@ button {
 
 
 .section-program-button-hit-me-one-more-time {
-
+  cursor: pointer;
   background-image: url('../img/backgrounds/Retune_BG_Visual_Serie_9.png');
   background-color: $secondary-color;
 
@@ -744,6 +744,7 @@ body.scroll-lock  {
 
 
 .overlay-head {
+  cursor: pointer;
 
   display: flex;
   flex-direction: row;

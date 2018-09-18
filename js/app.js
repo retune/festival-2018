@@ -139,11 +139,11 @@
         // extra programm click party, home and mobile only
         $('.section-program-button-hit-me-one-more-time').on('click',function(e){
           e.preventDefault();
-          $('.overlay-menu .overlay-toggle').trigger('click');
+          $('.overlay-menu .overlay-head').trigger('click');
         });
 
         // the menu ? where else ... the signup overlay
-        $('.overlay-toggle').on('click',function(){
+        $('.overlay-head').on('click',function(){
 
             if($(this).closest('.overlay').hasClass('active'))
               {
