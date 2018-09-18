@@ -15,8 +15,8 @@ bodyclass: event-single
     {% assign day = "workshopday" %}
   {% endif %}
 
+  <!-- => event-day: {{event-day}} // workshop-day:{{workshop-day}} -->
   {% if event-day > workshop-day %}
-
     {% capture subsub %}
       <span class="time">{{ page.eventtime }}, {{ page.eventdate | date: "%d. %B" }}</span> <br> <span class="capacity">Capacity: {{ page.eventcapacity }}</span>
       <!-- => workshop! event-day: {{event-day}} // workshop-day:{{workshop-day}} -->
