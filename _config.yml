@@ -41,7 +41,7 @@ exclude:
 collections:
   events:
     output: true
-    permalink: /2018/events/:slug/
+    permalink: events/:slug/
 
 defaults:
   - scope:

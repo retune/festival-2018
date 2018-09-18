@@ -5,7 +5,7 @@ bodyclass: event-single
 ---
 
 
-<div id="ajax-content" class="page-event {{event-day}} {{workshop-day}}" >
+<div id="ajax-content" class="page-event" >
 
   {% assign workshop-day = '2018-09-28' | date: '%s' %}
   {% assign event-day = page.eventdate | date: '%s' %}
@@ -27,7 +27,7 @@ bodyclass: event-single
     {% endcapture %}
   {% endif %}
 
-  <div class="overlay-head overlay-head__event">
+  <div class="overlay-head overlay-head__event {{event-day}} {{workshop-day}}">
 
     <div class="wrap mobile-header">
       <span class="title">{{ page.type }}</span><br>
