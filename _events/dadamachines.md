@@ -30,7 +30,7 @@ links:
     url: https://dadamachines.com/
 
 intro: |
-  Agile hardware fabrication & physical computing.
+  Agile hardware fabrication & physical computing. You will learn the process of inhouse electronics production. We are going to assemble the special RETUNE EDITION automat board with the help of our pick and place machine. You can finish the board, solder the missing connectors and flash the software to make it work and go dada.
 
 outro: |
   Johannes Elias Lohbihler is a Creative Technologist living and working in Berlin. He is the creator of dadamachines. Previously co-founder of a SaaS company named LUXOWORKS. He is a seventh generation carpenter with a BA in product design and an MA in interaction design. He creates digital and analogue products and experiences.
