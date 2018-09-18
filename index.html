@@ -70,7 +70,7 @@ layout: default
     </div>
 
     <div class="">
-      <h3 class="section-subtitle">Talks (selection)</h3>
+      <h3 class="section-subtitle">Talks</h3>
 
       {% assign eventsSorted = site.events | where:"featured","true" | sort: 'order','last' %}
       {% assign events = "" | split: ',' %}
@@ -106,7 +106,7 @@ layout: default
     </div>
 
     <div class="">
-      <h3 class="section-subtitle">Satelites (selection)</h3>
+      <h3 class="section-subtitle">Satellites</h3>
       {% assign eventsSorted = site.events | where:"featured","true" | sort: 'order','last' %}
       {% assign events = "" | split: ',' %}
       {% for event in eventsSorted %}

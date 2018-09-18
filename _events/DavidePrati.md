@@ -15,7 +15,7 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: signup
 eventcapacity: 12
 
-eventlocation:
+eventlocation: Lacuna Lab
 eventaddress: Paul-Lincke-Ufer 44A, 10999 Berlin
 eventlat: 54
 eventlong: 10
