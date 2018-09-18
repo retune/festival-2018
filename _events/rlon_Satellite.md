@@ -15,8 +15,8 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: public
 eventcapacity: 40
 
-eventlocation:
-eventaddress: Ritterstraße 26, 10969 Berlin
+eventlocation: RLON
+eventaddress: RLON, Ritterstraße 26, 10969 Berlin
 eventlat: 54
 eventlong: 10
 
