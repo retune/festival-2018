@@ -154,6 +154,31 @@ button {
     }
   }
 
+  a.get-ticket {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: $primary-color;
+    color: black;
+    font-family: $ff-century;
+    font-size: $small-font-size;
+    white-space: nowrap;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+
+    // we need more space on the event sites because of the x
+    &.event-ticket {
+      right: 7rem;
+    }
+
+    &:hover{
+      background-color: white;
+      border-color: $primary-color;
+    }
+  }
+
 }
 
 
@@ -199,7 +224,6 @@ button {
     margin: 0;
     border-bottom: none;
   }
-
 
   .hero-carousel {
     min-height: $hero-min-height;
@@ -695,7 +719,6 @@ button {
 =           OVERLAYS          =
 ==============================*/
 
-
 .overlay {
   background: white;
   transition: top $animation-speed, opacity $animation-speed;
@@ -783,7 +806,7 @@ body.scroll-lock  {
   width: 100%;
 
   background-color: $third-color;
-  line-height: 1;
+  // line-height: 1;
 
 
   .sub {
@@ -1114,6 +1137,20 @@ body.scroll-lock  {
 .overlay-head__signup {
   margin-bottom: $spacing-unit;
 }
+
+/*==================================
+=           TICKET PAGE            =
+==================================*/
+.ticket-footer {
+  background-color: $black;
+
+  a, li {
+    color: $white;
+  }
+}
+
+
+/*=====  End of TICKET PAGE  ======*/
 
 /*==================================
 =            EVENT PAGE            =

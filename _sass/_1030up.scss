@@ -8,7 +8,7 @@ body {
 
 }
 
-.page-header {
+.page-header, .overlay-head__event {
 
   position: fixed;
   top: 0;
@@ -18,9 +18,19 @@ body {
   min-height: $spacing-overlaybar;
 
   display: flex;
-  flex-direction:column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   padding-left: $spacing-unit;
+
+  padding-right: 1rem;
+
+  a.get-ticket {
+    position: static;
+    // right: 2rem;
+    // padding: 1rem;
+  }
+
 
   .site-title,.site-subtitle {
     position: relative;
@@ -469,5 +479,10 @@ body {
 }
 
 
+
+.desktop-header {
+  display: flex;
+  width: 100%;
+}
 
 /*=====  End of EVENT PAGE  ======*/

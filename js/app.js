@@ -371,7 +371,7 @@
             conf.discount_code = titoData.titoTicketCode;
           };
 
-          // console.log('widget build with',ref.titoData);
+          console.log('widget build with',ref.titoData);
           new TitoWidget.Widget(conf).build();
       }
     };
