@@ -15,8 +15,8 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: signup
 eventcapacity: 10
 
-eventlocation:
-eventaddress: Volkspark Hasenheide
+eventlocation: Volkspark Hasenheide
+eventaddress: Volkspark Hasenheide, tbd.
 eventlat: 54
 eventlong: 10
 
