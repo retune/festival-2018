@@ -36,11 +36,11 @@ intro: |
   Come along and have some fun.
 
 outro: |
-  The workshop will be held by Studio CIRG, is hosted by the Retune Studio, and supported by Host Europe.
-  CIRG is an invention and education studio. They challenge, prototype, and communicate future technologies and experiences, bringing them to life before they become products to be designed for people.  
+  The workshop will be held by Thomas Ness from invention and education studio CIRG. They challenge, prototype, and communicate future technologies and experiences, bringing them to life before they become products to be designed for people.  
 
 
 ---
+Big thanks for supporting this workshop goes out to [Host Europe](https://www.hosteurope.de)!
 
 Participants should bring a computer and have very basic knowledge about arduino and web. (if you at least heard of »void setup()«, »digitalWrite()«, »html und javascript« you will be fine!)
 
