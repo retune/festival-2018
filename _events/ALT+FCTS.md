@@ -65,6 +65,8 @@ outro: |
 
 ---
 
+The exhibition is supported by Grover
+
 Opening hours:
 - Friday, 28.9., 10:00 - 18:00h > Talks at 14:00-14:30h and 16:00-16:30h
 - Saturday, 29.9., from 16:00h, from 18:00h Finnisage and official unofficial Retune Closing Party and extend the festival with us!
