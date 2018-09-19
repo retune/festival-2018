@@ -18,7 +18,7 @@ eventcapacity:
 
 eventlocation: Synthesis Gallery
 eventstage:
-eventaddress:  Käthe-Niederkirchner Str. 32, 10407 Belrin
+eventaddress:  Käthe-Niederkirchner Str. 32, 10407 Berlin
 eventlat: 54
 eventlong: 14
 
