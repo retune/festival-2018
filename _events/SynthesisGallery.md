@@ -18,7 +18,7 @@ eventcapacity:
 
 eventlocation: Synthesis Gallery
 eventstage:
-eventaddress:  Käthe-Niederkirchner Str. 32, 10407 Belrin
+eventaddress:  Käthe-Niederkirchner Str. 32, 10407 Berlin
 eventlat: 54
 eventlong: 14
 
@@ -30,8 +30,8 @@ videos:
     url:
 
 links:
-  - name:
-    url:
+  - name: synthesis.gallery
+    url: http://www.synthesis.gallery
 
 intro: |
   Synthesis Gallery, the first VR art gallery, is happy to announce its upcoming show ‘Sorry, I didn’t mean to break it’ by Lauren Moffatt curated by Saki Hibino and Giorgio Vitale, as part of Berlin Art Week and Retune Festival 2018.
