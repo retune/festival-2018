@@ -32,6 +32,8 @@ videos:
 links:
   - name: Letters Are My Friends
     url: https://lettersaremyfriends.com
+  - name: Join us here - Facebook Event
+    url: https://www.facebook.com/events/545347022567930/ 
 
 intro: |
   »ALT+FCTS on VRenice Beach« - Welcome to a museum of moving surreality and other alternative facts.
@@ -47,7 +49,13 @@ intro: |
   — Come as you are, bring a book along and have a drink with us!
 
 outro: |
-  »SHelfie« von Letters Are My Friends (Shifty Capslock / Bärbel Bold / Ingo Italic)
+  
+  Come by any time! 
+As the interactive exhibition is open the whole day, we are around and would love to chat on designing MR, post digitalism, VR concepts, interaction models, alternative facts and fictions. We appreciate your feedback and would love to collaborate with you within the Letters Are My Friends’ interactive and participatory piece ‚SHELFIE'!  For that, bring a big book with a deep, philosophic, weird, strange or at least great designed title and cover! Don’t worry, you will take it home again… 
+
+Officially, there will be a talk about some of the installations and the context of the research project VRenice Beach - museum of moving surreality on Friday, 28. September, 2pm and at 4pm.
+
+»SHelfie« von Letters Are My Friends (Shifty Capslock / Bärbel Bold / Ingo Italic)
   In addition to a series of photographs, "Shelfies" is a performative live VR helmet installation by Letters Are My Friends that focuses on the critical conflict between virtuality and corporeality. True to the motto, "dreaming is the best VR", in the form of alternative "head mounted displays (HMD)", a quite primitive way of entering into the supposed virtual space (of 2the mind and the imagination). Especially from the outside, it is important to observe this, as we are used to from selfies. Critically contributing to contemporary VR technologies that neglect the materiality of the body and its range of motion, this series and installation of invisible virtual self-portrayals humorously responds to this essential denial gap in the industry. The body and its gestures disappear through the ironic "book-VR-glasses-objects" in the black-box (of the actor), who transforms his virtual-pleasurable body into an invisible human-machine interaction that resembles a dance or choreography. Or was it clicking on a button? In a vacuum, the imagination views its own, detached navigation alternatives with gestures, postures and poses in/to/for/through the analogue VR space. Timeinspaceintimeinspaceintimeinspace as usual. Virtuality Vs. embodiment as participatory performance case.
 
   »Here with you 2017« von Small Fast Feisty
@@ -60,7 +68,7 @@ outro: |
   »Noise Artifacts« von Moritz Tontsch, Katharina Wilting und Nigell Lay
   What happens if you transfer objects between virtual and physical reality? Many objects in Venice symbolize a process of physical decay. A virtual image of one of these is created and transformed between the physical and virtual reality. Through a feedback loop an attempt to visualize digital decay is made. The artifacts are exhibited in a physical as well as virtual exhibition.
 
-  »The Great Encounter, The Ending« von Anna Louise Lorenz
+  »The Great Encounter, The Ending« von Anna Luise Lorenz
   Imagine yourself in a dark space. Without any point of visual reference or sensory clues, how do you know if you are either floating, or forever falling? And now imagine: without any notion of change, how do you know the duration of the moment you are living in? Welcome to the Island of Eternal Life, orbiting around the vast empty ocean of planet Earth. With no notion of passage of time its inhabitants are adapting to their belief system of stasis: moments of no-change, stringed together to infinity. History is nullified by a permanent loop of amnesia. Its inhabitants are in a happy state of pre-birth. The illusion of eternity turns into reality. One day, the Island of Eternal Life meets the Island of Ultimate Beauty. This occurrence introduces ‘The Different’, and begins what some called ‘The Great Encounter’, others ‘The Ending’
 
 ---
