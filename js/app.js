@@ -26,7 +26,7 @@
         // this.initRoutes();
 
         // Background Zuffi hero image
-        $('.section-header').addClass('section-header__bg' + this.getRandomInt(0,12) );
+        // $('.section-header').addClass('section-header__bg' + this.getRandomInt(0,12) );
 
         this.initMenu();
         this.initCarousels();
