@@ -31,7 +31,7 @@ videos:
 
 links:
   - name: Letters Are My Friends
-    url: www.lettersaremyfriends.com
+    url: https://lettersaremyfriends.com
 
 intro: |
   »ALT+FCTS on VRenice Beach« - Welcome to a museum of moving surreality and other alternative facts.
