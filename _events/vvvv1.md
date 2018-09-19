@@ -6,7 +6,7 @@ featured: true
 host: vvvv group
 imagefolder: /img/events/vvvv/
 
-eventtitle: computer vision and data viz with vvvv/vl - part 1
+eventtitle: computer vision and data viz with vvvv/vl - 1st chance
 eventdate: 2018-09-28
 eventtime: 10:00 - 13:00
 eventtitorelease: v5ovkvpd7ho
