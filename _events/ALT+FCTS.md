@@ -33,7 +33,7 @@ links:
   - name: Letters Are My Friends
     url: https://lettersaremyfriends.com
   - name: Join us here - Facebook Event
-    url: https://www.facebook.com/events/545347022567930/ 
+    url: https://www.facebook.com/events/545347022567930/
 
 intro: |
   »ALT+FCTS on VRenice Beach« - Welcome to a museum of moving surreality and other alternative facts.
@@ -49,13 +49,14 @@ intro: |
   — Come as you are, bring a book along and have a drink with us!
 
 outro: |
-  
-  Come by any time! 
-As the interactive exhibition is open the whole day, we are around and would love to chat on designing MR, post digitalism, VR concepts, interaction models, alternative facts and fictions. We appreciate your feedback and would love to collaborate with you within the Letters Are My Friends’ interactive and participatory piece ‚SHELFIE'!  For that, bring a big book with a deep, philosophic, weird, strange or at least great designed title and cover! Don’t worry, you will take it home again… 
 
-Officially, there will be a talk about some of the installations and the context of the research project VRenice Beach - museum of moving surreality on Friday, 28. September, 2pm and at 4pm.
+  Come by any time!
 
-»SHelfie« von Letters Are My Friends (Shifty Capslock / Bärbel Bold / Ingo Italic)
+  As the interactive exhibition is open the whole day, we are around and would love to chat on designing MR, post digitalism, VR concepts, interaction models, alternative facts and fictions. We appreciate your feedback and would love to collaborate with you within the Letters Are My Friends’ interactive and participatory piece ‚SHELFIE'!  For that, bring a big book with a deep, philosophic, weird, strange or at least great designed title and cover! Don’t worry, you will take it home again…
+
+  Officially, there will be a talk about some of the installations and the context of the research project VRenice Beach - museum of moving surreality on Friday, 28. September, 2pm and at 4pm.
+
+  »SHelfie« von Letters Are My Friends (Shifty Capslock / Bärbel Bold / Ingo Italic)
   In addition to a series of photographs, "Shelfies" is a performative live VR helmet installation by Letters Are My Friends that focuses on the critical conflict between virtuality and corporeality. True to the motto, "dreaming is the best VR", in the form of alternative "head mounted displays (HMD)", a quite primitive way of entering into the supposed virtual space (of 2the mind and the imagination). Especially from the outside, it is important to observe this, as we are used to from selfies. Critically contributing to contemporary VR technologies that neglect the materiality of the body and its range of motion, this series and installation of invisible virtual self-portrayals humorously responds to this essential denial gap in the industry. The body and its gestures disappear through the ironic "book-VR-glasses-objects" in the black-box (of the actor), who transforms his virtual-pleasurable body into an invisible human-machine interaction that resembles a dance or choreography. Or was it clicking on a button? In a vacuum, the imagination views its own, detached navigation alternatives with gestures, postures and poses in/to/for/through the analogue VR space. Timeinspaceintimeinspaceintimeinspace as usual. Virtuality Vs. embodiment as participatory performance case.
 
   »Here with you 2017« von Small Fast Feisty
