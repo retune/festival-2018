@@ -15,8 +15,8 @@ eventtitoevent: retune/retune-festival-2018
 eventstatus: signup
 eventcapacity: 10
 
-eventlocation: Volkspark Hasenheide
-eventaddress: Volkspark Hasenheide, tbd.
+eventlocation: Prinzessinengärten
+eventaddress: Prinzenstraße 35-38, 10969 Berlin
 eventlat: 54
 eventlong: 10
 
