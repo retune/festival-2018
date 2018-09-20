@@ -25,9 +25,9 @@ eventlong: 14
 
 videos:
   - provider: Vimeo
-    url: https://vimeo.com/264515387
-  - provider:
-    url:
+    url: https://vimeo.com/290569838
+  - provider: Vimeo
+    url: https://vimeo.com/290570586
 
 links:
   - name: synthesis.gallery
