@@ -26,8 +26,8 @@ videos:
     url:
 
 links:
-  - name: c_i_r_g.com
-    url: https://www.c_i_r_g.com/
+  - name: c-i-r-g.com
+    url: https://www.c-i-r-g.com/
 
 intro: |
   This is a physical computing workshop.
