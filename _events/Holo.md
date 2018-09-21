@@ -40,7 +40,7 @@ intro: |
 
 outro: |
   Alexander Scholz is a Berlin-based writer, art director, and curator interested in interdisciplinary practice, artistic research, and how tools and technologies inform creative processes. He is the founder and creative director of HOLO, a periodical about emerging trajectories in art, science, and technology, and contributing editor at CreativeApplications.Net, the associated online resource on digital art and design. Beyond producing content within editorial frameworks, Alexander has developed a variety of programming for festivals such as ACT (Gwangju), Mapping (Geneva), MUTEK (Montréal), Resonate (Belgrade), and OFFF (Barcelona).
-  
+
   N O R M A L S is a Berlin and Paris-based creative collective lying at the intersection of design and fiction. A mix of the visual, literary, prototypical, and functional, their output creates a rich narrative universe and to some, an anticipated future. The collective has been noted for its work on augmented reality fashion, shown internationally from the NY Fashion Week, to The National Taiwan Museum of Fine Arts, speculative public talks, and an eponymous graphic novel series distributed worldwide.
-  
-  ---
+
+---
