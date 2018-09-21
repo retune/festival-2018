@@ -6,18 +6,24 @@
 
       <form class="ticket-code-form">
         <div class="form-group">
-            <p id="ticket-codeHelp"> In order to sign up for a workshop you need a festival pass. If you don't have one, you can get yours <a href="https://ti.to/retune/retune-festival-2018" target="_blank">👉 here</a>.<br /><br />
-              Please enter your ticket code below. It consists of four letters and can be found in the order confirmation e-mail you got from us. It looks like something this "ABCD".
-              The code is valid to sign up for two workshops for free (the day is not long enough for more anyway 😁). If you have problems, get in with touch: tickets/at/retune.de
+            <p id="ticket-codeHelp">
+              <span class="ff-century">In order to sign up for a workshop you need a festival pass. If you don't have one, you can get yours </span><a href="{{ site.baseurl }}/tickets.html">👉 here</a>.<br /><br />
+              <span>Please enter your ticket's reference number below. It consists of four letters and can be found in the order confirmation e-mail you got from us. It looks like something this "ABCD".
+              The code is valid to sign up for two workshops (the day is not long enough for more anyway 😁). Of course you can use it more often if you bought more tickets within your order.
+              <br /><br />If you have problems, get in with touch: tickets/at/retune.de</span>
             </p>
             <p id="ticket-codeHelp-public">
-              You don't need a festival pass to take part in this event. But you need to register below.<br /><br />
-              If you have a festival pass, you don't need to register and you can just go there!
+              You don't need a festival pass to take part in this event – even though we think you should definitely <a href="{{ site.baseurl }}/tickets.html">👉 get one</a>. But you need to register below.<br /><br />
+              <span class="ff-century">If you have a festival pass, you don't need to register and you can just go there!</span>
             </p>
-            <input type="text" class="form-control" id="ticket-code" aria-describedby="ticket-codeHelp" placeholder="ABCD" required >
+
+            <div class="field" style="display: flex;">
+              <input style="margin-right: 1rem" type="text" class="form-control" id="ticket-code" aria-describedby="ticket-codeHelp" placeholder="ABCD" required >
+              <button type="submit" class="ticketCode-button btn btn-primary">Next</button>
+            </div>
 
         </div>
-        <button type="submit" class="ticketCode-button btn btn-primary">Next</button>
+
 
       </form>
 

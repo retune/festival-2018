@@ -1049,7 +1049,7 @@ body.scroll-lock  {
     background: $primary-color;
     color: $black;
     text-align: center;
-    display: none;
+    // display: none;
   }
 
   margin-bottom: 0.2rem;
@@ -1058,7 +1058,7 @@ body.scroll-lock  {
     @extend .button-signup;
     background-color: white;
     border: 1px solid $primary-color;
-    display: block;
+    // display: block;
   }
 
 }
@@ -1135,6 +1135,10 @@ body.scroll-lock  {
 }
 
 .tito-discount-code {
+  display: none !important;
+}
+
+.price-was{
   display: none !important;
 }
 
@@ -1240,8 +1244,11 @@ body.scroll-lock  {
     text-shadow: none;
     &:hover, &:active, &:focus {
       color: $black;
+      background-color: white;
+      border-color: $primary-color;
+
     }
-    display: none;
+    // display: none;
   }
 
   .btn.button-public {

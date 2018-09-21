@@ -363,13 +363,16 @@
           var conf = {
             event_path:   titoData.titoEvent,
             container_id: "rt-tito-widget",
-            releases: titoData.titoRelease
+            releases: titoData.titoRelease,
+            discount_code: ""
           };
 
+          console.log("public? " + ref.titoData.titoPublicEvent);
 
-          if(!ref.titoData.titoPublicEvent) {
+          if(ref.titoData.titoPublicEvent == "false") {
+            console.log("yo, got code" + titoData.titoTicketCode);
             conf.discount_code = titoData.titoTicketCode;
-          };
+          }
 
           console.log('widget build with',ref.titoData);
           new TitoWidget.Widget(conf).build();
