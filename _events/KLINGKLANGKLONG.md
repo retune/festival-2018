@@ -3,9 +3,9 @@ layout: event
 type: installation
 featured: true
 order: 1
-title: kling klang klong - GORILLAS
+title: GORILLAS
 
-host: kling klang klong
+host: Kling Klang Klong
 imagefolder: /img/events/gorillas/
 
 eventtitle: GORILLAS
@@ -41,9 +41,9 @@ intro: |
 
 outro: |
   kling klang klong is a creative studio for sound, music and acoustic narratives based in Berlin. Our work stands in the intersection between art, science and communication. As a result, our projects create new pioneering approaches to communicate with audiences through exhibition spaces, motion pictures, interactive installations, performances and public spaces.
-  
+
   Martine-Nicole Rojina / MPATHY STUDIO collaborated with KLING KLANG KLONG by sharing the recorded phrases of her project Phrases Moon Bounce, sent by different people from different backgrounds. These messages were sent to the moon and received back in collaboration with the Dwingeloo Radio Telescope, HAM Radio Astronomers Jan van Muijlwijk, Harry Keizer and the artistic residency program of CAMRAS. Some of these voices where sent to the moon from a decommissioned Nuclear Reactor during the Music Tech Stockholm 2018.
-  
+
   Collaborators: Annelie Andre, Felipe Duarte Cely, David Fallenbacher, Julien Herion, David Roif
 
 

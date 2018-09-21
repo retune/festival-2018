@@ -5,7 +5,7 @@ featured: true
 title: HOLO bookshop featuring N O R M A L S
 
 host: Alexander Scholz
-imagefolder: /img/events/above_below/
+imagefolder: /img/events/holo/
 
 eventtitle: HOLO bookshop featuring N O R M A L S
 eventdate: 2018-09-27
