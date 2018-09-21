@@ -244,8 +244,8 @@ body {
     display: grid;
     grid-gap: $grid-gap;
 
-    -ms-grid-columns: (1fr)[8];
-    grid-template-columns: repeat(4,1fr);
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3,1fr);
 
     align-items: center;
     justify-items: center;
