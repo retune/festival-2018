@@ -38,4 +38,9 @@ outro: |
 
 ---
 
-Just bring yourself and your curiosity & if you want to build your own automat board, you should bring at least 1-2 hour(s) time. Drop by anytime between 10 and 18.
+Just bring yourself and your curiosity & if you want to build your own automat board, you should bring at least 1-2 hour(s) time. Drop by anytime between 10 and 18. 
+
+There are following options for participation:
+1. We can have people coming to just have a look and see  free of charge
+2. Build your own dadamachines automat board - Retune Festival DIY Edition  49,- Euro + 19% VAT (people can get an invoice)
+3. Build your own dadamachines automat board + Power supply + actuator(s) 99,- Euro + 19% VAT (people can get an invoice)
