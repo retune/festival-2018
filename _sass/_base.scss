@@ -847,6 +847,9 @@ body.scroll-lock  {
 
 .overlay-menu {
 
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+
   .program-body {
     position: relative;
   }

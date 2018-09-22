@@ -56,8 +56,12 @@
             $('body').addClass('scroll-lock');
         });
 
-        $('.overlay-menu').on('mouseout',function(){
+        $('.body-content').on('mouseover',function(){
             $('body').removeClass('scroll-lock');
+        });
+
+        $('.overlay-menu').scrollTo('.event-list-item.active',500, {
+          "offset" : -90
         });
 
       }

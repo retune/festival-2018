@@ -5,14 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "flickity": "^2.1.2",
+    "jquery.scrollto": "^2.1.2",
     "js-cookie": "^2.2.0",
     "navigo": "^7.1.2",
     "plyr": "^3.4.3"
   },
   "devDependencies": {},
   "scripts": {
-    "dev" : "bundle exec jekyll serve --incremental --livereload",
-    "build" : "bundle exec jekyll build"
+    "dev": "bundle exec jekyll serve --incremental --livereload",
+    "build": "bundle exec jekyll build"
   },
   "author": "",
   "license": "ISC"

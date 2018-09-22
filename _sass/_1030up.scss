@@ -2,6 +2,11 @@ body {
   max-width: calc(100% - #{$max-menu-width})
 }
 
+body.overlay-active {
+  overflow: scroll;
+}
+
+
 .container-fluid {
   padding-left: $spacing-unit;
   padding-right: $spacing-unit;
@@ -307,7 +312,6 @@ body {
   top: 0;
   opacity: 1;
 
-  overflow: scroll;
 
   .overlay-toggle {
     display: none;

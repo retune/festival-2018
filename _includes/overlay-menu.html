@@ -1,3 +1,18 @@
+{% assign eventsDayOne = site.events | where:"eventdate","2018-09-27" | sort_natural: 'eventtime' %}
+{% assign eventsDayOne = eventsDayOne | where_exp: "item", "item.hide-from-menu != true" %}
+
+{% assign eventsDayTwo = site.events | where:"eventdate","2018-09-28" | sort_natural: 'eventtime' %}
+{% assign eventsDayTwo = eventsDayTwo | where_exp: "item", "item.hide-from-menu != true" %}
+
+{% assign activeDayOneTabClass = 'active' %}
+
+{% for event in eventsDayTwo %}
+  {% if event.path == page.path %}
+    {% assign activeDayTwoTabClass = 'active' %}
+    {% assign activeDayOneTabClass = '' %}
+  {% endif %}
+{% endfor %}
+
 <aside class="overlay overlay-menu">
 
   {% include overlay-head.html type="program" title="Program" sub="Conference & Satellite" %}
@@ -6,17 +21,17 @@
 
     <div class="container-fluid day-nav">
        <ul class="list-unstyled list-inline day-tab nav-tab" role="tablist">
-         <li class="active"><a data-toggle="tab" href="#day1" role="tab">Day 1 &mdash; 27.9.</a>
+         <li class="{{ activeDayOneTabClass }}"><a data-toggle="tab" href="#day1" role="tab">Day 1 &mdash; 27.9.</a>
          </li>
-         <li>
-           <a class="" data-toggle="tab" href="#day2" role="tab">Day 2 &mdash; 28.9.</a>
+         <li class="{{ activeDayTwoTabClass }}">
+           <a data-toggle="tab" href="#day2" role="tab">Day 2 &mdash; 28.9.</a>
          </li>
        </ul>
     </div>
 
     <div class="tab-content">
 
-      <div class="overlay-program-day overlay-program-day__1 tab-pane active" id="day1" role="tabpanel">
+      <div class="overlay-program-day overlay-program-day__1 tab-pane {{ activeDayOneTabClass }}" id="day1" role="tabpanel">
 
           <div class="container-fluid">
             <div class="overlay-program-day-head">
@@ -26,13 +41,12 @@
             </div>
           </div>
 
-        {% assign events = site.events | where:"eventdate","2018-09-27" | sort_natural: 'eventtime' %}
-        {% assign events = events | where_exp: "item", "item.hide-from-menu != true" %}
+        {% assign events = eventsDayOne %}
         {% include event-list.html %}
 
       </div>
 
-      <div class="overlay-program-day overlay-program-day__2 tab-pane" id="day2" role="tabpanel">
+      <div class="overlay-program-day overlay-program-day__2 tab-pane {{ activeDayTwoTabClass }}" id="day2" role="tabpanel">
 
           <div class="container-fluid">
             <div class="overlay-program-day-head">
@@ -42,9 +56,8 @@
             </div>
           </div>
 
-          {% assign events = site.events | where:"eventdate","2018-09-28" | sort_natural: 'eventtime' %}
-          {% assign events = events | where_exp: "item", "item.hide-from-menu != true" %}
-          {% include event-list.html %}
+        {% assign events = eventsDayTwo %}
+        {% include event-list.html %}
 
       </div>
 
