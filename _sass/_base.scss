@@ -745,9 +745,12 @@ button {
   overflow-y: scroll;
 }
 
-body.overlay-active,
-body.scroll-lock  {
+body.overlay-active {
   overflow: hidden;
+}
+
+body.scroll-lock  {
+  overflow: hidden !important;
 }
 
 .overlay-menu {

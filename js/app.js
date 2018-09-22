@@ -52,7 +52,7 @@
       if(ref.viewport.screensize == "desktop") {
 
         // program day switching in menu
-        $('.overlay-menu').on('mouseover',function(){
+        $('.overlay-menu, .overlay-signup').on('mouseover',function(){
             $('body').addClass('scroll-lock');
         });
 
@@ -162,7 +162,7 @@
         });
 
         // extra treat for directly acessed event pages close button
-        $('.event-single .overlay-head .overlay-toggle').on('click',function(){
+        $('.event-single .body-content .overlay-head .overlay-toggle').on('click',function(){
           window.location = '/2018/';
         });
 
