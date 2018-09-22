@@ -320,16 +320,23 @@
               $('#ticket-codeHelp-public').css('display','block');
               $('#ticket-codeHelp').css('display','none');
 
+              // make a widget because we don't need a ticket code
+              //console.log("making a widget because we don't need a code");
+              ref.createTitoWidget(ref.titoData);
+
             } else {
               // console.log('hide showticketcode');
               ref.titoData.titoPublicEvent = 'false';
               $('.ticket-code-form #ticket-code, .ticket-code-form .ticketCode-button').css('display','block');
               $('#ticket-codeHelp-public').css('display','none');
               $('#ticket-codeHelp').css('display','block');
+
+              // make a widget if we have a ticket code
+              if(typeof ref.titoData.titoTicketCode !== 'undefined'){
+                //console.log("making a widget because we have code " + ref.titoData.titoTicketCode);
+                ref.createTitoWidget(ref.titoData);
+              }
             }
-
-            ref.createTitoWidget(ref.titoData);
-
     };
 
 
@@ -367,14 +374,11 @@
             discount_code: ""
           };
 
-          console.log("public? " + ref.titoData.titoPublicEvent);
-
           if(ref.titoData.titoPublicEvent == "false") {
-            console.log("yo, got code" + titoData.titoTicketCode);
             conf.discount_code = titoData.titoTicketCode;
           }
 
-          console.log('widget build with',ref.titoData);
+
           new TitoWidget.Widget(conf).build();
       }
     };

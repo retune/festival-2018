@@ -767,6 +767,10 @@ body.scroll-lock  {
 
 .overlay-signup {
   z-index: 6000;
+
+  input::placeholder{
+    color: #ccc;
+  }
 }
 
 .overlay-content {
