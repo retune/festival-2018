@@ -166,7 +166,7 @@
           window.location = '/2018/';
         });
 
-        $('.button-signup').on('click',function(e){
+        $('button.button-signup').on('click',function(e){
           ref.signupButtonClickHandler(e);
         });
 

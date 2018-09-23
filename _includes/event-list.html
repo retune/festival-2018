@@ -23,12 +23,12 @@
           <span class="time">{{ event.eventtime }}{% if event.eventstage %}, {{ event.eventstage }}{% endif %}</span>
           <span class="type type__{{ event.type }} status status__{{ event.eventstatus }}">{{ event.type }}</span>
 
-          {% if event.eventstatus == "signup" %}
+          {% if event.eventstatus == 'signup' and event.eventtitorelease  %}
             <button class="button-signup" data-type="{{ event.eventstatus }}" data-release="{{ event.eventtitorelease }}" data-event="{{ event.eventtitoevent }}">sign up</button>
-          {% elsif day == "workshopday" or event.eventstatus == "public" %}
-<!--             <span class="button-signup-public">public</span>
- -->            <button class="button-signup button-signup-public" data-type="{{ event.eventstatus }}" data-release="{{ event.eventtitorelease }}" data-event="{{ event.eventtitoevent }}">public</button>
-
+          {% elsif event.eventstatus == 'public' and event.eventtitorelease  %}
+            <button class="button-signup button-signup-public" data-type="{{ event.eventstatus }}" data-release="{{ event.eventtitorelease }}" data-event="{{ event.eventtitoevent }}">public</button>
+          {% elsif event.eventstatus == 'public' %}
+            <span class="button-signup button-signup-public nosignup">open</span>
           {% endif %}
 
         </div>

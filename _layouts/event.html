@@ -68,19 +68,23 @@ bodyclass: event-single
         {% endif %}
       {% endfor %}
 
-      {% if event-day >= workshop-day %}
+      {% if page.eventstatus == "signup" or page.eventstatus == "public" %}
 
       <div class="container-fluid event-page-meta-section">
 
             {% if page.eventstatus == 'signup' and page.eventtitorelease  %}
-
             <div class="event-page-signup-button">
               <button class="button-signup btn btn-primary" data-type="{{ page.eventstatus }}" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">sign up!</button>
             </div>
 
-            {% elsif day == "workshopday" or event.eventstatus == "public" %}
+            {% elsif page.eventstatus == 'public' and page.eventtitorelease  %}
             <div class="event-page-signup-button">
               <button class="button-signup button-public btn btn-primary" data-type="{{ page.eventstatus }}" data-release="{{ page.eventtitorelease }}" data-event="{{ page.eventtitoevent }}">sign up!</button>
+            </div>
+
+            {% elsif page.eventstatus == 'public' %}
+            <div class="event-page-signup-button">
+              No signup necessary.
             </div>
             {% endif %}
 
