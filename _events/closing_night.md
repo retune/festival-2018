@@ -35,7 +35,20 @@ links:
 
 intro: |
   We are closing the Retune Festival 2018 with a performance and club night. Expect a super sweet line-up with performances by Pandelis Diamantides, Florence To & VanTa, Lukas Truniger & Nicola Hein, installations by Pfadfinderei, Studio Milz, Thomas Blanchard and Oilhack and a club night with the fabulous Hoe_Mies.
-  And get a sneak-peak into the amazing STATE Studio, the new permanent art science space by STATE Festival.
+  
+  »Membranes« will be performed live performance at the festival's closing night. Exploring the boundaries where music and language overlap, Nicola L. Hein and Lukas Truniger use hybrid instruments – constructed from drum-skins and electronic components – as devices to turn written texts into pulses of light and percussive sound. 
+  
+  »Go Back to Hiding in the Shadows« by Pandelis Diamantides is a digital granary of processed instrumental and electronic sounds, field recordings, rock formations, plants, animals and swarms unfolds a narrative of becoming.
+  
+  The performance »C/YC | colour + sound modulation« by Florence To & VanTa is using analogue video synthesis, sound and signal processing. 
+  
+  »Monolith« by Pfadfinderei is a video sculpture which aesthetically melts screen and content. 
+  
+  The immersive installation »Colours X Colours« is the result of the collaboration between Oilhack and Thomas Blanchard, Two artists / painters combining their know-how and inspiration to create unique works. Their standards drive them forward each and every day to come out with innovative combinations and new techniques.
+  
+  Furthermore you will see the result of Studio Milz' morning workshop in form of a wooden sculpture. And will get a sneak-peak into the amazing STATE Studio, the new permanent art science space by STATE Festival.
+  
+  We fade out the festival with the female DJ collective »Hoe_Mies«. Expect finest Hip Hop tunes.
 
 outro: |
   Lukas Truniger is an artist and musician, who engages in the areas of multimedia installations, sculptural objects, performances and the creation of new musical instruments. He is fascinated by complex systems and hidden processes in nature as well as in society. For the exploration of their inherent aesthetics industrial materials, hacked devices and misused tools have become crucial to his creation. His work establishes singular experiences challenging the modalities of perception.
@@ -55,3 +68,7 @@ outro: |
   Hoe_mies is a hip hop party series and community space that provides a platform for female, non-binary, and transgender artists and celebrates their presence in hip-hop in order to counteract marginalisation within that scene. Its dancefloors boast a colourful mix of 90s & 00s hip hop and RnB, trap, baile funk, dancehall, reggaeton, and more.
 
 ---
+
+20:00: Doors open, 21:00: »Membranes« Performance by Lukas Truniger & Nicolas Hein, 21:45h: »Go Back to Hiding in the Shadows« Performance by Pandelis Diamantides, 22:30h: »C/YC | colour + sound modulation« Performance by Florence To & VanTa, 
+from 23:00 DJ set by Hoe_Mies, 
+Installations all evening: »Monolith« by Pfadfinderei, »ColorsXColors« by Thomas Blanchard and Oilhack and sculpture by Studio Milz 
