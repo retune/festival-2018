@@ -38,7 +38,7 @@ links:
 intro: |
   Join the Retune Festival 2018 on the evening of September 27th for the amazing performance night. The site-specific sound installation "Gorillas" by kling klang klong will be premiered at silent green Kulturquartier.
 
-  GORILLAS turns Silent Green’s courtyard, the entrance to the old crematory, into a living ecosystem of sound objects. Together, the objects create an evolving soundscape where light, fog and sound come together as a narrative environment. The audience can interact with the objects, close / mute them or move them in space.
+  GORILLAS turns Silent Green’s courtyard, the entrance to the old crematory, into a living ecosystem of sound objects. Together, the objects create an evolving soundscape where light, fog and sound come together as a narrative environment. The audience can interact with the objects, close / mute them or move them in space. The installation »GORILLAS« turns Silent Green’s courtyard, the entrance to the old crematory, into a living ecosystem of sound objects. In a cooperation with Martine-Nicole Rojina's »Moon Bounce« the installation will feature voices that were recorded and sent to the moon and back. Don't miss out when the clock strikes 20:15 as the installation will then move into an elevated interactive performance once the sun goes down and the atmosphere of the space transforms. 
 
   Following this, Rainer Kohlberger will invite for some immersiveness, with an A/V performance of noise, drones and stroboscopic lights, that unfolds a sense of the infinite. We will finish the evening with a drink, or two at the bar.
 
