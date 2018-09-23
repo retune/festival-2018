@@ -9,7 +9,7 @@ imagefolder: /img/events/performance_night/
 
 eventtitle: Performance Night
 eventdate: 2018-09-27
-eventtime: 20:00 - 02:00
+eventtime: 20:00 - 00:00
 
 eventtitorelease: pspkzh6z6vs
 eventtitoevent: retune/retune-festival-2018
