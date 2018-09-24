@@ -18,7 +18,7 @@ eventcapacity:
 
 eventlocation: Synthesis Gallery
 eventstage:
-eventaddress:  Käthe-Niederkirchner Str. 32, 10407 Berlin
+eventaddress:  NEW ADDRESS: Simplonstraße 55, 10245 Berlin
 eventlat: 54
 eventlong: 14
 
@@ -48,3 +48,5 @@ Opening hours:
 - Friday, 28.9., 11:00 - 18:00h > Opening Reception: 18:00 - 21:00h
 - Saturday, 29.9., 11:00 - 19:00h
 - Sunday, 30.9., 11:00 - 19:00h
+
+»UPDATE« Address change! Unfortunately the previos address was printed in the booklet. New address is: Simplonstraße 55, 10245 Berlin. Sorry for any inconvenience!  
