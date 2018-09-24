@@ -12,7 +12,7 @@ eventdate: 2018-09-28
 eventtime: 17:00 - 19:00
 eventtitorelease: 7hw0j7sphua
 eventtitoevent: retune/retune-festival-2018
-eventstatus: signup
+eventstatus: public
 eventcapacity: 150
 
 eventlocation: DAM Gallery
