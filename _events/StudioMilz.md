@@ -27,7 +27,7 @@ videos:
 
 links:
   - name: milz.studio
-    url: https://www.milz.studio/
+    url: http://www.milz.studio/
 
 intro: |
   In this hands-on workshop you will construct a collaborative wood sculpture with the Joyn Machine – an interactive tool that enables the design of wooden framework constructions and their semi-automated production.
