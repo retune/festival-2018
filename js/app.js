@@ -335,6 +335,9 @@
               $('#ticket-codeHelp-public').css('display','none');
               $('#ticket-codeHelp').css('display','block');
 
+              // remove widget because we see a free event signup when we have clicked on it before
+              $('#rt-tito-widget').empty();
+
               // make a widget if we have a ticket code
               if(typeof ref.titoData.titoTicketCode !== 'undefined'){
                 //console.log("making a widget because we have code " + ref.titoData.titoTicketCode);
