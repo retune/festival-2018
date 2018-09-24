@@ -18,7 +18,7 @@ eventcapacity:
 
 eventlocation: Synthesis Gallery
 eventstage:
-eventaddress:  NEW ADDRESS: Simplonstraße 55, 10245 Berlin
+eventaddress:  NEW ADDRESS!!! Simplonstraße 55, 10245 Berlin
 eventlat: 54
 eventlong: 14
 
