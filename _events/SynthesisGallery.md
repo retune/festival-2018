@@ -49,4 +49,6 @@ Opening hours:
 - Saturday, 29.9., 11:00 - 19:00h
 - Sunday, 30.9., 11:00 - 19:00h
 
+Admission: 5€
+
 »UPDATE« Address change! Unfortunately the previos address was printed in the booklet. New address is: Simplonstraße 55, 10245 Berlin. Sorry for any inconvenience!  
