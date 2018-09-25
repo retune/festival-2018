@@ -31,7 +31,7 @@ videos:
 
 links:
   - name: HOLO Magazine
-    url: www.holo-magazine.com
+    url: http://www.holo-magazine.com
   - name: N O R M A L S
     url: http://normalfutu.re
 

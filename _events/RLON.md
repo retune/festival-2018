@@ -31,7 +31,7 @@ videos:
 
 links:
   - name: rlon.com
-    url: https://www.rlon.com/
+    url: http://rlon.com/
 
 intro: |
   The installation »timeline« by Studio RLON at Silent Green plays with our perception of time and space. An endless string is spanned on several pulleys across the cupola of the former crematorium. Two parts of the rope are black, the rest is white. A motor keeps the string in constant movement, causing the black parts of the string to continuously cross the room like a ray of light.
