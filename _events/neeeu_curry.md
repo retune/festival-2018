@@ -13,7 +13,7 @@ eventtime: 18:30 - 20:00
 eventtitorelease: ntkndizj-ki
 eventtitoevent: retune/retune-festival-2018
 eventstatus: signup
-eventcapacity: 10
+eventcapacity: 40
 
 eventlocation: NEEEU Spaces GmbH
 eventaddress: Chodowieckistraße 31, 10405 Berlin
