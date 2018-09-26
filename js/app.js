@@ -287,7 +287,11 @@
 
             e.preventDefault();
 
-            ref.titoData.titoTicketCode = $('.ticket-code-form #ticket-code').val();
+            // remove the "-1" from the code if someone entered it!
+            var enteredCode = $('.ticket-code-form #ticket-code').val();
+            var correctedCode = enteredCode.split("-")[0];
+
+            ref.titoData.titoTicketCode = correctedCode;
             Cookies.set('userTicketCode',  ref.titoData.titoTicketCode );
 
             // console.log('ticketcode updated:',ref.titoData.titoTicketCode);
