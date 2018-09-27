@@ -30,6 +30,8 @@ links:
     url: https://dadamachines.com/
 
 intro: |
+  CANCELED DUE TO MACHINE PROBLEMS! Sorry. The workshop will be repeated in the next weeks. We'll let you know.
+
   Agile hardware fabrication & physical computing. You will learn the process of inhouse electronics production. We are going to assemble the special RETUNE EDITION automat board with the help of our pick and place machine. You can finish the board, solder the missing connectors and flash the software to make it work and go dada.
 
 outro: |
