@@ -2,10 +2,10 @@
 layout: event
 type: workshop
 featured: true
-title: NEEEU
+title: Kaizoku Japanese Curry
 
-host: NEEEU
-imagefolder: /img/events/neeeu/
+host: NEEEU & Brooke Jury
+imagefolder: /img/events/kaizoku-japanese-curry/
 
 eventtitle: Kaizoku Japanese Curry
 eventdate: 2018-09-28
@@ -22,18 +22,17 @@ eventlong: 10
 
 
 videos:
-  - provider: 
-    url: 
+  - provider:
+    url:
 
 links:
   - name: neeeu.io
     url: https://www.neeeu.io/
 
 intro: |
-  
-  Kaizoku Japanese Curry makes a VIP return especially for Retune! Join the crew at Neeu for some after workshop grub when Brooke Jury, design weirdo and proprietor of Kaizoku Japanese Street Food, comes out of semi-retirement to curry-sling for one night only. Curry will be Classic Chicken variant only, servings begin at 18:30, and bring along €5. Available while stocks last. 
+  Kaizoku Japanese Curry makes a VIP return especially for Retune! Join the crew at Neeu for some after workshop grub when Brooke Jury, design weirdo and proprietor of Kaizoku Japanese Street Food, comes out of semi-retirement to curry-sling for one night only. Curry will be Classic Chicken variant only, servings begin at 18:30, and bring along €5. Available while stocks last.
 
 outro: |
-  Neeeu is an independent design & innovation studio. We specialise in the creation of unique spatial experiences. Join us where digital & physical realities meet.
+  NEEEU is an independent design & innovation studio. We specialise in the creation of unique spatial experiences. Join us where digital & physical realities meet.
 
 ---
