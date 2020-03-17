@@ -163,7 +163,7 @@
 
         // extra treat for directly acessed event pages close button
         $('.event-single .body-content .overlay-head .overlay-toggle').on('click',function(){
-          window.location = '/2018/';
+          window.location = '/';
         });
 
         $('button.button-signup').on('click',function(e){
@@ -252,7 +252,7 @@
               ref.overlayBodyClassManager();
 
             } else {
-              window.location = '/2018/';
+              window.location = '/';
             }
 
          });
